@@ -1,0 +1,281 @@
+[
+    {
+      "title": "Decorporation",
+      "studio": {
+        "en": "Cubepotato Games",
+        "pl": "Cubepotato Games"
+      },
+      "startDate": "01/2022",
+      "endDate": {
+        "en": "08/2022",
+        "pl": "08/2022"
+      },
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Apple"
+      ],
+      "devUrl": "decorporation",
+      "imgUrl": "/decorporation.webp",
+      "gifUrl": "/decorporation.webm",
+      "releaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
+      "description": {
+        "en": "Programmed and designed all user interface (including animation above), created FPS controller with Cinemachine's Unity asset (with camera shaking).",
+        "pl": "Zaprogramowałem i zaprojektowałem cały interfejs użytkownika (wliczając w to animację powyżej), stworzyłem FPS Controller na podstawie Cinemachine"
+      },
+      "tools": [
+        "csharp",
+        "Visual Studio",
+        "Miro",
+        "Trello"
+      ],
+      "time": {
+        "en": "Initially: 72h; After KrakJam: ~6 months",
+        "pl": "Początkowo: 72 godziny; Po KrakJamie: ~6 miesięcy"
+      },
+      "release": {
+        "en": "KrakJam release: January 30, 2022; Full Release: 24 August, 2022",
+        "pl": "Wydanie KrakJam: 30 stycznia 2022 r.; Pełne wydanie: 24 sierpnia 2022 r."
+      },
+      "responsibility": {
+        "en": "gameplay programming, UI design, game design, cutscenes directing",
+        "pl": "programowanie rozgrywki, design interfejsu użytkownika, design rozgrywki, reżyseria cutscenek"
+      },
+      "team": {
+        "en": "five man team (three programmers and two graphic designers)",
+        "pl": "pięcioosobowy zespół (trzech programistów i dwóch grafików)"
+      },
+      "buttons": [
+        {
+          "title": {
+            "en": "Game Jam version",
+            "pl": "Wersja gamejamowa"
+          },
+          "url": "https://globalgamejam.org/2022/games/bulletache-9"
+        },
+        {
+          "title": {
+            "en": "GitHub (source code of Game Jam version)",
+            "pl": "GitHub (kod źródłowy wersji gamejamowej)"
+          },
+          "url": "https://github.com/piratehacker/krakjam-2022"
+        }
+      ],
+      "article": {
+        "sections": [
+          {
+            "header": "Section 1",
+            "text": "This is the text for section 1",
+            "content": "/kicm.webp"
+          },
+          {
+            "header": "Section 2",
+            "text": "This is the text for section 2",
+            "content": "/decorporation.webp"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Keep it Cool, Man",
+      "studio": {
+        "en": "Cyberevolver_Studios (not a registered company)",
+        "pl": "Cyberevolver_Studios (niezarejestrowany zespół)"
+      },
+      "startDate": "08/2021",
+      "endDate": {
+        "en": "07/2022",
+        "pl": "07/2022"
+      },
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Apple"
+      ],
+      "devUrl": "kicm",
+      "imgUrl": "/kicm.webp",
+      "gifUrl": "/kicm.webm",
+      "yt-url": "https://www.youtube-nocookie.com/embed/v6exM1MH4fY",
+      "releaseUrl": "https://store.steampowered.com/app/2000320/Keep_it_Cool_Man",
+      "description": {
+        "en": "Programming and designing content like levels, features and user interface (DOTween is great!).",
+        "pl": ""
+      },
+      "tools": [
+        "CSharp",
+        "Visual Studio",
+        "Miro",
+        "Trello"
+      ],
+      "time": {
+        "en": "~1 year",
+        "pl": "Ok. rok"
+      },
+      "release": {
+        "en": "April 2022",
+        "pl": "Kwiecień 2022 r."
+      },
+      "responsibility": {
+        "en": "gameplay programming, graphics design, UI design, game design, marketing",
+        "pl": "programowanie rozgrywki, design graficzny, design interfejsu użytkownika, design rozgrywki, marketing"
+      },
+      "team": {
+        "en": "three core members (myself, Michał Biegaj and Mateusz Czernecki) and two additional ones outside the main team",
+        "pl": "trzech głównych członków z zespołu (ja, Michał Biegaj i Mateusz Czernecki) oraz dwie osoby dodatkowe spoza"
+      },
+      "buttons": [
+        {
+          "title": {
+            "en": "Steam",
+            "pl": "Steam"
+          },
+          "url": "https://store.steampowered.com/app/2000320/Keep_it_Cool_Man"
+        }
+      ]
+    },
+    {
+      "title": "The Towerer",
+      "studio": {
+        "en": "Cyberevolver_Studios (not a registered company)",
+        "pl": "Cyberevolver_Studios (niezarejestrowany zespół)"
+      },
+      "startDate": "11/2018",
+      "endDate": {
+        "en": "07/2020",
+        "pl": "07/2020"
+      },
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "devUrl": "tt",
+      "imgUrl": "/tt-thumbnail.webp",
+      "gifUrl": "/tt-preview.webm",
+      "yt-url": "https://www.youtube-nocookie.com/embed/A9Xg9ElNtLg",
+      "release-url": "https://cyberevolver_studios.indie.af/the-towerer",
+      "description": {
+        "en": "Built and shipped a game in mainly three-person team. Created all of the user interface, programmed content, drove world building, planned the approach for marketing, made all marketing assets and wrote epilogue dialogues.",
+        "pl": "Stworzyłem i wydałem grę w głównie trzyosobowym zespole. Stworzyłem cały interfejs użytkownika, zaprogramowałem kontent, poprowadziłem świat i lore gry, zaplanowałem kampanię marketingową i stworzyłem wszelkie materiały promocyjne, napisałem dialog (do epilogu)"
+      },
+      "tools": [
+        "Unity (C#)",
+        "Visual Studio",
+        "Google Docs",
+        "Trello"
+      ],
+      "time": {
+        "en": "~1 year",
+        "pl": "Około rok"
+      },
+      "release": {
+        "en": "July 25, 2020",
+        "pl": "25 lipca 2020"
+      },
+      "responsibility": {
+        "en": "gameplay programming, UI programming, world building, marketing, creative & design direction, writing",
+        "pl": "programowanie rozgrywki, programowanie interfejsu użytkownika, budowanie świata, marketing, pisanie fabuły"
+      },
+      "team": {
+        "en": "three core members (myself, Michał Biegaj and Jakub Kartkowski) and two additional ones",
+        "pl": "trzech głównych członków z zespołu (ja, Michał Biegaj i Jakub Kartkowski) oraz dwie osoby dodatkowe spoza"
+      },
+      "buttons": [
+        {
+          "title": {
+            "en": "Game Website",
+            "pl": "Strona gry"
+          },
+          "url": "https://cyberevolver_studios.indie.af/the-towerer"
+        },
+        {
+          "title": {
+            "en": "Game Jolt",
+            "pl": "Game Jolt"
+          },
+          "url": "https://gamejolt.com/games/the-towerer/513680"
+        },
+        {
+          "title": {
+            "en": "Itch.io",
+            "pl": "Itch.io"
+          },
+          "url": "https://cyberevolver-studios.itch.io/the-towerer"
+        }
+      ]
+    },
+    {
+      "title": "This Game Is Broken",
+      "studio": {
+        "en": "Casual (no studio, team made for game jam purpose)",
+        "pl": "Brak (zespół stworzony na game jamie)"
+      },
+      "startDate": "01/2020",
+      "endDate": {
+        "en": "02/2020",
+        "pl": "02/2020"
+      },
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "devUrl": "tgib",
+      "imgUrl": "/tgib-thumbnail.webp",
+      "gifUrl": "/tgib-preview.webm",
+      "yt-url": "https://www.youtube-nocookie.com/embed/BC3UiNOp7Wc",
+      "release-url": "https://thematiaz0.itch.io/this-game-is-broken",
+      "description": {
+        "en": "Built a game in 72 hours with a four-person team in my first stationary game jam named KrakJam. Programmed mainly content such as bad effects when you pick up the glitches. Improved game after the release with postprocessing effects",
+        "pl": "Stworzyłem grę w 72 godziny z czteroosobowym zespołem podczas mojego pierwszego stacjonarnego game jamu. Projektowałem i programowałem kontent do urozmaicenia gameplay'u. Zajmowałem się również patchowaniem i implementowaniem efektów postprocessingu do gry po KrakJamie"
+      },
+      "tools": [
+        "Unity (C#)",
+        "Visual Studio"
+      ],
+      "time": {
+        "en": "Initally: 72h; After KrakJam: 2 months",
+        "pl": "Początkowo: 72 godziny; Po KrakJamie: 2 miesiące"
+      },
+      "release": {
+        "en": "Initially: February 2, 2020; After KrakJam: February 21, 2020",
+        "pl": "Początkowo: 2 luty 2020; Po KrakJamie: 21 luty 2020"
+      },
+      "responsibility": {
+        "en": "gameplay programming, game design, marketing",
+        "pl": "programowanie rozgrywki, design rozgrywki, marketing"
+      },
+      "team": {
+        "en": "four person team",
+        "pl": "czteroosobowy zespół"
+      },
+      "buttons": [
+        {
+          "title": {
+            "en": "Game Jolt",
+            "pl": "Game Jolt"
+          },
+          "url": "https://gamejolt.com/games/this_game_is_broken/470676"
+        },
+        {
+          "title": {
+            "en": "Itch.io",
+            "pl": "Itch.io"
+          },
+          "url": "https://thematiaz0.itch.io/this-game-is-broken"
+        },
+        {
+          "title": {
+            "en": "GitHub (source code)",
+            "pl": "GitHub (kod źródłowy)"
+          },
+          "url": "https://github.com/TheMatiaz0/This-Game-Is-Broken"
+        },
+        {
+          "title": {
+            "en": "Game Jam Version",
+            "pl": "Wersja gry z Game Jamu"
+          },
+          "url": "https://v3.globalgamejam.org/2020/games/game-broken-1"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background-color: #181414;
+    --background-card-color: #181818;
+    --primary-color: #65F042;
+    --secondary-color: #E29BA7;
+    --primary-font: 'Niramit-Regular';
+    --h1-font-size: 2.4rem;
+    --h2-font-size: 2.2rem;
+    --h3-font-size: 1.9rem;
+    --h4-font-size: 1.7rem;
+    --h5-font-size: 1.5rem;
+    --h6-font-size: 1.3rem;
+    --p-font-size: 1.15rem;
+    --p-big-font-size: 1.35rem;
+    --small-font-size: 1.05rem;
+    --smaller-font-size: 0.85rem;
+    --site-width: 1200px;
+}
+
+@layer components {
+    .btn-secondary {
+      @apply py-1.5 px-5 text-[color:var(--secondary-color)] border-[color:var(--secondary-color)] text-center border-2 font-semibold rounded-lg hover:border-white focus:outline-none focus:ring-2 focus:ring-[color:var(--secondary-color)] focus:ring-opacity-75 hover:text-white;
+    }
+    .btn-black {
+      @apply py-1.5 px-5 text-black border-black border-2 font-semibold rounded-lg hover:border-white focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-75 hover:text-white;
+    }
+  }
+
+body {
+    background-color: var(--background-color);
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: var(--primary-font);
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 56px;
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  background-color: hsl(0,0%,48%);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+.paragraph {
+  font-size: var(--p-font-size);
+} 
+
+.big-paragraph {
+  font-size: var(--p-big-font-size);
+}
+
+.small {
+  font-size: var(--small-font-size);
+}
+
+.smaller {
+  font-size: var(--smaller-font-size);
+}
+
+p {
+  font-size: var(--p-font-size);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Niramit-Bold';
+}
+
+.bold {
+  font-family: 'Niramit-Bold';
+}
+
+.introduction {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--secondary-color);
+}

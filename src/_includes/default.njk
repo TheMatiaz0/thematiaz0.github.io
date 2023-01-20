@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- https://github.com/joshbuchea/HEAD -->
+
+    <!-- Recommended -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta -->
+    <meta name="description" content="{{ metadata.description }}" />
+    <meta name="generator" content="{{ eleventy.generator }}" />
+
+    <!-- Icons -->
+    <!-- https://favicon.io/ -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{ '/apple-touch-icon.png' | url }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{ '/favicon-32x32.png' | url }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{{ '/favicon-16x16.png' | url }}"
+    />
+    <link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
+
+    <title>{{ title or metadata.title }}</title>
+    <link rel="stylesheet" href="{{ '/fonts.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/site.css' | url }}" />
+
+    {% if css %}
+      {% for link in css %}
+        <link rel="stylesheet" href="/{{link}}">
+      {% endfor %}
+    {% endif %}
+  </head>
+
+  <body>
+    <div class="mx-auto max-w-[var(--site-width)]">
+    <header class="flex justify-start xxs:justify-between left-0 right-0 mx-auto flex-wrap max-w-[var(--site-width)] fixed bg-[color:var(--background-color)] py-8">
+      <div class="flex flex-wrap align-middle items-center content-center place-content-center gap-5">
+        <img class="w-20 h-20" src="/extraupscale.png" alt="logo"> 
+          <div class="introduction">
+            <a class="hover:text-white" href="/"><h1 class="whitespace-nowrap leading-9">{{header.name}}</h1></a>
+            <small class="whitespace-nowrap small">{{header.profession}}</small>
+          </div>
+      </div>
+      <div class="xxs:my-4">
+        {% set socialColor = "secondary" %}
+        {% include "social-media.njk" %}
+      </div>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+    </div>
+    {% if page.url == '/' %}
+    <footer class="mt-12 pb-8 pt-5 bg-[color:var(--primary-color)] w-[100%]">
+      <section class="max-w-[var(--site-width)] left-0 right-0 mx-auto">
+        <h2 class="whitespace-nowrap">Hi, I'm Mateusz 👋</h2>
+        <p class="pb-3 pt-3 px-8 big-paragraph">I am a {{header.yearsOld}} years old game programmer, currently working remotely at <a href="{{header.companyUrl}}" class="bold hover:text-white" target="_blank" rel="noopener">{{header.currentCompany}}</b></a> (since {{header.sinceWhenCompany}}).</p> 
+        <p class="pb-5 px-8 big-paragraph">My main areas of interest are user interface, music, sound and gameplay, but I’m also eager to take on new challenges and not stay in my comfort zone.</p> 
+        <p class="pb-7 px-8 big-paragraph">Want to know more? You can find my contact information in my <a href="Mateusz Kusionowicz - Resume.pdf" class="bold hover:text-white"><b>Resume</b></a>. You can also reach me on any of my social media below:</p> 
+        <div class="flex justify-center">
+            {% set socialColor = "black" %}
+            {% include "social-media.njk" %}
+        </div>
+      </section>
+    </footer>
+    {% endif %}
+  </body>
+</html>
