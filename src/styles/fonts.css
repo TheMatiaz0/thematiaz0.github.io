@@ -1,12 +1,10 @@
 @font-face {
-    font-family: 'Bitter-Regular';
-    src: url(Bitter-Regular.otf);
-}
-@font-face {
     font-family: 'Niramit-Regular';
     src: url(Niramit-Regular.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'Niramit-Bold';
     src: url(Niramit-Bold.ttf);
+    font-display: swap;
 }

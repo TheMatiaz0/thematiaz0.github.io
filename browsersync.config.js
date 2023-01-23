@@ -8,7 +8,7 @@ module.exports = (output) => ({
             function (req, res, next) {
                 let file = url.parse(req.url);
                 file = file.pathname;
-                // file = file.replace(/\/+$/, ''); // remove trailing hash
+                file = file.replace(/\/+$/, '');
                 file = `${output}/${file}.html`;
 
                 if (fs.existsSync(file)) {

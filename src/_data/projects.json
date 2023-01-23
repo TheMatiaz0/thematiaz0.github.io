@@ -16,8 +16,8 @@
         "Apple"
       ],
       "devUrl": "decorporation",
-      "imgUrl": "/decorporation.webp",
-      "gifUrl": "/decorporation.webm",
+      "imgUrl": "decorporation.webp",
+      "gifUrl": "decorporation.webm",
       "releaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
       "description": {
         "en": "Programmed and designed all user interface (including animation above), created FPS controller with Cinemachine's Unity asset (with camera shaking).",
@@ -93,8 +93,8 @@
         "Apple"
       ],
       "devUrl": "kicm",
-      "imgUrl": "/kicm.webp",
-      "gifUrl": "/kicm.webm",
+      "imgUrl": "kicm.webp",
+      "gifUrl": "kicm.webm",
       "yt-url": "https://www.youtube-nocookie.com/embed/v6exM1MH4fY",
       "releaseUrl": "https://store.steampowered.com/app/2000320/Keep_it_Cool_Man",
       "description": {

@@ -16,29 +16,29 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="{{ '/apple-touch-icon.png' | url }}"
+      href="{{ 'apple-touch-icon.png' | url }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="{{ '/favicon-32x32.png' | url }}"
+      href="{{ 'favicon-32x32.png' | url }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="{{ '/favicon-16x16.png' | url }}"
+      href="{{ 'favicon-16x16.png' | url }}"
     />
-    <link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
+    <link rel="manifest" href="{{ 'site.webmanifest' | url }}" />
 
     <title>{{ title or metadata.title }}</title>
-    <link rel="stylesheet" href="{{ '/fonts.css' | url }}" />
-    <link rel="stylesheet" href="{{ '/site.css' | url }}" />
+    <link rel="stylesheet" href="{{ 'fonts.css' | url }}" />
+    <link rel="stylesheet" href="{{ 'site.css' | url }}" />
 
     {% if css %}
       {% for link in css %}
-        <link rel="stylesheet" href="/{{link}}">
+        <link rel="stylesheet" href="{{link | url}}">
       {% endfor %}
     {% endif %}
   </head>
@@ -47,9 +47,9 @@
     <div class="mx-auto max-w-[var(--site-width)]">
     <header class="flex justify-start xxs:justify-between left-0 right-0 mx-auto flex-wrap max-w-[var(--site-width)] fixed bg-[color:var(--background-color)] py-8">
       <div class="flex flex-wrap align-middle items-center content-center place-content-center gap-5">
-        <img class="w-20 h-20" src="/extraupscale.png" alt="logo"> 
+        <img class="w-20 h-20" src="{{'extraupscale.png' | url}}" alt="logo"> 
           <div class="introduction">
-            <a class="hover:text-white" href="/"><h1 class="whitespace-nowrap leading-9">{{header.name}}</h1></a>
+            <a class="hover:text-white" href="{{'/' | url}}"><h1 class="whitespace-nowrap leading-9">{{header.name}}</h1></a>
             <small class="whitespace-nowrap small">{{header.profession}}</small>
           </div>
       </div>
