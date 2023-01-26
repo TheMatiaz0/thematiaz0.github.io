@@ -25,9 +25,9 @@
       },
       "tools": [
         "csharp",
-        "Visual Studio",
-        "Miro",
-        "Trello"
+        "visual_studio",
+        "miro",
+        "trello"
       ],
       "time": {
         "en": "Initially: 72h; After KrakJam: ~6 months",
@@ -102,7 +102,7 @@
         "pl": ""
       },
       "tools": [
-        "CSharp",
+        "csharp",
         "Visual Studio",
         "Miro",
         "Trello"
@@ -228,6 +228,7 @@
         "pl": "Stworzyłem grę w 72 godziny z czteroosobowym zespołem podczas mojego pierwszego stacjonarnego game jamu. Projektowałem i programowałem kontent do urozmaicenia gameplay'u. Zajmowałem się również patchowaniem i implementowaniem efektów postprocessingu do gry po KrakJamie"
       },
       "tools": [
+        "csharp",
         "Unity (C#)",
         "Visual Studio"
       ],

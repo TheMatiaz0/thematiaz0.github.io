@@ -12,18 +12,6 @@ module.exports = function (eleventyConfig) {
     require('./browsersync.config')('_site')
   );
 
-  eleventyConfig.addFilter("has_tag", function (arr, key, value) {
-    return arr.filter(item => {
-      const keys = key.split('.');
-      const reduce = keys.reduce((object, key) => {
-        return object[key];
-      }, item);
-      const str = String(reduce);
-
-      return (str.includes(value) ? item : false);
-    });
-  });
-
   // Passthrough
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
 
@@ -47,9 +35,7 @@ module.exports = function (eleventyConfig) {
 function browserSyncReady(err, bs) {
   bs.addMiddleware("*", (req, res) => {
     const content_404 = fs.readFileSync('_site/404.html');
-    // Add 404 http status code in request header.
     res.writeHead(404, { "Content-Type": "text/html; charset=ETF-8" });
-    // Provides the 404 content without redirect.
     res.write(content_404);
     res.end();
   });
