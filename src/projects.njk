@@ -6,10 +6,41 @@ permalink: "{{ page.filePathStem }}.html"
 <section class="py-40">
 <div class="flex justify-between">
     <h2 class="whitespace-nowrap introduction">All Projects</h2>
+    <button onclick="selectLang('csharp')">csharp</button>
+    <button onclick="selectLang('js')">js</button>
+    <button onclick="selectLang(null)">all</button>
     <a href="/" class="flex justify-end items-center align-middle secondary hover:text-white gap-3">
         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path class="w-1 h-1" fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
         <h4>Go Back</h4>
     </a>
 </div>
-    <div id="data"></div>
+    <div class="projects"></div>
 </section>
+
+{# remember to refresh the 11ty to apply changes #}
+
+
+<script>
+const projectsDiv = document.querySelector('.projects');
+const {projects, languages} = JSON.parse(`{{ projects | json }}`);
+const projectTemplate = (project) => `<div class="grid grid-cols-1 md:grid-cols-2 justify-between py-6 gap-12">{%include "project-card.njk"%}</div>
+`;
+const buttonTemplate = (button) => `
+
+`
+
+let lang = null;
+
+update();
+
+function selectLang(x) {
+    lang = x;
+    update();
+}
+
+function update() {
+    projectsDiv.innerHTML = projects
+        .filter(x => lang === null || x.language === lang)
+        .map(projectTemplate).join('');
+}
+</script>

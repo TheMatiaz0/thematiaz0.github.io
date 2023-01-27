@@ -1,5 +1,6 @@
 const fs = require("fs");
 const htmlmin = require("html-minifier");
+const nunjucks = require("nunjucks");
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_PRODUCTION) {
@@ -11,6 +12,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig(
     require('./browsersync.config')('_site')
   );
+
+  eleventyConfig.addFilter('json', function (value, spaces) {
+    if (value instanceof nunjucks.runtime.SafeString) {
+      value = value.toString();
+    }
+    const jsonString = JSON.stringify(value, null, spaces).replace(/</g, '\\u003c');
+    return nunjucks.runtime.markSafe(jsonString);
+  });
 
   // Passthrough
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
