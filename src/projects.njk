@@ -6,6 +6,7 @@ permalink: "{{ page.filePathStem }}.html"
 <section class="py-40">
 <div class="flex justify-between">
     <h2 class="whitespace-nowrap introduction">All Projects</h2>
+    <div class="buttons"></div>
     <button onclick="selectLang('csharp')">csharp</button>
     <button onclick="selectLang('js')">js</button>
     <button onclick="selectLang(null)">all</button>
@@ -17,17 +18,22 @@ permalink: "{{ page.filePathStem }}.html"
     <div class="projects"></div>
 </section>
 
+
+
 {# remember to refresh the 11ty to apply changes #}
-
-
 <script>
+
+const params = new Proxy(new URLSearchParams(window.location.search), {
+  get: (searchParams, prop) => searchParams.get(prop),
+});
+
 const projectsDiv = document.querySelector('.projects');
 const {projects, languages} = JSON.parse(`{{ projects | json }}`);
 const projectTemplate = (project) => `<div class="grid grid-cols-1 md:grid-cols-2 justify-between py-6 gap-12">{%include "project-card.njk"%}</div>
 `;
-const buttonTemplate = (button) => `
 
-`
+const buttonsDiv = document.querySelector('.buttons');
+// const buttonTemplate = (button) => `<>`;
 
 let lang = null;
 
@@ -40,7 +46,7 @@ function selectLang(x) {
 
 function update() {
     projectsDiv.innerHTML = projects
-        .filter(x => lang === null || x.language === lang)
+        .filter(x => params.language === null || x.language === params.language)
         .map(projectTemplate).join('');
 }
 </script>
