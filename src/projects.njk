@@ -7,9 +7,6 @@ permalink: "{{ page.filePathStem }}.html"
 <div class="flex justify-between">
     <h2 class="whitespace-nowrap introduction">All Projects</h2>
     <div class="buttons"></div>
-    <button onclick="selectLang('csharp')">csharp</button>
-    <button onclick="selectLang('js')">js</button>
-    <button onclick="selectLang(null)">all</button>
     <a href="/" class="flex justify-end items-center align-middle secondary hover:text-white gap-3">
         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path class="w-1 h-1" fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
         <h4>Go Back</h4>
@@ -29,24 +26,33 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 
 const projectsDiv = document.querySelector('.projects');
 const {projects, languages} = JSON.parse(`{{ projects | json }}`);
+languages.push(null);
 const projectTemplate = (project) => `<div class="grid grid-cols-1 md:grid-cols-2 justify-between py-6 gap-12">{%include "project-card.njk"%}</div>
 `;
 
 const buttonsDiv = document.querySelector('.buttons');
-// const buttonTemplate = (button) => `<>`;
+
+
+const buttonTemplate = (language) => `<button class="btn-secondary" onclick="selectLang('${language}')">${language}</button>`;
 
 let lang = null;
 
 update();
 
-function selectLang(x) {
-    lang = x;
+function selectLang(language) {
+    var searchParams = new URLSearchParams(window.location.search);
+    searchParams.set("language", language);
+    window.location.search = searchParams.toString();
     update();
 }
 
 function update() {
-    projectsDiv.innerHTML = projects
-        .filter(x => params.language === null || x.language === params.language)
+
+    let filtered = projects.filter(x => x.language === params.language);
+    let p = filtered.length <= 0 ? projects : filtered;
+    projectsDiv.innerHTML =
+        p
         .map(projectTemplate).join('');
+    buttonsDiv.innerHTML = languages.map(buttonTemplate).join('');;
 }
 </script>
