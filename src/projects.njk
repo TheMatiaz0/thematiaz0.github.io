@@ -12,12 +12,10 @@ permalink: "{{ page.filePathStem }}.html"
         <h4>Go Back</h4>
     </a>
 </div>
-    <div class="projects"></div>
+    <div class="projects grid grid-cols-1 md:grid-cols-2 justify-between py-6 gap-12"></div>
 </section>
 
-
-
-{# remember to refresh the 11ty to apply changes #}
+{# remember to refresh 11ty without serve to apply changes #}
 <script>
 
 const params = new Proxy(new URLSearchParams(window.location.search), {
@@ -27,37 +25,28 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 const projectsDiv = document.querySelector('.projects');
 const {projects, languages} = JSON.parse(`{{ projects | json }}`);
 languages.push("All");
-const projectTemplate = (project) => `<div class="grid grid-cols-1 md:grid-cols-2 justify-between py-6 gap-12">{%include "project-card.njk"%}</div>
-`;
+const projectTemplate = (project) => `{%include "project-card.njk"%}`;
 
 const buttonsDiv = document.querySelector('.buttons');
-
-
 const buttonTemplate = (language) => `<button class="btn-secondary" onclick="selectLang('${language}')">${language}</button>`;
-
-let lang = null;
 
 update();
 
 function selectLang(language) {
-
     var searchParams;
     if (language) {
         searchParams = new URLSearchParams(window.location.search);
         searchParams.set("language", language);
         window.location.search = searchParams.toString();
-
     }
     else {
         searchParams = new URLSearchParams();
         window.location.href = `${window.location.origin}${window.location.pathname}`
     }
-
     update();
 }
 
 function update() {
-
     let filtered = projects.filter(x => x.language === params.language);
     let p = filtered.length <= 0 ? projects : filtered;
     projectsDiv.innerHTML =
