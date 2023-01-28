@@ -14,13 +14,20 @@ title: Mateusz Kusionowicz | Game Programmer Portfolio
     <h2 class="introduction"><span class="text-white">|</span> Experience</h2>
 <section class="pt-3">
     <h3 class="whitespace-nowrap introduction">Languages</h2>
-    {% set index = 0 %}
+    {% set skillList = experience.languages %}
     {% include "showcase-list.njk" %}
 </section>
 
 <section class="pt-5">
     <h3 class="whitespace-nowrap introduction">Development Tools</h2>
-    {% set index = 1 %}
+    {% set skillList = experience.tools %}
     {% include "showcase-list.njk" %}
 </section>
+
+<section class="pt-5">
+    <h3 class="whitespace-nowrap introduction">Ported Platforms</h2>
+    {% set skillList = experience.platforms %}
+    {% include "showcase-list.njk" %}
+</section>
+
 </section>

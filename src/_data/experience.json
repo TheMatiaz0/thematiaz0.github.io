@@ -1,0 +1,109 @@
+{
+	"languages": [{
+			"iconUrl": "csharp.webp",
+			"name": "C#",
+			"experience": "4 Years",
+			"projectCount": "25+ Projects",
+			"tag": "csharp"
+		},
+		{
+			"iconUrl": "js.png",
+			"name": "JavaScript",
+			"experience": "1 Year",
+			"projectCount": "1 Project",
+			"tag": "javascript"
+		},
+		{
+			"iconUrl": "python.webp",
+			"name": "Python",
+			"experience": "1 Year",
+			"projectCount": "1 Project",
+			"tag": "python"
+		},
+		{
+			"iconUrl": "pol.webp",
+			"name": "Polish",
+			"experience": "Native"
+		},
+		{
+			"iconUrl": "eng.webp",
+			"name": "English",
+			"experience": "C1 Level"
+		}
+	],
+	"tools": [
+    {
+      "iconUrl": "unity.webp",
+      "name": "Unity", 
+      "experience": "4 Years",
+      "projectCount": "25+ Projects",
+      "tag": "unity"
+    },
+    {
+      "iconUrl": "vs.webp",
+      "name": "Visual Studio", 
+      "experience": "4 Years",
+      "projectCount": "25+ Projects",
+      "tag": "vs"
+    },
+    {
+      "iconUrl": "git.webp",
+      "name": "Git", 
+      "experience": "4 Years",
+      "projectCount": "25+ Projects",
+      "tag": "git"
+    },
+    {
+      "iconUrl": "figma.webp",
+      "name": "Figma", 
+      "experience": "6 Months",
+      "projectCount": "3 Projects",
+      "tag": "figma"
+    },
+    {
+      "iconUrl": "photon.jpg",
+      "name": "Photon Fusion", 
+      "experience": "1 Year",
+      "projectCount": "1 Project",
+      "tag": "fusion"
+    }
+  ],
+  "platforms": [
+    {
+      "iconUrl": "steam.png",
+      "name": "SteamVR", 
+      "projectCount": "1 Project",
+      "tag": "steamvr"
+    },
+    {
+      "iconUrl": "windows.png",
+      "name": "Windows", 
+      "projectCount": "25+ Projects",
+      "tag": "windows"
+    },
+    {
+      "iconUrl": "pico.webp",
+      "name": "PICO XR", 
+      "projectCount": "1 Project",
+      "tag": "pico"
+    },
+    {
+      "iconUrl": "android.png",
+      "name": "Android", 
+      "projectCount": "1 Project",
+      "tag": "android"
+    },
+    {
+      "iconUrl": "linux.png",
+      "name": "Linux", 
+      "projectCount": "2 Projects",
+      "tag": "linux"
+    },
+    {
+      "iconUrl": "macOS.png",
+      "name": "macOS", 
+      "projectCount": "2 Projects",
+      "tag": "mac"
+    }
+  ]
+}

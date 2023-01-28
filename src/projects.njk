@@ -35,7 +35,7 @@ function selectLang(language) {
     var searchParams;
     if (language) {
         searchParams = new URLSearchParams(window.location.search);
-        searchParams.set("includes", language);
+        searchParams.set("filter", language);
         window.location.search = searchParams.toString();
     }
     else {
@@ -46,7 +46,7 @@ function selectLang(language) {
 }
 
 function update() {
-    let filtered = projects.filter(x => x.language === params.includes);
+    let filtered = projects.filter(x => x.language === params.filter);
     let projectList = filtered.length <= 0 ? projects : filtered;
     projectsDiv.innerHTML = projectList.map(projectTemplate).join('');
     // buttonsDiv.innerHTML = languages.map(buttonTemplate).join('');;
