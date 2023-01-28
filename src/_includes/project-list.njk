@@ -1,12 +1,12 @@
 <div class="grid grid-cols-1 md:grid-cols-2 justify-between py-6 gap-12">
-{% set filteredProjects = projects %}
-{% set length = filteredProjects.length if projects.length <= featured_projects_count else featured_projects_count %}
+{% set length = projects.length if projects.length <= featured_projects_count else featured_projects_count %}
 {% for i in range(0, length) %}
+    {% set projectItem = projects[i] %}
     {% include "project-card.njk" %}
 {% endfor %}
 </div>
 
-{% if projects.projects.length > featured_projects_count %}
+{% if projects.length > featured_projects_count %}
 <div class="py-2 text-center">
     <a href="{{'projects' | url}}" type="button" class="btn-secondary py-2 w-[100%] paragraph">See All Projects</a>
 </div>

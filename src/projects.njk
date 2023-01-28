@@ -23,14 +23,20 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 });
 
 const projectsDiv = document.querySelector('.projects');
-const {projects, languages} = JSON.parse(`{{ projects | json }}`);
-const projectTemplate = (project) => `{% include "project-card.njk" %}`;
+console.log(JSON.parse(`{{ projects | json }}`));
+const parsedProjects = JSON.parse(`{{ projects | json }}`);
+const projectTemplate = (project) => 
+{
+    project = JSON.stringify(project);
+    console.log(project);
+    return `{% set projectItem %}{{"${project}" | dump | safe}}{% endset %}{% include "project-card.njk" %}`
+};
 
-const buttonsDiv = document.querySelector('.buttons');
+// const buttonsDiv = document.querySelector('.buttons');
 // const buttonTemplate = (language) => `<button class="btn-secondary" onclick="selectLang('${language}')">${language}</button>`;
 
 update();
-
+/*
 function selectLang(language) {
     var searchParams;
     if (language) {
@@ -44,10 +50,11 @@ function selectLang(language) {
     }
     update();
 }
+*/
 
 function update() {
-    let filtered = projects.filter(x => x.language === params.filter);
-    let projectList = filtered.length <= 0 ? projects : filtered;
+    let filtered = parsedProjects.filter(x => x.details.tags.includes(params.filter));
+    let projectList = filtered.length <= 0 ? parsedProjects : filtered;
     projectsDiv.innerHTML = projectList.map(projectTemplate).join('');
     // buttonsDiv.innerHTML = languages.map(buttonTemplate).join('');;
 }

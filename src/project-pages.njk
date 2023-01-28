@@ -1,17 +1,16 @@
-
 ---
 pagination:
     data: projects
     size: 1
     alias: project
-permalink: "{{ project.devUrl | slug}}.html"
+permalink: "{{ project.url | slug}}.html"
 layout: default.njk
 ---
 
 <section class="pt-64">
 <h1 class="flex pb-5 introduction justify-center align-middle items-center">{{project.title}}</h1>
 <div class="flex flex-col md:flex-row justify-between gap-y-6">
-    <p class="big-paragraph px-8 text-white">{{project.description.en}}</p>
+    <p class="big-paragraph px-8 text-white">{{project.shortDescription}}</p>
     <div class="flex flex-col w-[100%]">
     <div class="flex border-b justify-between px-8 border-[color:#DCDCDC] text-white">
         <p class="big-paragraph bold">Duration</p>

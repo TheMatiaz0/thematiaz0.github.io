@@ -1,23 +1,107 @@
+[{
+  "showcaseWebmUrl": "decorporation.webm",
+  "title": "Decorporation",
+  "studio": {
+    "studioLogo": "wenklyLogo.webp",
+    "studioName": "Cubepotato Games",
+    "studioUrl": "cubepotatogames"
+  },
+  "shortDescription": "Bla bla bla!",
+  "startDate": "01/2022",
+  "endDate": "08/2022",
+  "url": "decorporation",
+  "details": {
+    "tags": ["csharp", "windows", "linux", "mac", "gamejam"],
+    "teamSize": "3 Programmers, 2 Artists",
+    "roles": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
+  },
+  "sources": {
+    "showcasePlatform": "Steam",
+    "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
+    "codeUrl": "https://github.com/piratehacker/krakjam-2022"
+  },
+  "article": {
+    "sections": [{
+        "header": "Section 1",
+        "text": "This is an example!",
+        "content": "/kicm.webp"
+      },
+      {
+        "header": "Section 2",
+        "text": "This is an example too!",
+        "content": "/decorporation.webp"
+      }
+    ]
+  }
+},
 {
-  "languages": ["", "js", "csharp"],
-  "projects": [
-    {
-      "name": "Decorporation", 
-      "description": "A bigger game!",
-      "language": "csharp",
-      "webmUrl": "decorporation.webm"
-    },
-    {
-      "name": "Keep it Cool, Man",
-      "description": "A game.",
-      "language": "js",
-      "webmUrl": "kicm.webm"
-    },
-    {
-      "name": "This Game Is Broken",
-      "description": "It is, you don't believe me? Well...",
-      "language": "csharp",
-      "webmUrl": "tgib.webm"
-    }
-  ]
+  "showcaseWebmUrl": "kicm.webm",
+  "title": "Keep it Cool, Man",
+  "studio": {
+    "studioLogo": "",
+    "studioName": "Cyberevolver_Studios",
+    "studioUrl": "Cyberevolver_Studios"
+  },
+  "shortDescription": "Bla bla bla 22!",
+  "startDate": "01/2022",
+  "endDate": "08/2022",
+  "url": "kicm",
+  "details": {
+    "tags": ["csharp", "windows", "linux", "mac", "gamejam"],
+    "teamSize": "3 Programmers, 2 Artists",
+    "roles": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
+  },
+  "sources": {
+    "showcasePlatform": "Steam",
+    "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
+    "codeUrl": "https://github.com/piratehacker/krakjam-2022"
+  },
+  "article": {
+    "sections": [{
+        "header": "Section 1",
+        "text": "This is an example!",
+        "content": "/kicm.webp"
+      },
+      {
+        "header": "Section 2",
+        "text": "This is an example too!",
+        "content": "/decorporation.webp"
+      }
+    ]
+  }
+},
+{
+  "showcaseWebmUrl": "tgib.webm",
+  "title": "This Game Is Broken",
+  "studio": {
+    "studioName": "NullPtr"
+  },
+  "shortDescription": "This game is just broken!",
+  "startDate": "01/2022",
+  "endDate": "08/2022",
+  "url": "tgib",
+  "details": {
+    "tags": ["csharp", "windows", "linux", "mac", "gamejam"],
+    "teamSize": "3 Programmers, 2 Artists",
+    "roles": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
+  },
+  "sources": {
+    "showcasePlatform": "Steam",
+    "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
+    "codeUrl": "https://github.com/piratehacker/krakjam-2022"
+  },
+  "article": {
+    "sections": [{
+        "header": "Section 1",
+        "text": "This is an example!",
+        "content": "/kicm.webp"
+      },
+      {
+        "header": "Section 2",
+        "text": "This is an example too!",
+        "content": "/decorporation.webp"
+      }
+    ]
+  }
 }
+]
