@@ -3,25 +3,25 @@
     {% for skill in skillList %}
     <div class="flex flex-col justify-center items-center">
         <img class="w-12 h-auto" src="{{skill.imgUrl}}" alt="Showcase Image" />
-        <h3>
+        <h4>
             {% if not skill.communicative %}
-                <a class="secondary bold hover:text-white pt-2" href="/projects?language={{skill.tag}}">
+                <a class="secondary bold hover:text-white pt-2" href="/projects?includes={{skill.tag}}">
                 {{skill.title}}
                 </a>
             {% else %}
                 <span class="introduction bold">{{skill.title}}</span>
             {% endif %}
-        </h3>
+        </h4>
 
-        <h5 class="text-white leading-tight">{{skill.time.en}}
+        <h6 class="text-white leading-tight">{{skill.time.en}}
         {% if projects.languages.length > 0 %} 
         | 
-        <a href="/projects?language={{skill.tag}}" class="secondary hover:text-white">
+        <a href="/projects?includes={{skill.tag}}" class="secondary hover:text-white">
         <u class="bold">
-            {{projects.languages.filter(x => x === skill.tag).length}}
+            25+ Projects
         </u>
         </a>
-        {% endif %}</h5>
+        {% endif %}</h6>
     </div>
     {% endfor %}
 </div>
