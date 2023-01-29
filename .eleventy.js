@@ -1,6 +1,7 @@
 const fs = require("fs");
 const htmlmin = require("html-minifier");
 const nunjucks = require("nunjucks");
+const path = require('path');
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_PRODUCTION) {
@@ -20,6 +21,14 @@ module.exports = function (eleventyConfig) {
     const jsonString = JSON.stringify(value, null, spaces).replace(/</g, '\\u003c');
     return nunjucks.runtime.markSafe(jsonString);
   });
+
+  eleventyConfig.addNunjucksShortcode("includeraw", function (uri) {
+    var p = fs.readFileSync(path.resolve(__dirname, uri));
+    var env = nunjucks.configure();
+    return env.filters.safe(p.toString());
+  });
+
+  eleventyConfig.addPassthroughCopy({ "./node_modules/nunjucks/browser/nunjucks.js": "./nunjucks.js" });
 
   // Passthrough
   eleventyConfig.addPassthroughCopy({ "src/static": "." });

@@ -16,6 +16,7 @@ permalink: "{{ page.filePathStem }}.html"
 </section>
 
 {# remember to refresh 11ty without serve to apply changes #}
+<script src="nunjucks.js"></script>
 <script>
 
 const params = new Proxy(new URLSearchParams(window.location.search), {
@@ -23,19 +24,21 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 });
 
 const projectsDiv = document.querySelector('.projects');
-console.log(JSON.parse(`{{ projects | json }}`));
 const parsedProjects = JSON.parse(`{{ projects | json }}`);
-const projectTemplate = (project) => 
-{
-    project = JSON.stringify(project);
-    console.log(project);
-    return `{% set projectItem %}{{"${project}" | dump | safe}}{% endset %}{% include "project-card.njk" %}`
-};
+const projectTemplate = `{% includeraw ".\\src\\_includes\\project-card.njk" %}`;
+
+update();
+
+function update() {
+    let filtered = parsedProjects.filter(x => x.details.tags.includes(params.filter));
+    let projectList = filtered.length <= 0 ? parsedProjects : filtered;
+    projectsDiv.innerHTML = projectList.map(x => nunjucks.renderString(projectTemplate, {projectItem: x})).join('');
+    // buttonsDiv.innerHTML = languages.map(buttonTemplate).join('');;
+}
 
 // const buttonsDiv = document.querySelector('.buttons');
 // const buttonTemplate = (language) => `<button class="btn-secondary" onclick="selectLang('${language}')">${language}</button>`;
 
-update();
 /*
 function selectLang(language) {
     var searchParams;
@@ -52,10 +55,5 @@ function selectLang(language) {
 }
 */
 
-function update() {
-    let filtered = parsedProjects.filter(x => x.details.tags.includes(params.filter));
-    let projectList = filtered.length <= 0 ? parsedProjects : filtered;
-    projectsDiv.innerHTML = projectList.map(projectTemplate).join('');
-    // buttonsDiv.innerHTML = languages.map(buttonTemplate).join('');;
-}
+
 </script>

@@ -47,7 +47,7 @@
   "endDate": "08/2022",
   "url": "kicm",
   "details": {
-    "tags": ["csharp", "windows", "linux", "mac", "gamejam"],
+    "tags": ["javascript", "windows", "linux", "mac", "gamejam"],
     "teamSize": "3 Programmers, 2 Artists",
     "roles": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
   },
@@ -81,7 +81,7 @@
   "endDate": "08/2022",
   "url": "tgib",
   "details": {
-    "tags": ["csharp", "windows", "linux", "mac", "gamejam"],
+    "tags": ["figma", "windows", "linux", "mac", "gamejam"],
     "teamSize": "3 Programmers, 2 Artists",
     "roles": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
   },
