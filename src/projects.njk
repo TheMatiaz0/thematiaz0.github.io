@@ -30,7 +30,7 @@ const projectTemplate = `{% includeraw ".\\src\\_includes\\project-card.njk" %}`
 update();
 
 function update() {
-    let filtered = parsedProjects.filter(x => x.details.tags.includes(params.filter));
+    let filtered = parsedProjects.filter(x => x.tags.includes(params.filter));
     let projectList = filtered.length <= 0 ? parsedProjects : filtered;
     projectsDiv.innerHTML = projectList.map(x => nunjucks.renderString(projectTemplate, {projectItem: x})).join('');
     // buttonsDiv.innerHTML = languages.map(buttonTemplate).join('');;
