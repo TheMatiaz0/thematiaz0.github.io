@@ -10,11 +10,17 @@
   "startDate": "01/2022",
   "endDate": "08/2022",
   "url": "decorporation",
-  "details": {
-    "tags": ["csharp", "windows", "linux", "mac", "gamejam"],
-    "teamSize": "3 Programmers, 2 Artists",
-    "roles": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
-  },
+  "tags": ["windows", "linux", "mac", "gamejam"],
+  "details": [
+    {
+      "header": "Team Size",
+      "content": "14 Designers, 6 Programmers, 5 Artists and 2 Producers"
+    },
+    {
+      "header": "Roles",
+      "content": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
+    }
+  ],
   "sources": {
     "showcasePlatform": "Steam",
     "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
