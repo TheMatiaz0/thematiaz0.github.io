@@ -10,7 +10,7 @@ layout: default.njk
 <section class="pt-64">
 <h1 class="pb-4 introduction align-middle items-center"><span class="text-white">|</span> {{project.title}}</h1>
 <div class="flex flex-col md:flex-row">
-    <p class="big-paragraph px-8 text-white">{{project.shortDescription}}</p>
+    <p class="big-paragraph px-4 text-white">{{project.shortDescription}}</p>
     <div class="flex flex-col md:w-[2700px] md:p-0 p-4 flex-wrap">
     {% for detail in project.details%}
     {% set borderClass = "" %}
@@ -26,6 +26,14 @@ layout: default.njk
         <p class="paragraph">{{detail.content}}</p>
     </div>
     {%endfor%}
+        <div class="flex justify-center py-4 gap-6">
+                    <a href="{{projectItem.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph">
+                        <div class="w-6 h-6"> <img src="Steam_icon_logo.svg" alt="Steam logo"></div>Steam
+                    </a>
+                    <a href="{{projectItem.sources.codeUrl}}" type="button" class="tracking-wide btn-secondary max-wsm flex flex-wrap align-middle gap-3 justify-center items-center paragraph">
+                        <div class="w-6 h-6"><img src="github-mark-white.svg" alt="GitHub logo"></div>Source Code
+                    </a>
+        </div>
     </div>
 </div>
 {#
