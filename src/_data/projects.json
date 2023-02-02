@@ -8,13 +8,13 @@
   },
   "shortDescription": "Survival Nation is an open-world online RPG survival game designed for VR. In this game, you will kill hundreds of zombies, acquire weapons, learn new skills, craft, explore the world, complete quests, and most importantly, fight for survival.",
   "startDate": "03/2022",
-  "endDate": "02/2023",
+  "endDate": "now",
   "url": "survival-nation",
-  "tags": ["steamvr", "oculus", "picoxr", "pico", "csharp", "unity", "vs", "git", "commercial", "steam", "fusion"],
+  "tags": ["steamvr", "oculus", "picoxr", "pico", "csharp", "unity", "vs", "git", "commercial", "steam", "fusion", "3D"],
   "details": [
     {
       "header": "Team Size",
-      "content": "40+"
+      "content": "30+"
     },
     {
       "header": "Roles",
@@ -44,7 +44,7 @@
 },
   
   {
-  "showcaseWebmUrl": "1920-telegraphist.webm",
+  "showcaseMp4Url": "1920-telegraphist.mp4",
   "showcaseHeaderUrl": "1920-telegraphist.jpg",
   "title": "1920: The Telegraphist",
   "studio": {
@@ -55,7 +55,7 @@
   "startDate": "11/2022",
   "endDate": "11/2022",
   "url": "1920-telegraphist",
-  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "noncommercial"],
+  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "noncommercial", "2D"],
   "details": [
     {
       "header": "Team Size",
@@ -100,7 +100,7 @@
   "startDate": "01/2022",
   "endDate": "08/2022",
   "url": "decorporation",
-  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "gamejam", "commercial", "steam", "scrum"],
+  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "gamejam", "commercial", "steam", "scrum", "3D"],
   "details": [
     {
       "header": "Team Size",
@@ -145,7 +145,7 @@
   "startDate": "08/2021",
   "endDate": "07/2022",
   "url": "kicm",
-  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "noncommercial", "steam"],
+  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "noncommercial", "steam", "2D"],
   "details": [
     {
       "header": "Team Size",
@@ -190,7 +190,7 @@
   "startDate": "01/2020",
   "endDate": "02/2020",
   "url": "tgib",
-  "tags": ["windows", "android", "csharp", "unity", "vs", "git", "noncommercial", "gamejam"],
+  "tags": ["windows", "android", "csharp", "unity", "vs", "git", "noncommercial", "gamejam", "2D"],
   "details": [
     {
       "header": "Team Size",
