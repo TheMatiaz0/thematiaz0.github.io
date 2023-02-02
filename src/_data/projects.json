@@ -1,139 +1,226 @@
 [{
-  "showcaseWebmUrl": "decorporation.webm",
-  "title": "Decorporation",
+  "showcaseWebmUrl": "survival-nation.webm",
+  "showcaseHeaderUrl": "survival-nation.jpg",
+  "title": "Survival Nation",
   "studio": {
-    "studioLogo": "wenklyLogo.webp",
-    "studioName": "Cubepotato Games",
-    "studioUrl": "cubepotatogames"
+    "name": "Wenkly Studio",
+    "url": "https://www.wenklystudio.com"
   },
-  "shortDescription": "Bla bla bla!",
-  "startDate": "01/2022",
-  "endDate": "08/2022",
-  "url": "decorporation",
-  "tags": ["windows", "linux", "mac", "gamejam"],
+  "shortDescription": "Survival Nation is an open-world online RPG survival game designed for VR. In this game, you will kill hundreds of zombies, acquire weapons, learn new skills, craft, explore the world, complete quests, and most importantly, fight for survival.",
+  "startDate": "03/2022",
+  "endDate": "02/2023",
+  "url": "survival-nation",
+  "tags": ["steamvr", "oculus", "picoxr", "pico", "csharp", "unity", "vs", "git", "commercial", "steam", "fusion"],
   "details": [
     {
       "header": "Team Size",
-      "content": "14 Designers, 6 Programmers, 5 Artists and 2 Producers"
+      "content": "40+"
     },
     {
       "header": "Roles",
-      "content": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
+      "content": "Unity Developer | C# Programmer"
     },
     {
       "header": "Language",
       "content": "C#"
     },
     {
+      "header": "Engine",
+      "content": "Unity"
+    },
+    {
       "header": "Platforms",
-      "content": "Windows, Linux, Mac, Android"
+      "content": "SteamVR, Oculus, PICO XR"
     },
     {
       "header": "Tools",
-      "content": "Unity, Steamworks, Visual Studio, Git"
+      "content": "Visual Studio | Git"
+    }
+  ],
+  "sources": {
+    "showcasePlatform": "Steam",
+    "showcaseUrl": "https://store.steampowered.com/app/2153780/Survival_Nation"
+  }
+},
+  
+  {
+  "showcaseWebmUrl": "1920-telegraphist.webm",
+  "showcaseHeaderUrl": "1920-telegraphist.jpg",
+  "title": "1920: The Telegraphist",
+  "studio": {
+    "name": "Cubepotato Games",
+    "url": "https://cubepotato.eu"
+  },
+  "shortDescription": "Made strategy rhythm game for HackYeah 2022 during 24 hours in 6-person team as programmer and sound & music artist, also handled a bit of scrum master role. Won 2nd place in Game Development #1 - Polish Great Battles category!",
+  "startDate": "11/2022",
+  "endDate": "11/2022",
+  "url": "1920-telegraphist",
+  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "noncommercial"],
+  "details": [
+    {
+      "header": "Team Size",
+      "content": "6"
+    },
+    {
+      "header": "Roles",
+      "content": "Project Manager | Scrum Master | Gameplay Programmer | Audio Designer | Game Designer"
+    },
+    {
+      "header": "Language",
+      "content": "C#"
+    },
+    {
+      "header": "Engine",
+      "content": "Unity"
+    },
+    {
+      "header": "Platforms",
+      "content": "Windows"
+    },
+    {
+      "header": "Tools",
+      "content": "Visual Studio | Git"
+    }
+  ],
+  "sources": {
+    "showcasePlatform": "Itch.io",
+    "showcaseUrl": "https://thematiaz0.itch.io/1920-telegraphist",
+    "codeUrl": "https://github.com/piratehacker/krakjam-2022"
+  }
+},
+  {
+  "showcaseWebmUrl": "decorporation.webm",
+  "showcaseHeaderUrl": "decorporation.webp",
+  "title": "Decorporation",
+  "studio": {
+    "name": "Cubepotato Games",
+    "url": "https://cubepotato.eu"
+  },
+  "shortDescription": "Made 3D FPS commercial game and published on Steam. Worked on a project wearing different hats - scrum master, programmer and UI designer. Programmed things like upgrade system inspired with Hades, camera system with Cinemachine, implementation of external APIs and handled a lot of various bugs.",
+  "startDate": "01/2022",
+  "endDate": "08/2022",
+  "url": "decorporation",
+  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "gamejam", "commercial", "steam", "scrum"],
+  "details": [
+    {
+      "header": "Team Size",
+      "content": "10+"
+    },
+    {
+      "header": "Roles",
+      "content": "Project Manager | Scrum Master | Optimization Programmer | Gameplay Programmer | Sound Designer | Cutscene Director"
+    },
+    {
+      "header": "Language",
+      "content": "C#"
+    },
+    {
+      "header": "Engine",
+      "content": "Unity"
+    },
+    {
+      "header": "Platforms",
+      "content": "Windows | Linux | Mac"
+    },
+    {
+      "header": "Tools",
+      "content": "Visual Studio | Steamworks | Git | Figma"
     }
   ],
   "sources": {
     "showcasePlatform": "Steam",
     "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
     "codeUrl": "https://github.com/piratehacker/krakjam-2022"
-  },
-  "article": {
-    "sections": [{
-        "header": "Section 1",
-        "text": "This is an example!",
-        "content": "/kicm.webp"
-      },
-      {
-        "header": "Section 2",
-        "text": "This is an example too!",
-        "content": "/decorporation.webp"
-      }
-    ]
   }
 },
 {
   "showcaseWebmUrl": "kicm.webm",
+  "showcaseHeaderUrl": "kicm.webp",
   "title": "Keep it Cool, Man",
   "studio": {
-    "studioLogo": "",
-    "studioName": "Cyberevolver_Studios",
-    "studioUrl": "Cyberevolver_Studios"
+    "name": "Cyberevolver_Studios",
+    "url": "https://cyberevolver-studios.itch.io"
   },
-  "shortDescription": "Bla bla bla 22!",
-  "startDate": "01/2022",
-  "endDate": "08/2022",
+  "shortDescription": "Worked on arcade fast-paced typing game and released Unity game in 3-person team on Steam for free. Made all user interface (including animations created through C# using DOTween), implemented third-party APIs, created game content (like bomb letters, shotgun letters, etc), made Unity editor tools to speed up development process.",
+  "startDate": "08/2021",
+  "endDate": "07/2022",
   "url": "kicm",
-  "tags": ["csharp", "windows", "linux", "mac", "gamejam"],
+  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "noncommercial", "steam"],
   "details": [
     {
       "header": "Team Size",
-      "content": "14 Designers, 6 Programmers, 5 Artists and 2 Producers"
+      "content": "4"
     },
     {
       "header": "Roles",
-      "content": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
+      "content": "Gameplay Programmer | Tool Programmer | Animation Programmer (DOTween) | UI/UX Designer"
+    },
+    {
+      "header": "Language",
+      "content": "C#"
+    },
+    {
+      "header": "Engine",
+      "content": "Unity"
+    },
+    {
+      "header": "Platforms",
+      "content": "Windows | Linux | Mac"
+    },
+    {
+      "header": "Tools",
+      "content": "Visual Studio | Steamworks | Git | Figma"
     }
   ],
   "sources": {
     "showcasePlatform": "Steam",
-    "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
-    "codeUrl": "https://github.com/piratehacker/krakjam-2022"
-  },
-  "article": {
-    "sections": [{
-        "header": "Section 1",
-        "text": "This is an example!",
-        "content": "/kicm.webp"
-      },
-      {
-        "header": "Section 2",
-        "text": "This is an example too!",
-        "content": "/decorporation.webp"
-      }
-    ]
+    "showcaseUrl": "https://store.steampowered.com/app/2000320/Keep_it_Cool_Man",
+    "codeUrl": "https://github.com/Biegus/LetterBattle"
   }
 },
 {
   "showcaseWebmUrl": "tgib.webm",
+  "showcaseHeaderUrl": "tgib.webp",
   "title": "This Game Is Broken",
   "studio": {
-    "studioLogo": "",
-    "studioName": "Cyberevolver_Studios",
-    "studioUrl": "Cyberevolver_Studios"
+    "name": "NullPtr",
+    "url": "https://krakjam.pl"
   },
-  "shortDescription": "Bla bla bla 22!",
-  "startDate": "01/2022",
-  "endDate": "08/2022",
+  "shortDescription": "Built a game in 72 hours with a four-person team in my first stationary game jam named KrakJam. Programmed mainly content such as bad effects when you pick up the glitches. Improved game after the release with postprocessing effects.",
+  "startDate": "01/2020",
+  "endDate": "02/2020",
   "url": "tgib",
-  "tags": ["csharp", "windows", "linux", "mac", "gamejam"],
+  "tags": ["windows", "android", "csharp", "unity", "vs", "git", "noncommercial", "gamejam"],
   "details": [
     {
       "header": "Team Size",
-      "content": "14 Designers, 6 Programmers, 5 Artists and 2 Producers"
+      "content": "4"
     },
     {
       "header": "Roles",
-      "content": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
+      "content": "Gameplay Programmer | Game Designer"
+    },
+    {
+      "header": "Language",
+      "content": "C#"
+    },
+    {
+      "header": "Engine",
+      "content": "Unity"
+    },
+    {
+      "header": "Platforms",
+      "content": "Windows | Android"
+    },
+    {
+      "header": "Tools",
+      "content": "Visual Studio | Git"
     }
   ],
   "sources": {
-    "showcasePlatform": "Steam",
-    "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
-    "codeUrl": "https://github.com/piratehacker/krakjam-2022"
-  },
-  "article": {
-    "sections": [{
-        "header": "Section 1",
-        "text": "This is an example!",
-        "content": "/kicm.webp"
-      },
-      {
-        "header": "Section 2",
-        "text": "This is an example too!",
-        "content": "/decorporation.webp"
-      }
-    ]
+    "showcasePlatform": "Itch.io",
+    "showcaseUrl": "https://thematiaz0.itch.io/this-game-is-broken",
+    "codeUrl": "https://github.com/TheMatiaz0/This-Game-Is-Broken"
   }
 }
 ]

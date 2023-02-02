@@ -4,6 +4,7 @@
 			"name": "C#",
 			"experience": "4 Years",
 			"projectCount": "25+ Projects",
+      "description": "Object-oriented programming language",
 			"tag": "csharp"
 		},
 		{
@@ -11,6 +12,7 @@
 			"name": "JavaScript",
 			"experience": "1 Year",
 			"projectCount": "1 Project",
+      "description": "Masochistic programming language used by majority of websites (TypeScript is a lot better)",
 			"tag": "javascript"
 		},
 		{
@@ -18,17 +20,20 @@
 			"name": "Python",
 			"experience": "1 Year",
 			"projectCount": "1 Project",
+      "description": "High-level, dynamically typed programming language",
 			"tag": "python"
 		},
 		{
 			"iconUrl": "pol.webp",
 			"name": "Polish",
-			"experience": "Native"
+			"experience": "Native",
+      "description": "Language used in Poland"
 		},
 		{
 			"iconUrl": "eng.webp",
 			"name": "English",
-			"experience": "C1 Level"
+			"experience": "C1 Level",
+      "description": "Language used as primary communication between humans"
 		}
 	],
 	"tools": [
@@ -37,6 +42,7 @@
       "name": "Unity", 
       "experience": "4 Years",
       "projectCount": "25+ Projects",
+      "description": "A video game engine that uses C#",
       "tag": "unity"
     },
     {
@@ -44,6 +50,7 @@
       "name": "Visual Studio", 
       "experience": "4 Years",
       "projectCount": "25+ Projects",
+      "description": "An IDE (code editor) for C#",
       "tag": "vs"
     },
     {
@@ -51,6 +58,7 @@
       "name": "Git", 
       "experience": "4 Years",
       "projectCount": "25+ Projects",
+      "description": "A source control language that allows you to do almost conflictless code sharing",
       "tag": "git"
     },
     {
@@ -58,6 +66,7 @@
       "name": "Figma", 
       "experience": "6 Months",
       "projectCount": "3 Projects",
+      "description": "A UI/UX design and graphic design software",
       "tag": "figma"
     },
     {
@@ -65,6 +74,7 @@
       "name": "Photon Fusion", 
       "experience": "1 Year",
       "projectCount": "1 Project",
+      "description": "A multiplayer/networking library for Unity",
       "tag": "fusion"
     }
   ],
@@ -73,36 +83,42 @@
       "iconUrl": "steam.png",
       "name": "SteamVR", 
       "projectCount": "1 Project",
+      "description": "A platform from Valve that behaves as unified space between PC and VR headsets",
       "tag": "steamvr"
     },
     {
       "iconUrl": "windows.png",
       "name": "Windows", 
       "projectCount": "25+ Projects",
+      "description": "An operating system made by Microsoft used by majority of video game users",
       "tag": "windows"
     },
     {
       "iconUrl": "pico.webp",
       "name": "PICO XR", 
       "projectCount": "1 Project",
+      "description": "A platform for PICO VR headsets",
       "tag": "pico"
-    },
-    {
-      "iconUrl": "android.png",
-      "name": "Android", 
-      "projectCount": "1 Project",
-      "tag": "android"
     },
     {
       "iconUrl": "linux.png",
       "name": "Linux", 
       "projectCount": "2 Projects",
+      "description": "A family of open-source operating systems",
       "tag": "linux"
+    },
+    {
+      "iconUrl": "android.png",
+      "name": "Android", 
+      "projectCount": "1 Project",
+      "description": "A mobile operating system based on Linux",
+      "tag": "android"
     },
     {
       "iconUrl": "macOS.png",
       "name": "macOS", 
       "projectCount": "2 Projects",
+      "description": "A Unix operating system",
       "tag": "mac"
     }
   ]

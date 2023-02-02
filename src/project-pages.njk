@@ -7,11 +7,19 @@ permalink: "{{ project.url | slug}}.html"
 layout: default.njk
 ---
 
-<section class="pt-64">
-<h1 class="pb-4 introduction align-middle items-center"><span class="text-white">|</span> {{project.title}}</h1>
-<div class="flex flex-col md:flex-row">
-    <p class="big-paragraph px-4 text-white">{{project.shortDescription}}</p>
-    <div class="flex flex-col md:w-[2700px] md:p-0 p-4 flex-wrap">
+<section>
+<img src="{{project.showcaseHeaderUrl}}" alt="{{project.title}} thumbnail">
+<a href="/" class="flex py-6 justify-start items-center align-middle secondary hover:text-white gap-3">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path class="w-1 h-1" fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+        <h4>Go Back</h4>
+</a>
+<div>
+<h1 class="introduction align-middle leading-snug items-center"><span class="text-white">|</span> {{project.title}}</h1>
+<small class="mx-5 text-base secondary">as <a class="secondary bold hover:text-white" href="{{project.studio.url}}">{{project.studio.name}}</a></small>
+</div>
+<div class="flex flex-col md:flex-row py-6">
+    <p class="big-paragraph pl-4 pr-12 text-white">{{project.shortDescription}}</p>
+    <div class="flex flex-col md:w-[2800px] md:p-0 p-4 flex-wrap">
     {% for detail in project.details%}
     {% set borderClass = "" %}
     {% set paddingClass = "p-4" %}
@@ -26,16 +34,21 @@ layout: default.njk
         <p class="paragraph">{{detail.content}}</p>
     </div>
     {%endfor%}
-        <div class="flex justify-center py-4 gap-6">
-                    <a href="{{projectItem.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph">
+        <div class="flex justify-start py-6 gap-4">
+                    <a href="{{project.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph">
                         <div class="w-6 h-6"> <img src="Steam_icon_logo.svg" alt="Steam logo"></div>Steam
                     </a>
-                    <a href="{{projectItem.sources.codeUrl}}" type="button" class="tracking-wide btn-secondary max-wsm flex flex-wrap align-middle gap-3 justify-center items-center paragraph">
+                    {% if project.sources.codeUrl %}
+                    <a href="{{project.sources.codeUrl}}" type="button" class="tracking-wide btn-secondary max-wsm flex flex-wrap align-middle gap-3 justify-center items-center paragraph">
                         <div class="w-6 h-6"><img src="github-mark-white.svg" alt="GitHub logo"></div>Source Code
                     </a>
+                    {% endif %}
         </div>
     </div>
 </div>
+<section class="text-center py-12 introduction">
+    <h5>More information coming soon...</h5>
+</section>
 {#
 {% for section in project.article.sections %}
     <div class="pt-8 introduction">
