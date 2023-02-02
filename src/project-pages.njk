@@ -8,25 +8,23 @@ layout: default.njk
 ---
 
 <section class="pt-64">
-<h1 class="flex pb-5 introduction justify-center align-middle items-center">{{project.title}}</h1>
-<div class="flex flex-col md:flex-row justify-between gap-y-6">
+<h1 class="flex pb-10 introduction justify-center align-middle items-center">{{project.title}}</h1>
+<div class="flex flex-col md:flex-row">
     <p class="big-paragraph px-8 text-white">{{project.shortDescription}}</p>
-    <div class="flex flex-col w-[2500px] flex-wrap">
+    <div class="flex flex-col md:w-[2700px] md:p-0 p-4 flex-wrap">
     {% for detail in project.details%}
-    <div class="flex border-b justify-between px-8 border-[color:#DCDCDC] text-white">
-        <p class="big-paragraph bold">{{detail.header}}</p>
-        <p class="big-paragraph">{{detail.content}}</p>
+    {% set borderClass = "" %}
+    {% set paddingClass = "p-4" %}
+    {% if loop.first %}
+        {% set paddingClass = "pb-4 px-4" %}
+    {% endif %}
+    {% if not loop.last %}
+        {% set borderClass = "border-b" %}
+    {%endif%}
+    <div class="{{paddingClass}} {{borderClass}} border-[color:#DCDCDC] text-white">
+        <p class="paragraph bold">{{detail.header}}</p>
+        <p class="paragraph">{{detail.content}}</p>
     </div>
-    {#
-    <div class="flex border-b justify-between px-8 border-[color:#DCDCDC] text-white">
-        <p class="big-paragraph bold">Team Size</p>
-        <p class="big-paragraph">14 Designers, 6 Programmers, 5 Artists and 1 Producer</p>
-    </div>
-    <div class="flex border-b justify-between px-8 border-[color:#DCDCDC] text-white">
-        <p class="big-paragraph bold">Platforms</p>
-        <p class="big-paragraph">Windows, Mac, Linux, Android</p>
-    </div>
-    #}
     {%endfor%}
     </div>
 </div>

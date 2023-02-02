@@ -19,6 +19,18 @@
     {
       "header": "Roles",
       "content": "Gameplay Programmer, UI/UX Designer, Game Designer, Scrum Master, Cutscene Director"
+    },
+    {
+      "header": "Language",
+      "content": "C#"
+    },
+    {
+      "header": "Platforms",
+      "content": "Windows, Linux, Mac, Android"
+    },
+    {
+      "header": "Tools",
+      "content": "Unity, Steamworks, Visual Studio, Git"
     }
   ],
   "sources": {
