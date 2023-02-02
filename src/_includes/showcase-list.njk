@@ -1,6 +1,6 @@
 <div class="py-8 grid grid-cols-2 md:grid-cols-4 justify-between gap-y-10">
     {% for skill in skillList %}
-    <div class="flex flex-col justify-center items-center">
+    <div class="flex flex-col justify-start items-center content-center text-center">
         <img class="w-12 h-auto" src="{{skill.iconUrl}}" alt="Showcase Image" />
         <h4>
             {% if skill.projectCount %}
