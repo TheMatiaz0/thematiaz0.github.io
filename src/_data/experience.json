@@ -3,7 +3,7 @@
 			"iconUrl": "csharp.webp",
 			"name": "C#",
 			"experience": "4 Years",
-			"projectCount": "25+ Projects",
+			"projectCount": "5 Projects",
       "description": "Object-oriented programming language",
 			"tag": "csharp"
 		},
@@ -11,7 +11,6 @@
 			"iconUrl": "js.png",
 			"name": "JavaScript",
 			"experience": "1 Year",
-			"projectCount": "1 Project",
       "description": "Masochistic programming language used by majority of websites (TypeScript is a lot better)",
 			"tag": "javascript"
 		},
@@ -19,7 +18,6 @@
 			"iconUrl": "python.webp",
 			"name": "Python",
 			"experience": "1 Year",
-			"projectCount": "1 Project",
       "description": "High-level, dynamically typed programming language",
 			"tag": "python"
 		},
@@ -41,7 +39,7 @@
       "iconUrl": "unity.webp",
       "name": "Unity", 
       "experience": "4 Years",
-      "projectCount": "25+ Projects",
+      "projectCount": "5 Projects",
       "description": "A video game engine that uses C#",
       "tag": "unity"
     },
@@ -49,7 +47,7 @@
       "iconUrl": "vs.webp",
       "name": "Visual Studio", 
       "experience": "4 Years",
-      "projectCount": "25+ Projects",
+      "projectCount": "5 Projects",
       "description": "An IDE (code editor) for C#",
       "tag": "vs"
     },
@@ -57,7 +55,7 @@
       "iconUrl": "git.webp",
       "name": "Git", 
       "experience": "4 Years",
-      "projectCount": "25+ Projects",
+      "projectCount": "5 Projects",
       "description": "A source control language that allows you to do almost conflictless code sharing",
       "tag": "git"
     },
@@ -65,7 +63,7 @@
       "iconUrl": "figma.webp",
       "name": "Figma", 
       "experience": "6 Months",
-      "projectCount": "3 Projects",
+      "projectCount": "2 Projects",
       "description": "A UI/UX design and graphic design software",
       "tag": "figma"
     },
@@ -80,25 +78,11 @@
   ],
   "platforms": [
     {
-      "iconUrl": "steam.png",
-      "name": "SteamVR", 
-      "projectCount": "1 Project",
-      "description": "A platform from Valve that behaves as unified space between PC and VR headsets",
-      "tag": "steamvr"
-    },
-    {
       "iconUrl": "windows.png",
       "name": "Windows", 
-      "projectCount": "25+ Projects",
+      "projectCount": "4 Projects",
       "description": "An operating system made by Microsoft used by majority of video game users",
       "tag": "windows"
-    },
-    {
-      "iconUrl": "pico.webp",
-      "name": "PICO XR", 
-      "projectCount": "1 Project",
-      "description": "A platform for PICO VR headsets",
-      "tag": "pico"
     },
     {
       "iconUrl": "linux.png",
@@ -108,18 +92,39 @@
       "tag": "linux"
     },
     {
-      "iconUrl": "android.png",
-      "name": "Android", 
-      "projectCount": "1 Project",
-      "description": "A mobile operating system based on Linux",
-      "tag": "android"
-    },
-    {
       "iconUrl": "macOS.png",
       "name": "macOS", 
       "projectCount": "2 Projects",
       "description": "A Unix operating system",
       "tag": "mac"
+    },
+    {
+      "iconUrl": "steam.png",
+      "name": "SteamVR", 
+      "projectCount": "1 Project",
+      "description": "A platform from Valve that behaves as unified space between PC and VR headsets",
+      "tag": "steamvr"
+    },
+    {
+      "iconUrl": "pico.webp",
+      "name": "PICO XR", 
+      "projectCount": "1 Project",
+      "description": "A platform for PICO VR headsets",
+      "tag": "pico"
+    },
+    {
+      "iconUrl": "oculus.png",
+      "name": "Oculus", 
+      "projectCount": "1 Project",
+      "description": "Meta VR headsets",
+      "tag": "oculus"
+    },
+    {
+      "iconUrl": "android.png",
+      "name": "Android", 
+      "projectCount": "1 Project",
+      "description": "A mobile operating system based on Linux",
+      "tag": "android"
     }
   ]
 }

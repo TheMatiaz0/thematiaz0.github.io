@@ -35,9 +35,12 @@ layout: default.njk
     </div>
     {%endfor%}
         <div class="flex justify-start py-6 gap-4">
-                    <a href="{{project.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph">
-                        <div class="w-6 h-6"> <img src="Steam_icon_logo.svg" alt="Steam logo"></div>Steam
-                    </a>
+                    <a href="{{project.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph"><div class="w-6 h-6">
+                    {% if project.sources.showcasePlatform == "Steam" %}                 
+                    <img src="Steam_icon_logo.svg"></div>Steam</a>
+                    {% else %}
+                    <img src="itchio.svg"></div>Itch.io</a>
+                    {% endif %}
                     {% if project.sources.codeUrl %}
                     <a href="{{project.sources.codeUrl}}" type="button" class="tracking-wide btn-secondary max-wsm flex flex-wrap align-middle gap-3 justify-center items-center paragraph">
                         <div class="w-6 h-6"><img src="github-mark-white.svg" alt="GitHub logo"></div>Source Code
