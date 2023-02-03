@@ -6,7 +6,7 @@
     "name": "Wenkly Studio",
     "url": "https://www.wenklystudio.com"
   },
-  "shortDescription": "Survival Nation is an open-world online RPG survival game designed for VR. In this game, you will kill hundreds of zombies, acquire weapons, learn new skills, craft, explore the world, complete quests, and most importantly, fight for survival.",
+  "shortDescription": "Responsible for solving release issues through rapid debugging, implementing multiplayer through Photon Fusion, optimization within multiplayer VR seamless open world for Pico and SteamVR. Thinking about others' workflow and how can I help through creation of Unity Editor tools and addition of developer tools for testing. Also, created story quests based on design from Game Designer, implemented new localization and added tutorials to the game.",
   "startDate": "03/2022",
   "endDate": "now",
   "url": "survival-nation",
@@ -18,7 +18,7 @@
     },
     {
       "header": "Roles",
-      "content": "Unity Developer | C# Programmer"
+      "content": "Gameplay Programmer | Tool Programmer | Optimization Programmer | Networking Programmer | Audio Programmer/Designer"
     },
     {
       "header": "Language",
@@ -42,6 +42,7 @@
     "showcaseUrl": "https://store.steampowered.com/app/2153780/Survival_Nation"
   }
 },
+
   
   {
   "showcaseMp4Url": "1920-telegraphist.mp4",
@@ -51,7 +52,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "shortDescription": "Made strategy rhythm game for HackYeah 2022 during 24 hours in 6-person team as programmer and sound & music artist, also handled a bit of scrum master role. Won 2nd place in Game Development #1 - Polish Great Battles category!",
+  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team as programmer, audio designer and scrum master. Won 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CPRK).",
   "startDate": "11/2022",
   "endDate": "11/2022",
   "url": "1920-telegraphist",
@@ -63,7 +64,7 @@
     },
     {
       "header": "Roles",
-      "content": "Project Manager | Scrum Master | Gameplay Programmer | Audio Designer | Game Designer"
+      "content": "Scrum Master | Gameplay Programmer | Audio Designer | Game Designer"
     },
     {
       "header": "Language",
@@ -85,9 +86,11 @@
   "sources": {
     "showcasePlatform": "Itch.io",
     "showcaseUrl": "https://thematiaz0.itch.io/1920-telegraphist",
-    "codeUrl": "https://github.com/piratehacker/krakjam-2022"
+    "codeUrl": "https://github.com/TheMatiaz0/1920-Telegraphist"
   }
 },
+
+
   {
   "showcaseWebmUrl": "decorporation.webm",
   "showcaseHeaderUrl": "decorporation.webp",
@@ -133,6 +136,8 @@
     "codeUrl": "https://github.com/piratehacker/krakjam-2022"
   }
 },
+
+
 {
   "showcaseWebmUrl": "kicm.webm",
   "showcaseHeaderUrl": "kicm.webp",
@@ -178,6 +183,8 @@
     "codeUrl": "https://github.com/Biegus/LetterBattle"
   }
 },
+
+
 {
   "showcaseWebmUrl": "tgib.webm",
   "showcaseHeaderUrl": "tgib.webp",
