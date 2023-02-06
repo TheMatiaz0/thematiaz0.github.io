@@ -89,11 +89,9 @@
     "codeUrl": "https://github.com/TheMatiaz0/1920-Telegraphist"
   }
 },
-
-
-  {
+{
   "showcaseWebmUrl": "decorporation.webm",
-  "showcaseHeaderUrl": "decorporation.webp",
+  "showcaseHeaderUrl": "decorporation.png",
   "title": "Decorporation",
   "studio": {
     "name": "Cubepotato Games",

@@ -15,7 +15,7 @@ layout: default.njk
 </a>
 <div>
 <h1 class="introduction align-middle leading-snug items-center"><span class="text-white">|</span> {{project.title}}</h1>
-<small class="mx-5 text-base secondary">at <a class="secondary bold hover:text-white" href="{{project.studio.url}}">{{project.studio.name}}</a></small>
+<small class="mx-5 text-base secondary">at <a target="_blank" rel="noopener" class="secondary bold hover:text-white" href="{{project.studio.url}}">{{project.studio.name}}</a></small>
 </div>
 <div class="flex flex-col md:flex-row py-6">
     <p class="big-paragraph pl-4 pr-12 text-white">{{project.shortDescription}}</p>
@@ -35,23 +35,20 @@ layout: default.njk
     </div>
     {%endfor%}
         <div class="flex justify-start py-6 gap-4">
-                    <a href="{{project.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph"><div class="w-6 h-6">
+                    <a href="{{project.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph" target="_blank" rel="noopener"><div class="w-6 h-6">
                     {% if project.sources.showcasePlatform == "Steam" %}                 
                     <img src="Steam_icon_logo.svg"></div>Steam</a>
                     {% else %}
                     <img src="itchio.svg"></div>Itch.io</a>
                     {% endif %}
                     {% if project.sources.codeUrl %}
-                    <a href="{{project.sources.codeUrl}}" type="button" class="tracking-wide btn-secondary max-wsm flex flex-wrap align-middle gap-3 justify-center items-center paragraph">
+                    <a href="{{project.sources.codeUrl}}" type="button" class="tracking-wide btn-secondary max-wsm flex flex-wrap align-middle gap-3 justify-center items-center paragraph" target="_blank" rel="noopener">
                         <div class="w-6 h-6"><img src="github-mark-white.svg" alt="GitHub logo"></div>Source Code
                     </a>
                     {% endif %}
         </div>
     </div>
 </div>
-<section class="text-center py-12 introduction">
-    <h5>More information coming soon...</h5>
-</section>
 {#
 {% for section in project.article.sections %}
     <div class="pt-8 introduction">
