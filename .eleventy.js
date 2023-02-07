@@ -1,14 +1,8 @@
 const fs = require("fs");
-const htmlmin = require("html-minifier");
 const nunjucks = require("nunjucks");
 const path = require('path');
 
 module.exports = function (eleventyConfig) {
-  /*
-  if (process.env.ELEVENTY_PRODUCTION) {
-    eleventyConfig.addTransform("htmlmin", htmlminTransform);
-  } 
-  */
   if (!process.env.ELEVENTY_PRODUCTION) {
     eleventyConfig.setBrowserSyncConfig({ callbacks: { ready: browserSyncReady } });
   }
@@ -61,17 +55,3 @@ function browserSyncReady(err, bs) {
     res.end();
   });
 }
-
-/*
-function htmlminTransform(content, outputPath) {
-  if (outputPath.endsWith(".html")) {
-    let minified = htmlmin.minify(content, {
-      useShortDoctype: true,
-      removeComments: true,
-      collapseWhitespace: true
-    });
-    return minified;
-  }
-  return content;
-}
-*/
