@@ -6,7 +6,7 @@
     "name": "Wenkly Studio",
     "url": "https://www.wenklystudio.com"
   },
-  "shortDescription": "Responsible for solving release issues through rapid debugging, implementing multiplayer through Photon Fusion, optimization within multiplayer VR seamless open world for Pico and SteamVR. Thinking about others' workflow and how can I help through creation of Unity Editor tools and addition of developer tools for testing. Also, created story quests based on design from Game Designer, implemented new localization and added tutorials to the game.",
+  "shortDescription": "Responsible for: solving critical bugs through fast debugging, implementing multiplayer with Photon Fusion and optimizing VR seamless open world for Pico and SteamVR. Additionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing. Also responsible of gameplay matters - creating story quests based on design from Game Designer, implementing localization and adding tutorials to the game.",
   "startDate": "03/2022",
   "endDate": "now",
   "url": "survival-nation",
@@ -46,7 +46,7 @@
   
   {
   "showcaseMp4Url": "1920-telegraphist.mp4",
-  "showcaseHeaderUrl": "1920-telegraphist.jpg",
+  "showcaseHeaderUrl": "1920-telegraphist.png",
   "title": "1920: The Telegraphist",
   "studio": {
     "name": "Cubepotato Games",
@@ -185,7 +185,7 @@
 
 {
   "showcaseWebmUrl": "tgib.webm",
-  "showcaseHeaderUrl": "tgib.webp",
+  "showcaseHeaderUrl": "tgib.png",
   "title": "This Game Is Broken",
   "studio": {
     "name": "NullPtr",
@@ -203,7 +203,7 @@
     },
     {
       "header": "Roles",
-      "content": "Gameplay Programmer | Game Designer"
+      "content": "Gameplay Programmer | Game Designer | Scrum Master"
     },
     {
       "header": "Language",

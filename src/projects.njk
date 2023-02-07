@@ -33,27 +33,5 @@ function update() {
     let filtered = parsedProjects.filter(x => x.tags.includes(params.filter));
     let projectList = filtered.length <= 0 ? parsedProjects : filtered;
     projectsDiv.innerHTML = projectList.map(x => nunjucks.renderString(projectTemplate, {projectItem: x})).join('');
-    // buttonsDiv.innerHTML = languages.map(buttonTemplate).join('');;
 }
-
-// const buttonsDiv = document.querySelector('.buttons');
-// const buttonTemplate = (language) => `<button class="btn-secondary" onclick="selectLang('${language}')">${language}</button>`;
-
-/*
-function selectLang(language) {
-    var searchParams;
-    if (language) {
-        searchParams = new URLSearchParams(window.location.search);
-        searchParams.set("filter", language);
-        window.location.search = searchParams.toString();
-    }
-    else {
-        searchParams = new URLSearchParams();
-        window.location.href = `${window.location.origin}${window.location.pathname}`
-    }
-    update();
-}
-*/
-
-
 </script>

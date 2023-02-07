@@ -60,20 +60,20 @@
       "tag": "git"
     },
     {
-      "iconUrl": "figma.webp",
-      "name": "Figma", 
-      "experience": "6 Months",
-      "projectCount": "2 Projects",
-      "description": "A UI/UX design and graphic design software",
-      "tag": "figma"
-    },
-    {
       "iconUrl": "photon.jpg",
       "name": "Photon Fusion", 
       "experience": "1 Year",
       "projectCount": "1 Project",
       "description": "A multiplayer/networking library for Unity",
       "tag": "fusion"
+    },
+    {
+      "iconUrl": "figma.webp",
+      "name": "Figma", 
+      "experience": "6 Months",
+      "projectCount": "2 Projects",
+      "description": "A UI/UX design and graphic design software",
+      "tag": "figma"
     }
   ],
   "platforms": [
