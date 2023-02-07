@@ -26,9 +26,9 @@
 
                     <a target="_blank" rel="noopener" href="{{projectItem.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph"><div class="w-6 h-6">
                     {% if projectItem.sources.showcasePlatform == "Steam" %}                 
-                    <img src="Steam_icon_logo.svg"></div>Steam</a>
+                    <img alt="View Steam page of {{projectItem.title}}" src="Steam_icon_logo.svg"></div>Steam</a>
                     {% else %}
-                    <img src="itchio.svg"></div>Itch.io</a>
+                    <img alt="View Itch.io page of {{projectItem.title}}" src="itchio.svg"></div>Itch.io</a>
                     {% endif %}
             </div>
         </section>

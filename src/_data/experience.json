@@ -60,7 +60,7 @@
       "tag": "git"
     },
     {
-      "iconUrl": "photon.jpg",
+      "iconUrl": "photon.webp",
       "name": "Photon Fusion", 
       "experience": "1 Year",
       "projectCount": "1 Project",
@@ -85,21 +85,21 @@
       "tag": "windows"
     },
     {
-      "iconUrl": "linux.png",
+      "iconUrl": "linux.webp",
       "name": "Linux", 
       "projectCount": "2 Projects",
       "description": "A family of open-source operating systems",
       "tag": "linux"
     },
     {
-      "iconUrl": "macOS.png",
+      "iconUrl": "macOS.webp",
       "name": "macOS", 
       "projectCount": "2 Projects",
       "description": "A Unix operating system",
       "tag": "mac"
     },
     {
-      "iconUrl": "steam.png",
+      "iconUrl": "steam.webp",
       "name": "SteamVR", 
       "projectCount": "1 Project",
       "description": "A platform from Valve that behaves as unified space between PC and VR headsets",
@@ -111,13 +111,6 @@
       "projectCount": "1 Project",
       "description": "A platform for PICO VR headsets",
       "tag": "pico"
-    },
-    {
-      "iconUrl": "oculus.png",
-      "name": "Oculus", 
-      "projectCount": "1 Project",
-      "description": "Meta VR headsets",
-      "tag": "oculus"
     },
     {
       "iconUrl": "android.png",
