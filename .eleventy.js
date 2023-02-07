@@ -4,9 +4,12 @@ const nunjucks = require("nunjucks");
 const path = require('path');
 
 module.exports = function (eleventyConfig) {
+  /*
   if (process.env.ELEVENTY_PRODUCTION) {
     eleventyConfig.addTransform("htmlmin", htmlminTransform);
-  } else {
+  } 
+  */
+  if (!process.env.ELEVENTY_PRODUCTION) {
     eleventyConfig.setBrowserSyncConfig({ callbacks: { ready: browserSyncReady } });
   }
 
@@ -59,6 +62,7 @@ function browserSyncReady(err, bs) {
   });
 }
 
+/*
 function htmlminTransform(content, outputPath) {
   if (outputPath.endsWith(".html")) {
     let minified = htmlmin.minify(content, {
@@ -70,3 +74,4 @@ function htmlminTransform(content, outputPath) {
   }
   return content;
 }
+*/
