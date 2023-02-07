@@ -10,7 +10,7 @@
   "startDate": "03/2022",
   "endDate": "now",
   "url": "survival-nation",
-  "tags": ["steamvr", "oculus", "picoxr", "pico", "csharp", "unity", "vs", "git", "commercial", "steam", "fusion", "3D"],
+  "tags": ["steamvr", "picoxr", "pico", "csharp", "unity", "vs", "git", "commercial", "steam", "fusion", "3D"],
   "details": [
     {
       "header": "Team Size",
@@ -30,7 +30,7 @@
     },
     {
       "header": "Platforms",
-      "content": "SteamVR, Oculus, PICO XR"
+      "content": "SteamVR, PICO XR"
     },
     {
       "header": "Tools",
