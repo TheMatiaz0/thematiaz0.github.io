@@ -97,7 +97,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "shortDescription": "Made 3D FPS commercial game and published on Steam. Worked on a project wearing different hats - scrum master, programmer and UI designer. Programmed things like upgrade system inspired with Hades, camera system with Cinemachine, implementation of external APIs and handled a lot of various bugs.",
+  "shortDescription": "Made 3D FPS commercial game and published on Steam. Worked on a project wearing different hats - scrum master, programmer and UI designer. Programmed things like upgrade system inspired with Hades, camera system with Cinemachine, implementation of external APIs and handled a lot of various bugs. Prior to Steam release this was a gamejam game (named Bulletache back then) made in 5 days for KrakJam 2022 where my responsibilities were similar.",
   "startDate": "01/2022",
   "endDate": "08/2022",
   "url": "decorporation",
@@ -109,7 +109,7 @@
     },
     {
       "header": "Roles",
-      "content": "Project Manager | Scrum Master | Optimization Programmer | Gameplay Programmer | Sound Designer | Cutscene Director"
+      "content": "Project Manager | Scrum Master | Optimization Programmer | Gameplay Programmer | Sound Designer | Cutscene Director | UI Designer"
     },
     {
       "header": "Language",
@@ -137,14 +137,14 @@
 
 
 {
-  "showcaseWebmUrl": "kicm.webm",
+  "showcaseWebmUrl": "kicm.mp4",
   "showcaseHeaderUrl": "kicm.webp",
   "title": "Keep it Cool, Man",
   "studio": {
     "name": "Cyberevolver_Studios",
     "url": "https://cyberevolver-studios.itch.io"
   },
-  "shortDescription": "Worked on arcade fast-paced typing game and released Unity game in 3-person team on Steam for free. Made all user interface (including animations created through C# using DOTween), implemented third-party APIs, created game content (like bomb letters, shotgun letters, etc), made Unity editor tools to speed up development process.",
+  "shortDescription": "Worked on arcade fast-paced typing game and released Unity game in 3-person team on Steam for free. Made and designed all user interface (including animations created through C# using DOTween), implemented third-party APIs, created and designed game content (like bomb letters, shotgun letters, etc), made Unity editor tools to speed up development process, handled marketing and PR inquires.",
   "startDate": "08/2021",
   "endDate": "07/2022",
   "url": "kicm",
@@ -152,7 +152,7 @@
   "details": [
     {
       "header": "Team Size",
-      "content": "4"
+      "content": "3"
     },
     {
       "header": "Roles",
@@ -191,7 +191,7 @@
     "name": "NullPtr",
     "url": "https://krakjam.pl"
   },
-  "shortDescription": "Built a game in 72 hours with a four-person team in my first stationary game jam named KrakJam. Programmed mainly content such as bad effects when you pick up the glitches. Improved game after the release with postprocessing effects.",
+  "shortDescription": "Built a game in 72 hours with a four-person team in my first stationary game jam named KrakJam. Programmed mainly content such as bad effects when you pick up the glitches. Improved game after the release with postprocessing effects. Ported Windows game to Android in Unity.",
   "startDate": "01/2020",
   "endDate": "02/2020",
   "url": "tgib",

@@ -24,7 +24,7 @@
             <div class="flex flex-wrap justify-end flex-row gap-4 m-4">
                     <a title="View {{projectItem.title}} project details" href="{{projectItem.url}}" type="button" class="tracking-wide btn-secondary max-w-sm paragraph">Expand</a>
 
-                    <a href="{{projectItem.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph"><div class="w-6 h-6">
+                    <a target="_blank" rel="noopener" href="{{projectItem.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph"><div class="w-6 h-6">
                     {% if projectItem.sources.showcasePlatform == "Steam" %}                 
                     <img src="Steam_icon_logo.svg"></div>Steam</a>
                     {% else %}
