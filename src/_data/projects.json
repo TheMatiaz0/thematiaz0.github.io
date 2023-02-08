@@ -1,6 +1,6 @@
 [{
   "showcaseWebmUrl": "survival-nation.webm",
-  "showcaseHeaderUrl": "survival-nation.jpg",
+  "showcaseHeaderUrl": "survival-nation.webp",
   "title": "Survival Nation",
   "studio": {
     "name": "Wenkly Studio",
@@ -46,7 +46,7 @@
   
   {
   "showcaseMp4Url": "1920-telegraphist.mp4",
-  "showcaseHeaderUrl": "1920-telegraphist.png",
+  "showcaseHeaderUrl": "1920-telegraphist.webp",
   "title": "1920: The Telegraphist",
   "studio": {
     "name": "Cubepotato Games",
@@ -91,7 +91,7 @@
 },
 {
   "showcaseWebmUrl": "decorporation.webm",
-  "showcaseHeaderUrl": "decorporation.png",
+  "showcaseHeaderUrl": "decorporation.webp",
   "title": "Decorporation",
   "studio": {
     "name": "Cubepotato Games",

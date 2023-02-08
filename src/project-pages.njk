@@ -14,17 +14,17 @@ layout: default.njk
         <h2 class="text-2xl">Go Back</h2>
 </a>
 <div>
-<h1 class="introduction align-middle leading-snug items-center"><span class="text-white">|</span> {{project.title}}</h1>
-<small class="mx-5 text-base secondary">at <a target="_blank" rel="noopener" class="secondary bold hover:text-white" href="{{project.studio.url}}">{{project.studio.name}}</a></small>
+<h1 class="introduction align-middle leading-snug items-center">{{project.title}}</h1>
+<small class="text-base secondary">at <a target="_blank" rel="noopener" class="secondary bold hover:text-white" href="{{project.studio.url}}">{{project.studio.name}}</a></small>
 </div>
 <div class="flex flex-col md:flex-row py-6">
-    <p class="big-paragraph pl-4 pr-12 text-white">{{project.shortDescription}}</p>
-    <div class="flex flex-col md:w-[2800px] md:p-0 p-4 flex-wrap">
+    <p class="md:pr-12 pr-0 text-white md:text-2xl leading-6 text-lg">{{project.shortDescription}}</p>
+    <div class="flex flex-col md:w-[2800px] md:pt-0 pt-6 flex-wrap">
     {% for detail in project.details%}
     {% set borderClass = "" %}
-    {% set paddingClass = "p-4" %}
+    {% set paddingClass = "py-4" %}
     {% if loop.first %}
-        {% set paddingClass = "pb-4 px-4" %}
+        {% set paddingClass = "pb-4 py-4" %}
     {% endif %}
     {% if not loop.last %}
         {% set borderClass = "border-b" %}
