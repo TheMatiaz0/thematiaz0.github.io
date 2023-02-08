@@ -3,29 +3,29 @@ layout: default
 title: Mateusz Kusionowicz | Game Programmer Portfolio
 ---
 
-<section class="pt-64 md:pt-40">
-    <h2 class="whitespace-nowrap introduction"><span class="text-white">|</span> Featured Projects</h2>
+<section class="pt-48 md:pt-40">
+    <h2 class="whitespace-nowrap introduction lg:text-start text-center">Featured Projects</h2>
     {% set featured_projects_count = 2 %}
     {% include "project-list.njk" %}
 </section>
 
 
 <section class="pt-6">
-    <h2 class="introduction"><span class="text-white">|</span> Experience</h2>
+    <h2 class="introduction md:text-start text-center"> Experience</h2>
 <section class="pt-3">
-    <h3 class="whitespace-nowrap introduction">Languages</h2>
+    <h3 class="whitespace-nowrap introduction lg:text-start text-center">Languages</h2>
     {% set skillList = experience.languages %}
     {% include "showcase-list.njk" %}
 </section>
 
 <section class="pt-5">
-    <h3 class="whitespace-nowrap introduction">Development Tools</h2>
+    <h3 class="whitespace-nowrap introduction lg:text-start text-center">Development Tools</h2>
     {% set skillList = experience.tools %}
     {% include "showcase-list.njk" %}
 </section>
 
 <section class="pt-5">
-    <h3 class="whitespace-nowrap introduction">Ported Platforms</h2>
+    <h3 class="whitespace-nowrap introduction lg:text-start text-center">Ported Platforms</h2>
     {% set skillList = experience.platforms %}
     {% include "showcase-list.njk" %}
 </section>
