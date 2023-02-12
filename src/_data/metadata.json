@@ -1,8 +1,9 @@
 {
   "title": "Mateusz Kusionowicz | Game Programmer Portfolio",
-  "description": "Game programming & Unity development portfolio of Mateusz Kusionowicz. Game Programmer at Wenkly Studio.",
+  "description": "Game Programming & Unity Development portfolio of Mateusz Kusionowicz. Game Programmer at Wenkly Studio.",
   "canonical": "http://m.kusionowicz.com",
   "domain": "m.kusionowicz.com",
-  "keywords": "programming, portfolio, game, development, game development, mateusz kusionowicz, c#, gamedev",
-  "image": "PortfolioHeader.png"
+  "keywords": "programming, portfolio, game, development, game development, mateusz kusionowicz, c#, gamedev, .net, unity, dotnet",
+  "image": "/PortfolioHeader.png",
+  "email": "mateusz@kusionowicz.com"
 }
