@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- https://github.com/joshbuchea/HEAD -->
-
-    <!-- Recommended -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <!-- Meta -->
     <meta name="description" content="{{ metadata.description }}" />
+    <meta name="author" content="Mateusz Kusionowicz">
+    <meta name="referrer" content="always">
+    <meta name="robots" content="all">
+    <meta name="keywords" content="{{ metadata.keywords }}">
     <meta name="generator" content="{{ eleventy.generator }}" />
+    <link rel="canonical" href="{{metadata.canonical}}">
 
-    <!-- Icons -->
-    <!-- https://favicon.io/ -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:url" content="{{ metadata.canonical }}">
+    <meta property="og:title" content="{{title or metadata.title}}">
+    <meta property="og:description" content="{{ metadata.description }}">
+    <meta property="og:image" content="{{ metadata.image }}">
+    <meta property="og:see_also" content="https://www.linkedin.com/in/mateusz-kusionowicz">
+    <meta property="og:see_also" content="https://github.com/TheMatiaz0">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="{{metadata.domain}}">
+    <meta property="twitter:url" content="{{metadata.canonical}}">
+    <meta name="twitter:title" content="{{title or metadata.title}}">
+    <meta name="twitter:description" content="{{ metadata.description }}">
+    <meta name="twitter:image" content="{{ metadata.image }}">
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"

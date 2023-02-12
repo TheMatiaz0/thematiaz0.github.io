@@ -1,4 +1,8 @@
 {
   "title": "Mateusz Kusionowicz | Game Programmer Portfolio",
-  "description": "This is my gamedev portfolio."
+  "description": "Game programming & Unity development portfolio of Mateusz Kusionowicz. Game Programmer at Wenkly Studio.",
+  "canonical": "http://thematiaz0.github.io",
+  "domain": "thematiaz0.github.io",
+  "keywords": "programming, portfolio, game, development, game development, mateusz kusionowicz, c#, gamedev",
+  "image": "PortfolioHeader.png"
 }
