@@ -6,7 +6,7 @@
     "name": "Wenkly Studio",
     "url": "https://www.wenklystudio.com"
   },
-  "shortDescription": "Responsible for: solving critical bugs through fast debugging, implementing multiplayer with Photon Fusion and optimizing VR seamless open world for Pico and SteamVR. Additionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing. Also responsible of gameplay matters - creating story quests based on design from Game Designer, implementing localization and adding tutorials to the game.",
+  "shortDescription": "Working on VR seamless open world multiplayer shooter game with survival and RPG elements, released on SteamVR and Pico. Responsible for: solving critical bugs through fast debugging, implementing multiplayer with Photon Fusion and optimizing VR seamless open world for Pico and SteamVR. Additionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing. Also responsible of gameplay matters - creating story quests based on design from Game Designer, implementing localization and adding tutorials to the game.",
   "startDate": "03/2022",
   "endDate": "present",
   "url": "survival-nation",
@@ -144,7 +144,7 @@
     "name": "Cyberevolver_Studios",
     "url": "https://cyberevolver-studios.itch.io"
   },
-  "shortDescription": "Worked on arcade fast-paced typing game and released Unity game in 3-person team on Steam for free. Made and designed all user interface (including animations created through C# using DOTween), implemented third-party APIs, created and designed game content (like bomb letters, shotgun letters, etc), made Unity editor tools to speed up development process, handled marketing and PR inquires.",
+  "shortDescription": "Worked on arcade fast-paced typing game and released Unity game in 3-person team on Steam for free. Made and designed all user interface (including animations created through C# using DOTween), implemented third-party APIs, created and designed game content (like bomb letters, shotgun letters, etc.), made Unity editor tools to speed up development process, handled marketing and PR inquires.",
   "startDate": "08/2021",
   "endDate": "07/2022",
   "url": "kicm",
@@ -191,7 +191,7 @@
     "name": "NullPtr",
     "url": "https://krakjam.pl"
   },
-  "shortDescription": "Built a game in 72 hours with a four-person team in my first stationary game jam named KrakJam. Programmed mainly content such as bad effects when you pick up the glitches. Improved game after the release with postprocessing effects. Ported Windows game to Android in Unity.",
+  "shortDescription": "Built a game in 72 hours with a four-person team in my first stationary game jam named KrakJam. Programmed content such as glitch effects (screen rotate, audio mix underpitch, camera rotation in 3D space). Improved game after the release with postprocessing effects. Ported Windows game to Android in Unity.",
   "startDate": "01/2020",
   "endDate": "02/2020",
   "url": "tgib",
