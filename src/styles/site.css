@@ -111,3 +111,49 @@ h1, h2, h3, h4, h5, h6 {
 .secondary {
   color: var(--secondary-color);
 }
+
+.btn-secondary:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+header {
+  z-index: 2;
+}
+
+#dropdownSearchInput {
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 21px 32px 12px 11px;
+  margin-bottom: 6px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background-color: var(--background-color);
+}
+
+#dropdownSearchInput:focus {outline: none}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--background-color);
+  min-width: 230px;
+  border: 1px solid black;
+  color: var(--secondary-color);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 6px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black}
+
+.show {display:block;}

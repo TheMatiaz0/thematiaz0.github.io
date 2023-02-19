@@ -2,14 +2,22 @@
 layout: default
 permalink: "{{ page.filePathStem }}.html"
 ---
-
-<section class="py-64 md:py-40">
-    <a href="/" class="flex py-6 justify-start items-center align-middle secondary hover:text-white gap-3">
+<script src="dropdown.js"></script>
+<section class="py-64 md:py-40 align-middle items-center content-center">
+    <a href="/" class="flex py-6 justify-start items-center align-middle secondary hover:text-white gap-3 max-w-[200px]">
         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path class="w-1 h-1" fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
         <h2 class="text-2xl">Go Back</h2>
     </a>
 <div class="flex justify-between">
-    <h2 class="whitespace-nowrap introduction">All Projects</h2>
+    <h2 class="whitespace-nowrap introduction"><div class="dropdown">
+  <button onmousedown="toggleDropdown()" class="text-sm btn-secondary align-middle"><span class="tag-text"></span> ▼</button>
+  <div id="dropdown" class="dropdown-content">
+    <input type="text" placeholder="Search..." id="dropdownSearchInput" onkeyup="filterFunction()">
+    <a class="text-sm" href="/projects">All</a>
+    <div class="options">
+    </div>
+  </div>
+</div> Projects</h2>
     <div class="buttons flex flex-wrap justify-between gap-4"></div>
 </div>
     <div class="projects grid grid-cols-1 md:grid-cols-2 justify-between py-6 gap-12"></div>
@@ -27,11 +35,50 @@ const projectsDiv = document.querySelector('.projects');
 const parsedProjects = JSON.parse(`{{ projects | json }}`);
 const projectTemplate = `{% includeraw "./src/_includes/project-card.njk" %}`;
 
+const buttonsDiv = document.querySelector('.options');
+const parsedOptions = JSON.parse(`{{ experience | json }}`);
+const buttonTemplate = (name, tag) => `<a class="text-sm" href="/projects?filter=${tag}">${name}</a>`;
+
+const tagSpan = document.querySelector('.tag-text');
+const defaultText = "All";
+
 update();
 
 function update() {
+  updateProjectList();
+  updateDropdown();
+}
+
+function updateProjectList() {
     let filtered = parsedProjects.filter(x => x.tags.includes(params.filter));
     let projectList = filtered.length <= 0 ? parsedProjects : filtered;
     projectsDiv.innerHTML = projectList.map(x => nunjucks.renderString(projectTemplate, {projectItem: x})).join('');
+}
+
+function updateDropdown() {
+    let tagText = defaultText;
+
+    if (params.filter) {
+      for (const optionArray of Object.values(parsedOptions)) {
+      const match = optionArray.find(item => item.tag === params.filter);
+        if (match) {
+          tagText = match.name;
+          break;
+        }
+      }
+    }
+    tagSpan.innerHTML = tagText;
+
+    const buttons = Object.values(parsedOptions).flatMap(items => {
+    if (!Array.isArray(items)) {
+      return [];
+    }
+      return items.map(item => {
+        if (item.tag) {
+          return buttonTemplate(item.name, item.tag)
+        }
+      });
+    });
+    buttonsDiv.innerHTML = buttons.join('');
 }
 </script>
