@@ -117,6 +117,10 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none;
 }
 
+header {
+  z-index: 2;
+}
+
 #dropdownSearchInput {
   box-sizing: border-box;
   font-size: 16px;

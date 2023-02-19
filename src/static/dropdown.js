@@ -17,3 +17,11 @@ function filterFunction() {
         }
     }
 }
+
+function closeDropdown(event) {
+    if (event && !event.target.closest(".dropdown")) {
+        document.getElementById("dropdown").classList.remove("show");
+    }
+}
+
+document.body.addEventListener("click", closeDropdown);
