@@ -11,15 +11,13 @@
 			"iconUrl": "js.png",
 			"name": "JavaScript",
 			"experience": "1 Year",
-      "description": "Masochistic programming language used by majority of websites (TypeScript is a lot better)",
-			"tag": "javascript"
+      "description": "Masochistic programming language used by majority of websites (TypeScript is a lot better)"
 		},
 		{
 			"iconUrl": "python.webp",
 			"name": "Python",
 			"experience": "1 Year",
-      "description": "High-level, dynamically typed programming language",
-			"tag": "python"
+      "description": "High-level, dynamically typed programming language"
 		},
 		{
 			"iconUrl": "pol.webp",
