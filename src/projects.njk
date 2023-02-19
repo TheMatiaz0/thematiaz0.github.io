@@ -11,8 +11,9 @@ permalink: "{{ page.filePathStem }}.html"
 <div class="flex justify-between">
     <h2 class="whitespace-nowrap introduction"><div class="dropdown">
   <button onmousedown="toggleDropdown()" class="text-sm btn-secondary align-middle"><span class="tag-text"></span> ▼</button>
-  <div id="myDropdown" class="dropdown-content">
-    <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+  <div id="dropdown" class="dropdown-content">
+    <input type="text" placeholder="Search..." id="dropdownSearchInput" onkeyup="filterFunction()">
+    <a class="text-sm" href="/projects">All</a>
     <div class="options">
     </div>
   </div>
@@ -44,6 +45,17 @@ const defaultText = "All";
 update();
 
 function update() {
+  updateProjectList();
+  updateDropdown();
+}
+
+function updateProjectList() {
+    let filtered = parsedProjects.filter(x => x.tags.includes(params.filter));
+    let projectList = filtered.length <= 0 ? parsedProjects : filtered;
+    projectsDiv.innerHTML = projectList.map(x => nunjucks.renderString(projectTemplate, {projectItem: x})).join('');
+}
+
+function updateDropdown() {
     let tagText = defaultText;
 
     if (params.filter) {
@@ -57,10 +69,6 @@ function update() {
     }
     tagSpan.innerHTML = tagText;
 
-    let filtered = parsedProjects.filter(x => x.tags.includes(params.filter));
-    let projectList = filtered.length <= 0 ? parsedProjects : filtered;
-    projectsDiv.innerHTML = projectList.map(x => nunjucks.renderString(projectTemplate, {projectItem: x})).join('');
-    
     const buttons = Object.values(parsedOptions).flatMap(items => {
     if (!Array.isArray(items)) {
       return [];
@@ -71,7 +79,6 @@ function update() {
         }
       });
     });
-  
     buttonsDiv.innerHTML = buttons.join('');
 }
 </script>
