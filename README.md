@@ -1,2 +1,3 @@
-# 2.0_thematiaz0.github.io
-A updated version of my portfolio, available on https://thematiaz0.github.io
+# thematiaz0.github.io
+My portfolio, available also on https://m.kusionowicz.com
+Created with 11ty, tech stack: Nunjucks, CSS, JavaScript and JSON.
