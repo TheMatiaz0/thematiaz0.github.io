@@ -1,2 +1,4 @@
+Sitemap: https://m.kusionowicz.com/sitemap.xml
+
 User-agent: *
-Allow: /
+Disallow:
