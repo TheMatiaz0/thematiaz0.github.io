@@ -2,7 +2,7 @@
 	"languages": [{
 			"iconUrl": "csharp.webp",
 			"name": "C#",
-			"experience": "4 Years",
+			"experience": "2 Years",
 			"projectCount": "5 Projects",
       "description": "Object-oriented programming language",
 			"tag": "csharp"
@@ -36,7 +36,7 @@
     {
       "iconUrl": "unity.webp",
       "name": "Unity", 
-      "experience": "4 Years",
+      "experience": "2 Years",
       "projectCount": "5 Projects",
       "description": "A video game engine that uses C#",
       "tag": "unity"
@@ -44,7 +44,7 @@
     {
       "iconUrl": "vs.webp",
       "name": "Visual Studio", 
-      "experience": "4 Years",
+      "experience": "2 Years",
       "projectCount": "5 Projects",
       "description": "An IDE (code editor) for C#",
       "tag": "vs"
@@ -52,7 +52,7 @@
     {
       "iconUrl": "git.webp",
       "name": "Git", 
-      "experience": "4 Years",
+      "experience": "2 Years",
       "projectCount": "5 Projects",
       "description": "A source control language that allows you to do almost conflictless code sharing",
       "tag": "git"
