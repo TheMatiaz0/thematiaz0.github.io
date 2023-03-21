@@ -6,7 +6,7 @@
     "name": "Wenkly Studio",
     "url": "https://www.wenklystudio.com"
   },
-  "shortDescription": "Working on VR seamless open world multiplayer shooter game with survival and RPG elements, released on SteamVR and Pico. Responsible for: solving critical bugs through fast debugging, implementing multiplayer with Photon Fusion and optimizing VR seamless open world for Pico and SteamVR. Additionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing. Also responsible of gameplay matters - creating story quests based on design from Game Designer, implementing localization and adding tutorials to the game.",
+  "shortDescription": "Working on VR seamless open world multiplayer shooter game with survival and RPG elements. Currently released on SteamVR and Pico. \n\nResponsible for:\n - solving critical bugs through fast debugging, \n- implementing multiplayer gameplay features using Photon Fusion, \n- creating utility code for user interface (like custom Scroll View and responsive background adjusted to the text), \n- optimizing VR seamless open world for Pico and SteamVR. \n\nAdditionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing.",
   "startDate": "03/2022",
   "endDate": "present",
   "url": "survival-nation",
@@ -52,7 +52,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team as programmer, audio designer and scrum master. Won 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
+  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team in a role of programmer, audio designer and scrum master. \n\nWon 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
   "startDate": "11/2022",
   "endDate": "11/2022",
   "url": "1920-telegraphist",
@@ -97,7 +97,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "shortDescription": "Made 3D FPS commercial game and published on Steam. Worked on a project wearing different hats - scrum master, programmer and UI designer. Programmed things like upgrade system inspired with Hades, camera system with Cinemachine, implementation of external APIs and handled a lot of various bugs. Prior to Steam release this was a gamejam game (named Bulletache back then) made in 5 days for KrakJam 2022 where my responsibilities were similar.",
+  "shortDescription": "Made 3D FPS commercial game and published on Steam. \n\nWorked on a project wearing different hats - scrum master, programmer and UI designer. \n\nProgrammed things like upgrade system inspired with Hades, camera system with Cinemachine, implementation of external APIs and handled a lot of various bugs. Measured performance bottlenecks and fixed them using Unity Profiler. \n\nPrior to Steam release this was a game jam game (named Bulletache back then) made in 5 days for KrakJam 2022 where my responsibilities were similar.",
   "startDate": "01/2022",
   "endDate": "08/2022",
   "url": "decorporation",
@@ -132,6 +132,14 @@
     "showcasePlatform": "Steam",
     "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
     "codeUrl": "https://github.com/piratehacker/krakjam-2022"
+  },
+  "article": {
+    "sections": [{
+      "header": "Performance Comparison",
+      "text": "Here's performance comparison of Decorporation between optimized version (from 21.10) and previous one (from 14.09):",
+      "content": "https://www.youtube.com/embed/Ig-jOWTWkF4",
+      "contentType": "youtube"
+    }]
   }
 },
 
@@ -144,7 +152,7 @@
     "name": "Cyberevolver_Studios",
     "url": "https://cyberevolver-studios.itch.io"
   },
-  "shortDescription": "Worked on arcade fast-paced typing game and released Unity game in 3-person team on Steam for free. Made and designed all user interface (including animations created through C# using DOTween), implemented third-party APIs, created and designed game content (like bomb letters, shotgun letters, etc.), made Unity editor tools to speed up development process, handled marketing and PR inquires.",
+  "shortDescription": "Worked on this arcade fast-paced typing game with 3 people and released it on Steam for free. \n\nMade and designed all user interface (including animations created through C# using DOTween), implemented third-party APIs, created and designed game content (like bomb letters, shotgun letters, etc.), made Unity editor tools to speed up development process, handled marketing and PR inquires.",
   "startDate": "08/2021",
   "endDate": "07/2022",
   "url": "kicm",
@@ -179,6 +187,20 @@
     "showcasePlatform": "Steam",
     "showcaseUrl": "https://store.steampowered.com/app/2000320/Keep_it_Cool_Man",
     "codeUrl": "https://github.com/Biegus/LetterBattle"
+  },
+  "article": {
+    "sections": [{
+      "header": "Devlogs",
+      "text": "I decided to make couple devlogs before game release. They describe our inspirations, contain speedarts of making user interface and explain the philosophy behind Keep it Cool, Man:",
+      "content": "https://www.youtube.com/embed/videoseries?list=PLS9AyL5saOzWf5uXNE0IBtBC1K1Meu-vt",
+      "contentType": "youtube"
+    },
+    {
+      "header": "PGA 2021",
+      "text": "I was also at the Poznań Game Arena 2021 (one of the biggest video game trade show in Poland) where with my friend we showcased Keep it Cool, Man to thousands of people! It was great having all of these feedback from various people and how they play the game!",
+      "content": "pga2021.webp",
+      "contentType": "image"
+    }]
   }
 },
 
@@ -191,7 +213,7 @@
     "name": "NullPtr",
     "url": "https://krakjam.pl"
   },
-  "shortDescription": "Built a game in 72 hours with a four-person team in my first stationary game jam named KrakJam. Programmed content such as glitch effects (screen rotate, audio mix underpitch, camera rotation in 3D space). Improved game after the release with postprocessing effects. Ported Windows game to Android in Unity.",
+  "shortDescription": "Built a game in 72 hours with a four-person team on my first stationary game jam named KrakJam (2020 edition). \n\nProgrammed content such as glitch effects (screen rotate, audio mix underpitch, camera rotation in 3D space). \n\nImproved game after the release with postprocessing effects.",
   "startDate": "01/2020",
   "endDate": "02/2020",
   "url": "tgib",
@@ -226,6 +248,14 @@
     "showcasePlatform": "Itch.io",
     "showcaseUrl": "https://thematiaz0.itch.io/this-game-is-broken",
     "codeUrl": "https://github.com/TheMatiaz0/This-Game-Is-Broken"
+  },
+  "article": {
+    "sections": [{
+      "header": "Origin",
+      "text": "Our work began after reveal of the theme, which in 2020 was repair.\n\nWe immediately started thinking about something unconventional, which is... fixing the game you are currently playing.\n\n Initially, we thought about a platformer shooter, but in the end we decided on an endless runner with the ability to go backwards (the only thing that pushes you forward is a wave of bugged letters like this overflow bug/kill screen in Pac-Man, which our graphic designer was inspired by):",
+      "content": "https://www.youtube.com/embed/NKKfW8X9uYk",
+      "contentType": "youtube"
+    }]
   }
 }
 ]
