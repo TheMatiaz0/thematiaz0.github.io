@@ -15,6 +15,7 @@
     --h5-font-size: 1.5rem;
     --h6-font-size: 1.3rem;
     --p-font-size: 1.15rem;
+    --p-medium-font-size: 1.24rem;
     --p-big-font-size: 1.43rem;
     --small-font-size: 1.05rem;
     --smaller-font-size: 0.85rem;
@@ -79,6 +80,10 @@ h6 {
 .paragraph {
   font-size: var(--p-font-size);
 } 
+
+.md-paragraph {
+  font-size: var(--p-medium-font-size);
+}
 
 .big-paragraph {
   font-size: var(--p-big-font-size);
@@ -157,3 +162,16 @@ header {
 .dropdown-content a:hover {background-color: black}
 
 .show {display:block;}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
