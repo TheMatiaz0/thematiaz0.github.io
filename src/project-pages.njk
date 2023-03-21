@@ -17,9 +17,9 @@ layout: default.njk
 <h1 class="introduction align-middle leading-snug items-center">{{project.title}}</h1>
 <small class="text-base secondary">at <a target="_blank" rel="noopener" class="secondary bold hover:text-white" href="{{project.studio.url}}">{{project.studio.name}}</a></small>
 </div>
-<div class="flex flex-col md:flex-row py-6">
-    <p class="md:pr-12 pr-0 text-white md:text-2xl leading-6 text-lg">{{project.shortDescription}}</p>
-    <div class="flex flex-col md:w-[2800px] md:pt-0 pt-6 flex-wrap">
+<div class="grid grid-cols-1 md:grid-cols-10 py-6">
+    <p class="md:pr-12 pr-0 text-white md:text-2xl md-paragraph whitespace-pre-line col-span-6">{{project.shortDescription}}</p>
+    <div class="flex flex-col md:pt-0 pt-6 flex-wrap flex-grow-4 col-span-4">
     {% for detail in project.details%}
     {% set borderClass = "" %}
     {% set paddingClass = "py-4" %}
@@ -29,7 +29,7 @@ layout: default.njk
     {% if not loop.last %}
         {% set borderClass = "border-b" %}
     {%endif%}
-    <div class="{{paddingClass}} {{borderClass}} border-[color:#DCDCDC] text-white">
+    <div class="{{paddingClass}} {{borderClass}} border-[color:#DCDCDC] text-white col-span-4">
         <p class="paragraph bold">{{detail.header}}</p>
         <p class="paragraph">{{detail.content}}</p>
     </div>
@@ -49,21 +49,23 @@ layout: default.njk
         </div>
     </div>
 </div>
-{#
 {% for section in project.article.sections %}
     <div class="pt-8 introduction">
-        <h3>{{section.header}}</h3>
-        <div class="flex justify-center">
-            {%if loop.index % 2 == 0 %}
-            <p>{{section.text}}</p>
-            <img class="w-[700px] h-auto" src="{{section.content}}" />
-            {% else %}
-            <img class="w-[700px] h-auto" src="{{section.content}}" />
-            <p>{{section.text}}</p>
+        <h2>{{section.header}}</h2>
+        <div class="pb-2">
+            <p class="pb-4 pt-1.5 md-paragraph text-white whitespace-pre-line">{{section.text}}</p>
+            {% if section.contentType == "youtube" %}
+                <div class="video-container">
+                    <iframe
+                    src="{{section.content}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             {% endif %}
+            {% if section.contentType == "image" %}
+                <img src="{{section.content}}" />
+            {% endif %}
+
         </div>
     </div>
-{%endfor%}
-#}
+{% endfor %}
 
 </section>
