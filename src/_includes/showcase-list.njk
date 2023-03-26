@@ -14,15 +14,15 @@
         {% if skill.experience %}
         <h5 class="text-white leading-tight small">{{skill.experience}}
         {% endif %} 
-        {% if skill.projectCount %} 
+        {% if skill.projectCount and skill.experience %} 
         | 
-
+        {% endif %}
         <a href="/projects?filter={{skill.tag}}" class="secondary hover:text-white">
         <u class="bold">
             {{skill.projectCount}}
         </u>
         </a>
-        {% endif %}</h5>
+        </h5>
     </div>
     {% endfor %}
 </div>
