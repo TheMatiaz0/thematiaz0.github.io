@@ -97,7 +97,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "shortDescription": "Made 3D FPS commercial game and published on Steam. \n\nWorked on a project wearing different hats - scrum master, programmer and UI designer. \n\nProgrammed things like upgrade system inspired with Hades, camera system with Cinemachine, implementation of external APIs and handled a lot of various bugs. Measured performance bottlenecks and fixed them using Unity Profiler. \n\nPrior to Steam release this was a game jam game (named Bulletache back then) made in 5 days for KrakJam 2022 where my responsibilities were similar.",
+  "shortDescription": "Made 3D FPS commercial game and published on Steam. \n\nWorked on a project wearing different hats - scrum master, programmer and UI designer. \n\nProgrammed things like upgrade system inspired with Hades, camera system with Cinemachine, implementation of external APIs and handled a lot of various bugs. Measured performance bottlenecks and fixed them using Unity Profiler. \n\nPrior to Steam release this was a gamejam project (named Bulletache back then) made in 5 days for KrakJam 2022 where my responsibilities were similar.",
   "startDate": "01/2022",
   "endDate": "08/2022",
   "url": "decorporation",

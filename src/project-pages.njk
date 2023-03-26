@@ -18,7 +18,7 @@ layout: default.njk
 <small class="text-base secondary">at <a target="_blank" rel="noopener" class="secondary bold hover:text-white" href="{{project.studio.url}}">{{project.studio.name}}</a></small>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-10 py-6">
-    <p class="md:pr-12 pr-0 text-white md:text-2xl md-paragraph whitespace-pre-line col-span-6">{{project.shortDescription}}</p>
+    <p class="md:pr-12 pr-0 text-white md:text-xl md-paragraph whitespace-pre-line col-span-6">{{project.shortDescription}}</p>
     <div class="flex flex-col md:pt-0 pt-6 flex-wrap flex-grow-4 col-span-4">
     {% for detail in project.details%}
     {% set borderClass = "" %}
