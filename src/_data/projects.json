@@ -6,7 +6,7 @@
     "name": "Wenkly Studio",
     "url": "https://www.wenklystudio.com"
   },
-  "shortDescription": "Working on VR seamless open world multiplayer shooter game with survival and RPG elements. Currently released on SteamVR and Pico. \n\nResponsible for:\n - solving critical bugs through fast debugging, \n- implementing multiplayer gameplay features using Photon Fusion, \n- creating utility code for user interface (like custom Scroll View and responsive background adjusted to the text), \n- optimizing VR seamless open world for Pico and SteamVR. \n\nAdditionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing.",
+  "shortDescription": "Working on VR seamless open world multiplayer shooter game with survival and RPG elements. Currently released on SteamVR and Pico. \n\nResponsible for:\n • solving critical bugs through fast debugging, \n• implementing multiplayer gameplay features using Photon Fusion, \n• creating utility code for user interface (like custom Scroll View and responsive background adjusted to the text), \n• optimizing VR seamless open world for Pico and SteamVR. \n\nAdditionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing.",
   "startDate": "03/2022",
   "endDate": "present",
   "url": "survival-nation",
@@ -52,7 +52,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team in a role of programmer, UI designer, audio designer and scrum master. \n\nWon 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK). \n\nIn this gamejam project I was responsible for: designing and implementing UI with animations using DOTween, programming visual-audio to BPM response, creating audio using interwar period samples and mixing it dynamically in Unity. I also deployed an iteration system (creating a feature, testing and improving based on the feedback from other people around us) and controlling the game balance to make it more fun.",
+  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team in a role of programmer, UI designer, audio designer and scrum master. \n\nWon 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK). \n\nIn the project I was responsible for: \n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us), \n • balancing the gameplay mechanics to make it more fun.",
   "startDate": "11/2022",
   "endDate": "11/2022",
   "url": "1920-telegraphist",
@@ -97,7 +97,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "shortDescription": "Made 3D FPS commercial game and published on Steam. \n\nWorked on a project wearing different hats - scrum master, programmer and UI designer. \n\nProgrammed things like upgrade system inspired with Hades, camera system with Cinemachine, implementation of external APIs and handled a lot of various bugs. Measured performance bottlenecks and fixed them using Unity Profiler. \n\nPrior to Steam release this was a gamejam project (named Bulletache back then) made in 5 days for KrakJam 2022 where my responsibilities were similar.",
+  "shortDescription": "Made 3D FPS commercial game and published on Steam. \n\nWorked on a project wearing different hats - scrum master, programmer and UI designer - in general - game producer.\n\n I was responsible for:\n • programming upgrade system inspired with Hades game,\n• implementing camera system with Cinemachine,\n• implementing external APIs like Steamworks, Discord API, etc,\n • bug-fixes and working with the team to handle a lot of various bugs. \n • measuring performance bottlenecks and fixing them using Unity Profiler. \n\nPrior to Steam release this was a gamejam project (named Bulletache back then) made in 5 days for KrakJam 2022.",
   "startDate": "01/2022",
   "endDate": "08/2022",
   "url": "decorporation",
@@ -152,7 +152,7 @@
     "name": "Cyberevolver_Studios",
     "url": "https://cyberevolver-studios.itch.io"
   },
-  "shortDescription": "Made an arcade fast-paced typing game with 3 people and released it on Steam for free. \n\nMade and designed all user interface (including animations created through C# using DOTween), implemented third-party APIs, created and designed game content (like bomb letters, shotgun letters, etc.), made Unity editor tools to speed up development process, handled marketing and PR inquires.",
+  "shortDescription": "Made an arcade fast-paced typing game with 3 people and released it on Steam for free. \n\nI was responsible for:\n • designing and implementing all of the user interface (including animations created through C# using DOTween).\n • implementing third-party APIs, \n • created and designed game content (like bomb letters, shotgun letters, etc.).\n • coding Unity editor tools to speed up development process.\n • handling marketing and PR inquires with players, influencers and journalists.",
   "startDate": "08/2021",
   "endDate": "07/2022",
   "url": "kicm",
@@ -247,7 +247,7 @@
     "name": "NullPtr",
     "url": "https://krakjam.pl"
   },
-  "shortDescription": "Built a game in 72 hours with a four-person team on my first stationary game jam named KrakJam (2020 edition). \n\nProgrammed content such as glitch effects (screen rotate, audio mix underpitch, camera rotation in 3D space). \n\nImproved game after the release with postprocessing effects.",
+  "shortDescription": "Built a game in 72 hours with a four-person team on my first stationary game jam named KrakJam (2020).\n\n I was responsible for: \n• programming glitch effects (screen rotate, audio mix underpitch, camera rotation in 3D space), \n• implementing postprocessing effects,\n• implementing using Game Jolt API scoreboard system and login system.",
   "startDate": "01/2020",
   "endDate": "02/2020",
   "url": "tgib",
