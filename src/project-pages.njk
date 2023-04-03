@@ -63,9 +63,46 @@ layout: default.njk
             {% if section.contentType == "image" %}
                 <img src="{{section.content}}" />
             {% endif %}
-
+            {% if section.contentType == "video" %}
+                <video class="culled-video" title="Keep it Cool, Man" muted="muted" loop>
+                    <source src="{{section.content}}" type="video/mp4">
+                    Your browser does not support the video tag or the file format of this video.
+                </video>
+            {% endif %}
         </div>
     </div>
 {% endfor %}
-
 </section>
+
+<script>
+// shoutout and thanks to https://benfrain.com/automatically-play-and-pause-video-as-it-enters-and-leaves-the-viewport-screen
+function cullVideo() {
+    let videos = document.querySelectorAll(".culled-video");
+    videos.forEach((video) => {
+        video.muted = true;
+        let playPromise = video.play();
+        if (playPromise !== undefined) {
+            playPromise.then((_) => {
+                let observer = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((entry) => {
+                            if (
+                                entry.intersectionRatio !== 1 &&
+                                !video.paused
+                            ) {
+                                video.pause();
+                            } else if (video.paused) {
+                                video.play();
+                            }
+                        });
+                    },
+                    { threshold: 0.2 }
+                );
+                observer.observe(video);
+            });
+        }
+    });
+}
+
+cullVideo();
+</script>

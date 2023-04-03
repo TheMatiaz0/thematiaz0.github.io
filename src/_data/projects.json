@@ -52,7 +52,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team in a role of programmer, audio designer and scrum master. \n\nWon 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
+  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team in a role of programmer, UI designer, audio designer and scrum master. \n\nWon 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK). \n\nIn this gamejam project I was responsible for: designing and implementing UI with animations using DOTween, programming visual-audio to BPM response, creating audio using interwar period samples and mixing it dynamically in Unity. I also deployed an iteration system (creating a feature, testing and improving based on the feedback from other people around us) and controlling the game balance to make it more fun.",
   "startDate": "11/2022",
   "endDate": "11/2022",
   "url": "1920-telegraphist",
@@ -64,7 +64,7 @@
     },
     {
       "header": "Roles",
-      "content": "Scrum Master | Gameplay Programmer | Audio Designer | Game Designer"
+      "content": "Scrum Master | Gameplay Programmer | Audio Designer | Game Designer | UI Designer"
     },
     {
       "header": "Language",
@@ -152,7 +152,7 @@
     "name": "Cyberevolver_Studios",
     "url": "https://cyberevolver-studios.itch.io"
   },
-  "shortDescription": "Worked on this arcade fast-paced typing game with 3 people and released it on Steam for free. \n\nMade and designed all user interface (including animations created through C# using DOTween), implemented third-party APIs, created and designed game content (like bomb letters, shotgun letters, etc.), made Unity editor tools to speed up development process, handled marketing and PR inquires.",
+  "shortDescription": "Made an arcade fast-paced typing game with 3 people and released it on Steam for free. \n\nMade and designed all user interface (including animations created through C# using DOTween), implemented third-party APIs, created and designed game content (like bomb letters, shotgun letters, etc.), made Unity editor tools to speed up development process, handled marketing and PR inquires.",
   "startDate": "08/2021",
   "endDate": "07/2022",
   "url": "kicm",
@@ -194,6 +194,40 @@
       "text": "I decided to make couple devlogs before game release. They describe our inspirations, contain speedarts of making user interface and explain the philosophy behind Keep it Cool, Man:",
       "content": "https://www.youtube.com/embed/videoseries?list=PLS9AyL5saOzWf5uXNE0IBtBC1K1Meu-vt",
       "contentType": "youtube"
+    },
+    {
+      "header": "User Interface",
+      "text": "At the beginning, I started with feeling for the game which UI would evoke. I chose fear and fun, though it wasn't 100% fear, more like a surprise. Those two fit perfectly in the sarcasm/irony zone for the story and typing game with apocalyptic asteroid letters for the gameplay:",
+      "content": "kicm-3.mp4",
+      "contentType": "video"
+    },
+    {
+      "text": "I thought about the style and first things that came to my mind was funk and sci-fi and the name - Keep it Cool, Man (it's long I know, but still it's catchy and tells the player vibe of the game). It came to my mind while thinking about the health system and it being the temperature of the planet seemed like an interesting concept to me and also I like avoiding the same old boring health bar without story explanation:",
+      "content": "kicm-5.mp4",
+      "contentType": "video"
+    },
+    {
+      "text": "As soon as possible I created a color palette to create a consistent and memorable experience. I chose the yellow colour as the main one, because it catches the attention and signals an upcoming warning - fitting the feeling of fear:",
+      "content": "kicm-palette.webp",
+      "contentType": "image"
+    },
+    {
+      "text": "With level complete screen I wanted to engage players into playing one more level. For that it required the UI to be immersive and simple and every  animation to be seamless (here it shows the transition to the Main Menu, but clicking Next the player would in the same way transition to the next level):",
+      "content": "kicm-4.mp4",
+      "contentType": "video"
+    },
+    {
+      "text": "For dialogues I implemented various effects from shaking the screen or avatar (like here it's cellphone) to flexible delay. The background displays the planet that this dialogue is happening on (though I think it could be still improved):",
+      "content": "kicm-2.mp4",
+      "contentType": "video"
+    },
+    {
+      "text": "This animated background by the way I programmed using DOTween. I also used Unity Animation Curve to fake vinyl player tonearm movement."
+    },
+    {
+      "text": "Level collection consists of vinyl discs for each chapter and circles placed onto the disc as levels. The levels also has green or red circles around them indicating if they are locked or unlocked to the player (in this case though, they are all unlocked):",
+      "content": "kicm-6.mp4",
+      "contentType": "video"
     },
     {
       "header": "PGA 2021",
