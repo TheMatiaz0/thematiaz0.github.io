@@ -32,7 +32,7 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 });
 
 const projectsDiv = document.querySelector('.projects');
-const parsedProjects = JSON.parse(`{{ projects | json }}`.replace(/(\r\n|\n|\r)/gm, "").replaceAll("•", ""));
+const parsedProjects = JSON.parse(`{{ projects | json }}`.replace(/(\r\n|\n|\r)/gm, ""));
 const projectTemplate = `{% includeraw "./src/_includes/project-card.njk" %}`;
 
 const buttonsDiv = document.querySelector('.options');
