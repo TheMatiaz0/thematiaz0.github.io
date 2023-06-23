@@ -8,7 +8,7 @@
   },
   "shortDescription": "Working on VR seamless open world multiplayer shooter game with survival and RPG elements. Currently released on SteamVR and Pico. \n\nResponsible for:\n • solving critical bugs through fast debugging, \n• implementing multiplayer gameplay features using Photon Fusion, \n• creating utility code for user interface (like custom Scroll View and responsive background adjusted to the text), \n• optimizing VR seamless open world for Pico and SteamVR. \n\nAdditionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing.",
   "startDate": "03/2022",
-  "endDate": "present",
+  "endDate": "05/2023",
   "url": "survival-nation",
   "tags": ["steamvr", "picoxr", "pico", "csharp", "unity", "vs", "git", "commercial", "steam", "fusion", "3D"],
   "details": [
