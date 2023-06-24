@@ -104,6 +104,13 @@
       "tag": "steamvr"
     },
     {
+      "iconUrl": "oculus.webp",
+      "name": "Oculus", 
+      "projectCount": "1 Project",
+      "description": "VR headset platform from Meta",
+      "tag": "oculus"
+    },
+    {
       "iconUrl": "pico.webp",
       "name": "PICO XR", 
       "projectCount": "1 Project",
