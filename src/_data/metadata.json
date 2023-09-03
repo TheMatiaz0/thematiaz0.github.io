@@ -1,9 +1,9 @@
 {
-  "title": "Mateusz Kusionowicz | Game Developer Portfolio",
-  "description": "Hi! I'm Mateusz Kusionowicz, a game developer and programmer from Poland with 3 years of experience in Unity and C#. Currently working at Draw Distance.",
-  "canonical": "https://m.kusionowicz.com",
-  "domain": "m.kusionowicz.com",
-  "keywords": "programming, portfolio, game, development, game development, mateusz kusionowicz, c#, gamedev, .net, unity, dotnet, decorporation, keep it cool man, telegraphist, wenkly, studio, survival nation, kusionowicz",
+  "title": "Mateusz Kusionowicz: Game Developer Portfolio",
+  "description": "I'm Mateusz Kusionowicz, a game developer and programmer with 3 years of experience in Unity and C#.",
+  "canonical": "https://kusionowicz.com",
+  "domain": "kusionowicz.com",
+  "keywords": "kusionowicz, mateusz, programming, portfolio, game, development, game development, c#, gamedev, .net, unity, dotnet, developer",
   "image": "/PortfolioHeader.png",
   "email": "mateusz@kusionowicz.com"
 }
