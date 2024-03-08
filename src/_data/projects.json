@@ -1,4 +1,98 @@
-[{
+[
+  {
+  "showcaseMp4Url": "1920-telegraphist.mp4",
+  "showcaseHeaderUrl": "1920-telegraphist.webp",
+  "title": "Telegraphist 1920: Beats of War",
+  "studio": {
+    "name": "Cubepotato Games",
+    "url": "https://cubepotato.eu"
+  },
+  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team in a role of programmer, UI designer, audio designer and scrum master. \n\nWon 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK). \n\nIn the project I was responsible for: \n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us), \n • balancing the gameplay mechanics to make it more fun.",
+  "startDate": "11/2022",
+  "endDate": "now",
+  "url": "1920-telegraphist",
+  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam"],
+  "details": [
+    {
+      "header": "Team Size",
+      "content": "6"
+    },
+    {
+      "header": "Roles",
+      "content": "Project Leader | Gameplay Programmer | Audio Designer | Game Designer | UI Designer"
+    },
+    {
+      "header": "Language",
+      "content": "C#"
+    },
+    {
+      "header": "Engine",
+      "content": "Unity"
+    },
+    {
+      "header": "Platforms",
+      "content": "Windows | Linux | Mac"
+    },
+    {
+      "header": "Tools",
+      "content": "Visual Studio | Git"
+    }
+  ],
+  "sources": {
+    "showcasePlatform": "Steam",
+    "showcaseUrl": "https://store.steampowered.com/app/2584510/Telegraphist_1920_Beats_of_War",
+    "codeUrl": "https://github.com/TheMatiaz0/1920-Telegraphist"
+  }
+},
+
+{
+  "showcaseMp4Url": "cathead.mp4",
+  "showcaseHeaderUrl": "cathead.webp",
+  "title": "Cathead",
+  "studio": {
+    "name": "Untitled",
+    "url": ""
+  },
+  "shortDescription": "Created local co-op psychedelic arcade game during KrakJam 2024. Won 5th place. It was my first time in a new team created mainly during the event.\n\n My duties:\n• co-designed gameplay loop.\n• designed and implemented all user interface.\n• implemented individual effects for each item.\n• created all audio content including main music track.",
+  "startDate": "01/2024",
+  "endDate": "01/2024",
+  "url": "cathead",
+  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "2D", "noncommercial"],
+  "details": [
+    {
+      "header": "Team Size",
+      "content": "5"
+    },
+    {
+      "header": "Roles",
+      "content": "Gameplay Programmer | Audio Designer | Game Designer | UI Designer"
+    },
+    {
+      "header": "Language",
+      "content": "C#"
+    },
+    {
+      "header": "Engine",
+      "content": "Unity"
+    },
+    {
+      "header": "Platforms",
+      "content": "Windows | WebGL"
+    },
+    {
+      "header": "Tools",
+      "content": "Visual Studio | Git"
+    }
+  ],
+  "sources": {
+    "showcasePlatform": "Itch.io",
+    "showcaseUrl": "https://thematiaz0.itch.io/cathead",
+    "codeUrl": "https://github.com/TheMatiaz0/KrakJam2024"
+  }
+},
+  
+
+{
   "showcaseWebmUrl": "survival-nation.webm",
   "showcaseHeaderUrl": "survival-nation.webp",
   "title": "Survival Nation",
@@ -43,28 +137,27 @@
   }
 },
 
-  
-  {
-  "showcaseMp4Url": "1920-telegraphist.mp4",
-  "showcaseHeaderUrl": "1920-telegraphist.webp",
-  "title": "1920: The Telegraphist",
+{
+  "showcaseWebmUrl": "stonks-war.mp4",
+  "showcaseHeaderUrl": "stonks-war.webp",
+  "title": "Stonks War",
   "studio": {
-    "name": "Cubepotato Games",
-    "url": "https://cubepotato.eu"
+    "name": "Cyberevolver_Studios",
+    "url": "https://cyberevolver-studios.itch.io"
   },
-  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team in a role of programmer, UI designer, audio designer and scrum master. \n\nWon 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK). \n\nIn the project I was responsible for: \n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us), \n • balancing the gameplay mechanics to make it more fun.",
-  "startDate": "11/2022",
-  "endDate": "11/2022",
-  "url": "1920-telegraphist",
+  "shortDescription": "A local co-op game made in 48 hours during Steelworks Jam 2023 (Hi-Tech Edition). Won 1st place.\n\n My duties:\n• designed a card game from ground up - started from tabletop and ended up with spreadsheet of balanced values.\n• managed a team of 5 people.\n• programmed all content with Unity's Scriptable Objects.\n• designed and implemented all UI alongside with DOTween animations.\n• created all audio content.",
+  "startDate": "02/2023",
+  "endDate": "02/2023",
+  "url": "stonks-war",
   "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "noncommercial", "2D"],
   "details": [
     {
       "header": "Team Size",
-      "content": "6"
+      "content": "5"
     },
     {
       "header": "Roles",
-      "content": "Scrum Master | Gameplay Programmer | Audio Designer | Game Designer | UI Designer"
+      "content": "Project Manager | Gameplay Programmer | UI Developer | Game Designer | Audio Designer"
     },
     {
       "header": "Language",
@@ -85,8 +178,7 @@
   ],
   "sources": {
     "showcasePlatform": "Itch.io",
-    "showcaseUrl": "https://thematiaz0.itch.io/1920-telegraphist",
-    "codeUrl": "https://github.com/TheMatiaz0/1920-Telegraphist"
+    "showcaseUrl": "https://cyberevolver-studios.itch.io/stonks-war"
   }
 },
 {
