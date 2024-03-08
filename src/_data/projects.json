@@ -11,7 +11,7 @@
   "startDate": "11/2022",
   "endDate": "now",
   "url": "1920-telegraphist",
-  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam"],
+  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam", "figma"],
   "details": [
     {
       "header": "Team Size",
@@ -88,6 +88,14 @@
     "showcasePlatform": "Itch.io",
     "showcaseUrl": "https://thematiaz0.itch.io/cathead",
     "codeUrl": "https://github.com/TheMatiaz0/KrakJam2024"
+  },
+  "article": {
+    "sections": [{
+      "header": "Trailer",
+      "text": "",
+      "content": "https://www.youtube.com/watch?v=c6iYfpLKSmo",
+      "contentType": "youtube"
+    }]
   }
 },
   

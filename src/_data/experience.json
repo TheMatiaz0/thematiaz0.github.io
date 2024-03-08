@@ -2,8 +2,8 @@
 	"languages": [{
 			"iconUrl": "csharp.webp",
 			"name": "C#",
-			"experience": "3 Years",
-			"projectCount": "5 Projects",
+			"experience": "4 Years",
+			"projectCount": "7 Projects",
       "description": "Object-oriented programming language",
 			"tag": "csharp"
 		},
@@ -36,24 +36,24 @@
     {
       "iconUrl": "unity.webp",
       "name": "Unity", 
-      "experience": "3 Years",
-      "projectCount": "5 Projects",
+      "experience": "4 Years",
+      "projectCount": "7 Projects",
       "description": "A video game engine that uses C#",
       "tag": "unity"
     },
     {
       "iconUrl": "vs.webp",
       "name": "Visual Studio", 
-      "experience": "3 Years",
-      "projectCount": "5 Projects",
+      "experience": "4 Years",
+      "projectCount": "7 Projects",
       "description": "An IDE (code editor) for C#",
       "tag": "vs"
     },
     {
       "iconUrl": "git.webp",
       "name": "Git", 
-      "experience": "3 Years",
-      "projectCount": "5 Projects",
+      "experience": "4 Years",
+      "projectCount": "7 Projects",
       "description": "A source control language that allows you to do almost conflictless code sharing",
       "tag": "git"
     },
@@ -68,8 +68,8 @@
     {
       "iconUrl": "figma.webp",
       "name": "Figma", 
-      "experience": "1 Year",
-      "projectCount": "2 Projects",
+      "experience": "2 Years",
+      "projectCount": "3 Projects",
       "description": "A UI/UX design and graphic design software",
       "tag": "figma"
     }
