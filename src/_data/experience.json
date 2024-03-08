@@ -78,21 +78,21 @@
     {
       "iconUrl": "windows.png",
       "name": "Windows", 
-      "projectCount": "4 Projects",
+      "projectCount": "6 Projects",
       "description": "An operating system made by Microsoft used by majority of video game users",
       "tag": "windows"
     },
     {
       "iconUrl": "linux.webp",
       "name": "Linux", 
-      "projectCount": "2 Projects",
+      "projectCount": "3 Projects",
       "description": "A family of open-source operating systems",
       "tag": "linux"
     },
     {
       "iconUrl": "macOS.webp",
       "name": "macOS", 
-      "projectCount": "2 Projects",
+      "projectCount": "3 Projects",
       "description": "A Unix operating system",
       "tag": "mac"
     },
