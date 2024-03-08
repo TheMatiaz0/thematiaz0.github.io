@@ -232,14 +232,6 @@
     "showcasePlatform": "Steam",
     "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
     "codeUrl": "https://github.com/piratehacker/krakjam-2022"
-  },
-  "article": {
-    "sections": [{
-      "header": "Performance Comparison",
-      "text": "Here's performance comparison of Decorporation between optimized version (from 21.10) and previous one (from 14.09):",
-      "content": "https://www.youtube.com/embed/Ig-jOWTWkF4",
-      "contentType": "youtube"
-    }]
   }
 },
 
