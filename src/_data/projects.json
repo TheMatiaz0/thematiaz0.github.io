@@ -7,11 +7,11 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team in a role of programmer, UI designer, audio designer and scrum master. \n\nWon 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK). \n\nIn the project I was responsible for: \n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us), \n • balancing the gameplay mechanics to make it more fun.",
+  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
   "startDate": "11/2022",
   "endDate": "now",
   "url": "1920-telegraphist",
-  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam", "figma"],
+  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam", "figma", "top10"],
   "details": [
     {
       "header": "Team Size",
@@ -42,6 +42,26 @@
     "showcasePlatform": "Steam",
     "showcaseUrl": "https://store.steampowered.com/app/2584510/Telegraphist_1920_Beats_of_War",
     "codeUrl": "https://github.com/TheMatiaz0/1920-Telegraphist"
+  },
+  "article": {
+    "sections": [{
+      "header": "HackYeah 2022 (24 hours hackathon)",
+      "text": "During those 24 hours I was responsible for: \n\n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us).\n\nLink to the gamejam version: https://thematiaz0.itch.io/1920-telegraphist",
+      "content": "1920-telegraphist-hackyeah.mp4",
+      "contentType": "video"
+    },
+    {
+      "header": "CRPK Prototype",
+      "text": "In April 2023, we were given the opportunity to get a fund from CRPK to work on a prototype of Telegraphist 1920: Beats of War.\n\nDuring this, I have programmed Level Editor to create base for us and future modders, deliver milestones with builds showcasing our progress and handled optimization for final demo in Unity.",
+      "content": "1920-telegraphist-editor.webp",
+      "contentType": "image"
+    },
+    {
+      "header": "Early Access",
+      "text": "Nowadays, I'm still working on the game after hours (with full-time job) and we intend to release it in Early Access on Steam in Q4 2024.\n\nMy role right now is various - from leading our programming team to contacting video game festivals and events around the world.\nIn addition to this, I work on adding more juicyness to the game with VFX, shaders and UI. Isn't it what rhythm games are about?",
+      "content": "1920-telegraphist-automated.webp",
+      "contentType": "image"
+  }]
   }
 },
 
@@ -50,14 +70,14 @@
   "showcaseHeaderUrl": "cathead.webp",
   "title": "Cathead",
   "studio": {
-    "name": "Untitled",
+    "name": "Sz",
     "url": ""
   },
   "shortDescription": "Created local co-op psychedelic arcade game during KrakJam 2024. Won 5th place. It was my first time in a new team created mainly during the event.\n\n My duties:\n• co-designed gameplay loop.\n• designed and implemented all user interface.\n• implemented individual effects for each item.\n• created all audio content including main music track.",
   "startDate": "01/2024",
   "endDate": "01/2024",
   "url": "cathead",
-  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "2D", "noncommercial"],
+  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "2D", "noncommercial", "top10"],
   "details": [
     {
       "header": "Team Size",
@@ -157,7 +177,7 @@
   "startDate": "02/2023",
   "endDate": "02/2023",
   "url": "stonks-war",
-  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "noncommercial", "2D"],
+  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "noncommercial", "2D", "top10"],
   "details": [
     {
       "header": "Team Size",
@@ -205,7 +225,7 @@
   "details": [
     {
       "header": "Team Size",
-      "content": "10+"
+      "content": "5"
     },
     {
       "header": "Roles",
