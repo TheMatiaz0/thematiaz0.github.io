@@ -1,5 +1,51 @@
 [
   {
+    "showcaseMp4Url": "vtm-rony.mp4",
+    "showcaseHeaderUrl": "vtm-rony.webp",
+    "title": "Vampire the Masquerade: Reckoning of New York",
+    "studio": {
+      "name": "Draw Distance",
+      "url": "https://drawdistance.dev"
+    },
+    "tagline": "Crafted from start to finish a Visual Novel RPG game set in the World of Darkness lore. Releasing soon for PS5, PS4, Switch, Xbox One and Xbox Series.",
+    "shortDescription": "Crafted from start to finish a Visual Novel RPG game set in the World of Darkness lore.\n\nCurrently available as Steam demo in Steam Next Fest - releasing soon on PS5, PS4, Nintendo Switch, Xbox One and Xbox Series.\n\nMy duties:\n• Implemented Flow with Unity UI Toolkit - a visual dialogue and quest node graph for the narrative team.\n• designed in Figma and implemented in Unity and DOTween UI/UX elements that were appreciated by VtM players.\n• Analysed wireframes for UX iterations.",
+    "startDate": "11/2023",
+    "endDate": "now",
+    "url": "vtm-rony",
+    "tags": ["windows", "xbox", "playstation", "switch", "csharp", "unity", "vs", "git", "2D", "commercial", "steam", "gog", "epic", "figma"],
+    "details": [
+      {
+        "header": "Team Size",
+        "content": "30+"
+      },
+      {
+        "header": "Roles",
+        "content": "UI/UX Designer | Gameplay Programmer | UI Programmer"
+      },
+      {
+        "header": "Language",
+        "content": "C#"
+      },
+      {
+        "header": "Engine",
+        "content": "Unity"
+      },
+      {
+        "header": "Platforms",
+        "content": "Windows | PS5 | PS4 | Xbox Series X/S | Xbox One | Nintendo Switch"
+      },
+      {
+        "header": "Tools",
+        "content": "Visual Studio | Git | Figma | Notion"
+      }
+    ],
+    "sources": {
+      "showcasePlatform": "Steam",
+      "showcaseUrl": "https://store.steampowered.com/app/2658720/Vampire_The_Masquerade__Reckoning_of_New_York"
+    }
+  },
+
+  {
   "showcaseMp4Url": "1920-telegraphist.mp4",
   "showcaseHeaderUrl": "1920-telegraphist.webp",
   "title": "Telegraphist 1920: Beats of War",
@@ -7,6 +53,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
+  "tagline": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category. Now working on full release.",
   "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
   "startDate": "11/2022",
   "endDate": "now",
@@ -73,6 +120,7 @@
     "name": "Sz",
     "url": ""
   },
+  "tagline": "Meowed local co-op psychedelic arcade game during KrakJam 2024. Received recognition from other participants and won 5th place with democratic vote.",
   "shortDescription": "Created local co-op psychedelic arcade game during KrakJam 2024. Won 5th place. It was my first time in a new team created mainly during the event.\n\n My duties:\n• co-designed gameplay loop.\n• designed and implemented all user interface.\n• implemented individual effects for each item.\n• created all audio content including main music track.",
   "startDate": "01/2024",
   "endDate": "01/2024",
@@ -128,6 +176,7 @@
     "name": "Wenkly Studio",
     "url": "https://www.wenklystudio.com"
   },
+  "tagline": "Worked on VR seamless open world multiplayer shooter game with survival and RPG elements. Released on SteamVR, Pico and Oculus.",
   "shortDescription": "Worked on VR seamless open world multiplayer shooter game with survival and RPG elements. Released on SteamVR, Pico and Oculus. \n\nResponsible for:\n • solving critical bugs through fast debugging, \n• implementing multiplayer gameplay features using Photon Fusion, \n• creating utility code for user interface (like custom Scroll View and responsive background adjusted to the text), \n• optimizing VR seamless open world for Pico and SteamVR. \n\nAdditionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing.",
   "startDate": "03/2022",
   "endDate": "05/2023",
@@ -173,6 +222,7 @@
     "name": "Cyberevolver_Studios",
     "url": "https://cyberevolver-studios.itch.io"
   },
+  "tagline": "Microwaved a local co-op satirical synthwave game under 48 hours during Steelworks Jam 2023 (Hi-Tech Edition). Won 1st place by votes of jury.",
   "shortDescription": "A local co-op game made in 48 hours during Steelworks Jam 2023 (Hi-Tech Edition). Won 1st place.\n\n My duties:\n• designed a card game from ground up - started from tabletop and ended up with spreadsheet of balanced values.\n• managed a team of 5 people.\n• programmed all content with Unity's Scriptable Objects.\n• designed and implemented all UI alongside with DOTween animations.\n• created all audio content.",
   "startDate": "02/2023",
   "endDate": "02/2023",
@@ -217,6 +267,7 @@
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
+  "tagline": "Encorporated a KrakJam 2022 gamejam project into fully fledged FPS roguelite game and published commercially on Steam.",
   "shortDescription": "Made 3D FPS commercial game and published on Steam. \n\nWorked on a project wearing different hats - scrum master, programmer and UI designer - in general - game producer.\n\n I was responsible for:\n • programming upgrade system inspired with Hades game,\n• implementing camera system with Cinemachine,\n• implementing external APIs like Steamworks, Discord API, etc,\n • bug-fixes and working with the team to handle a lot of various bugs. \n • measuring performance bottlenecks and fixing them using Unity Profiler. \n\nPrior to Steam release this was a gamejam project (named Bulletache back then) made in 5 days for KrakJam 2022.",
   "startDate": "01/2022",
   "endDate": "08/2022",
@@ -264,7 +315,8 @@
     "name": "Cyberevolver_Studios",
     "url": "https://cyberevolver-studios.itch.io"
   },
-  "shortDescription": "Made an arcade fast-paced typing game with 3 people and released it on Steam for free. \n\nI was responsible for:\n • designing and implementing all of the user interface (including animations created through C# using DOTween).\n • implementing third-party APIs, \n • created and designed game content (like bomb letters, shotgun letters, etc.).\n • coding Unity editor tools to speed up development process.\n • handling marketing and PR inquires with players, influencers and journalists.",
+  "tagline": "Created an arcade fast-paced typing game with friend and released on Steam for free. This project is perfect definition of jam session.",
+  "shortDescription": "Made an arcade fast-paced typing game with friend (+ additional musician) and released it on Steam for free. \n\nI was responsible for:\n • designing and implementing all of the user interface (including animations created through C# using DOTween).\n • implementing third-party APIs, \n • created and designed game content (like bomb letters, shotgun letters, etc.).\n • coding Unity editor tools to speed up development process.\n • handling marketing and PR inquires with players, influencers and journalists.",
   "startDate": "08/2021",
   "endDate": "07/2022",
   "url": "kicm",
@@ -359,7 +411,8 @@
     "name": "NullPtr",
     "url": "https://krakjam.pl"
   },
-  "shortDescription": "Built a game in 72 hours with a four-person team on my first stationary game jam named KrakJam (2020).\n\n I was responsible for: \n• programming glitch effects (screen rotate, audio mix underpitch, camera rotation in 3D space), \n• implementing postprocessing effects,\n• implementing using Game Jolt API scoreboard system and login system.",
+  "tagline": "Built an endless runner platformer game under 72 hours with a four-person team on my first stationary KrakJam 2020. Updated game afterwards and ported to Android.",
+  "shortDescription": "Built a game in 72 hours with a four-person team on my first stationary KrakJam 2020.\n\n I was responsible for: \n• programming glitch effects (screen rotate, audio mix underpitch, camera rotation in 3D space), \n• implementing postprocessing effects,\n• implementing using Game Jolt API scoreboard system and login system.",
   "startDate": "01/2020",
   "endDate": "02/2020",
   "url": "tgib",

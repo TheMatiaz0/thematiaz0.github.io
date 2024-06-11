@@ -2,8 +2,8 @@
 	"languages": [{
 			"iconUrl": "csharp.webp",
 			"name": "C#",
-			"experience": "4 Years",
-			"projectCount": "7 Projects",
+			"experience": "5 Years",
+			"projectCount": "8 Projects",
       "description": "Object-oriented programming language",
 			"tag": "csharp"
 		},
@@ -36,26 +36,34 @@
     {
       "iconUrl": "unity.webp",
       "name": "Unity", 
-      "experience": "4 Years",
-      "projectCount": "7 Projects",
+      "experience": "5 Years",
+      "projectCount": "8 Projects",
       "description": "A video game engine that uses C#",
       "tag": "unity"
     },
     {
       "iconUrl": "vs.webp",
       "name": "Visual Studio", 
-      "experience": "4 Years",
-      "projectCount": "7 Projects",
+      "experience": "5 Years",
+      "projectCount": "8 Projects",
       "description": "An IDE (code editor) for C#",
       "tag": "vs"
     },
     {
       "iconUrl": "git.webp",
       "name": "Git", 
-      "experience": "4 Years",
-      "projectCount": "7 Projects",
+      "experience": "5 Years",
+      "projectCount": "8 Projects",
       "description": "A source control language that allows you to do almost conflictless code sharing",
       "tag": "git"
+    },
+    {
+      "iconUrl": "figma.webp",
+      "name": "Figma", 
+      "experience": "2.5 Years",
+      "projectCount": "4 Projects",
+      "description": "A UI/UX design and graphic design software",
+      "tag": "figma"
     },
     {
       "iconUrl": "photon.webp",
@@ -64,21 +72,13 @@
       "projectCount": "1 Project",
       "description": "A multiplayer/networking library for Unity",
       "tag": "fusion"
-    },
-    {
-      "iconUrl": "figma.webp",
-      "name": "Figma", 
-      "experience": "2 Years",
-      "projectCount": "3 Projects",
-      "description": "A UI/UX design and graphic design software",
-      "tag": "figma"
     }
   ],
   "platforms": [
     {
       "iconUrl": "windows.png",
       "name": "Windows", 
-      "projectCount": "6 Projects",
+      "projectCount": "7 Projects",
       "description": "An operating system made by Microsoft used by majority of video game users",
       "tag": "windows"
     },
@@ -95,6 +95,27 @@
       "projectCount": "3 Projects",
       "description": "A Unix operating system",
       "tag": "mac"
+    },
+    {
+      "iconUrl": "playstation.png",
+      "name": "Playstation",
+      "projectCount": "1 Project",
+      "description": "",
+      "tag": "playstation"
+    },
+    {
+      "iconUrl": "xbox.png",
+      "name": "Xbox",
+      "projectCount": "1 Project",
+      "description": "",
+      "tag": "xbox"
+    },
+    {
+      "iconUrl": "switch.png",
+      "name": "Nintendo Switch",
+      "projectCount": "1 Project",
+      "description": "",
+      "tag": "switch"
     },
     {
       "iconUrl": "steam.webp",

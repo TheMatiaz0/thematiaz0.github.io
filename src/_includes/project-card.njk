@@ -10,15 +10,15 @@
             </div>
             <div class="video-additional-info">
             </div>
-            <div class="p-6 h-50">
-                    <div class="flex justify-between items-center align-middle">
+            <div class="p-6 pl-8 pr-8 h-50">
+                    <div class="flex justify-between items-center align-middle leading-tight">
                         <h3>{{projectItem.title}}</h3>
                         <svg class="w-6 h-6" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-v-2dd8f34d=""><path class="w-1 h-1" fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg>
                     </div>
                     <small class="smaller">{{projectItem.startDate}} - {{projectItem.endDate}}</small>
             </a>
-                <p class="mt-3 line-clamp-3 align-middle text-white">
-                    {{projectItem.shortDescription | replace("•", "")}}
+                <p class="mt-4 line-clamp-3 align-middle text-white">
+                    {{projectItem.tagline}}
                 </p>
             </div>
             <div class="flex flex-wrap justify-end flex-row gap-4 m-4">
