@@ -65,8 +65,10 @@
       <div class="flex flex-wrap align-middle items-center content-center place-content-center gap-5">
         <img class="w-20 h-20" src="{{'logo.png' | url}}" alt="logo"> 
           <div class="introduction md:pb-0 pb-4">
-            <a class="hover:text-white" href="{{'/' | url}}"><h1 class="whitespace-nowrap leading-9 text-xl md:text-3xl">{{header.name}}</h1></a>
-            <small class="whitespace-nowrap text-base">{{header.profession}}</small>
+            <a class="hover:text-white whitespace-nowrap" href="{{'/' | url}}">
+              <h1 class="leading-9 text-xl md:text-3xl">{{header.name}}</h1>
+              <small class="text-base">{{header.profession}}</small>
+            </a>
           </div>
       </div>
       <div class="my-4">
