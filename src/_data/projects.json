@@ -1,5 +1,72 @@
 [
   {
+    "showcaseMp4Url": "1920-telegraphist.mp4",
+    "showcaseHeaderUrl": "1920-telegraphist.webp",
+    "title": "Telegraphist 1920: Beats of War",
+    "studio": {
+      "name": "Cubepotato Games",
+      "url": "https://cubepotato.eu"
+    },
+    "tagline": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category. Now working on full release.",
+    "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
+    "startDate": "11/2022",
+    "endDate": "now",
+    "url": "1920-telegraphist",
+    "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam", "figma", "top10"],
+    "details": [
+      {
+        "header": "Team Size",
+        "content": "6"
+      },
+      {
+        "header": "Roles",
+        "content": "Project Leader | Gameplay Programmer | Audio Designer | Game Designer | UI Designer"
+      },
+      {
+        "header": "Language",
+        "content": "C#"
+      },
+      {
+        "header": "Engine",
+        "content": "Unity"
+      },
+      {
+        "header": "Platforms",
+        "content": "Windows | Linux | Mac"
+      },
+      {
+        "header": "Tools",
+        "content": "Visual Studio | Git"
+      }
+    ],
+    "sources": {
+      "showcasePlatform": "Steam",
+      "showcaseUrl": "https://store.steampowered.com/app/2584510/Telegraphist_1920_Beats_of_War",
+      "codeUrl": "https://github.com/TheMatiaz0/1920-Telegraphist"
+    },
+    "article": {
+      "sections": [{
+        "header": "HackYeah 2022 (24 hours hackathon)",
+        "text": "During those 24 hours I was responsible for: \n\n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us).\n\nLink to the gamejam version: https://thematiaz0.itch.io/1920-telegraphist",
+        "content": "1920-telegraphist-hackyeah.mp4",
+        "contentType": "video"
+      },
+      {
+        "header": "CRPK Prototype",
+        "text": "In April 2023, we were given the opportunity to get a fund from CRPK to work on a prototype of Telegraphist 1920: Beats of War.\n\nDuring this, I have programmed Level Editor to create base for us and future modders, deliver milestones with builds showcasing our progress and handled optimization for final demo in Unity.",
+        "content": "1920-telegraphist-editor.webp",
+        "contentType": "image"
+      },
+      {
+        "header": "Early Access",
+        "text": "Nowadays, I'm still working on the game after hours (with full-time job) and we intend to release it in Early Access on Steam in Q4 2024.\n\nMy role right now is various - from leading our programming team to contacting video game festivals and events around the world.\nIn addition to this, I work on adding more juicyness to the game with VFX, shaders and UI. Isn't it what rhythm games are about?",
+        "content": "1920-telegraphist-automated.webp",
+        "contentType": "image"
+    }]
+    }
+  },
+
+  {
     "showcaseMp4Url": "vtm-rony.mp4",
     "showcaseHeaderUrl": "vtm-rony.webp",
     "title": "Vampire the Masquerade: Reckoning of New York",
@@ -10,7 +77,7 @@
     "tagline": "Crafted from start to finish a Visual Novel RPG game set in the World of Darkness lore. Releasing soon for PS5, PS4, Switch, Xbox One and Xbox Series.",
     "shortDescription": "Crafted from start to finish a Visual Novel RPG game set in the World of Darkness lore.\n\nCurrently available as Steam demo in Steam Next Fest - releasing soon on PS5, PS4, Nintendo Switch, Xbox One and Xbox Series.\n\nMy duties:\n• Implemented Flow with Unity UI Toolkit - a visual dialogue and quest node graph for the narrative team.\n• Designed in Figma and implemented in Unity and DOTween UI/UX elements that were appreciated by VtM players.\n• Analysed wireframes for UX iterations.",
     "startDate": "11/2023",
-    "endDate": "now",
+    "endDate": "06/2024",
     "url": "vtm-rony",
     "tags": ["windows", "xbox", "playstation", "switch", "csharp", "unity", "vs", "git", "2D", "commercial", "steam", "gog", "epic", "figma"],
     "details": [
@@ -44,73 +111,6 @@
       "showcaseUrl": "https://store.steampowered.com/app/2658720/Vampire_The_Masquerade__Reckoning_of_New_York"
     }
   },
-
-  {
-  "showcaseMp4Url": "1920-telegraphist.mp4",
-  "showcaseHeaderUrl": "1920-telegraphist.webp",
-  "title": "Telegraphist 1920: Beats of War",
-  "studio": {
-    "name": "Cubepotato Games",
-    "url": "https://cubepotato.eu"
-  },
-  "tagline": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category. Now working on full release.",
-  "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
-  "startDate": "11/2022",
-  "endDate": "now",
-  "url": "1920-telegraphist",
-  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam", "figma", "top10"],
-  "details": [
-    {
-      "header": "Team Size",
-      "content": "6"
-    },
-    {
-      "header": "Roles",
-      "content": "Project Leader | Gameplay Programmer | Audio Designer | Game Designer | UI Designer"
-    },
-    {
-      "header": "Language",
-      "content": "C#"
-    },
-    {
-      "header": "Engine",
-      "content": "Unity"
-    },
-    {
-      "header": "Platforms",
-      "content": "Windows | Linux | Mac"
-    },
-    {
-      "header": "Tools",
-      "content": "Visual Studio | Git"
-    }
-  ],
-  "sources": {
-    "showcasePlatform": "Steam",
-    "showcaseUrl": "https://store.steampowered.com/app/2584510/Telegraphist_1920_Beats_of_War",
-    "codeUrl": "https://github.com/TheMatiaz0/1920-Telegraphist"
-  },
-  "article": {
-    "sections": [{
-      "header": "HackYeah 2022 (24 hours hackathon)",
-      "text": "During those 24 hours I was responsible for: \n\n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us).\n\nLink to the gamejam version: https://thematiaz0.itch.io/1920-telegraphist",
-      "content": "1920-telegraphist-hackyeah.mp4",
-      "contentType": "video"
-    },
-    {
-      "header": "CRPK Prototype",
-      "text": "In April 2023, we were given the opportunity to get a fund from CRPK to work on a prototype of Telegraphist 1920: Beats of War.\n\nDuring this, I have programmed Level Editor to create base for us and future modders, deliver milestones with builds showcasing our progress and handled optimization for final demo in Unity.",
-      "content": "1920-telegraphist-editor.webp",
-      "contentType": "image"
-    },
-    {
-      "header": "Early Access",
-      "text": "Nowadays, I'm still working on the game after hours (with full-time job) and we intend to release it in Early Access on Steam in Q4 2024.\n\nMy role right now is various - from leading our programming team to contacting video game festivals and events around the world.\nIn addition to this, I work on adding more juicyness to the game with VFX, shaders and UI. Isn't it what rhythm games are about?",
-      "content": "1920-telegraphist-automated.webp",
-      "contentType": "image"
-  }]
-  }
-},
 
 {
   "showcaseMp4Url": "cathead.mp4",
