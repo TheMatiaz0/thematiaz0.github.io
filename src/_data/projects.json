@@ -46,7 +46,7 @@
     },
     "article": {
       "sections": [{
-        "header": "HackYeah 2022 (24 hours hackathon)",
+        "header": "HackYeah 2022 (24h hackathon)",
         "text": "During those 24 hours I was responsible for: \n\n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us).\n\nLink to the gamejam version: https://thematiaz0.itch.io/1920-telegraphist",
         "content": "1920-telegraphist-hackyeah.mp4",
         "contentType": "video"
@@ -58,10 +58,22 @@
         "contentType": "image"
       },
       {
-        "header": "Early Access",
-        "text": "Nowadays, I'm still working on the game after hours (with full-time job) and we intend to release it in Early Access on Steam in Q4 2024.\n\nMy role right now is various - from leading our programming team to contacting video game festivals and events around the world.\nIn addition to this, I work on adding more juicyness to the game with VFX, shaders and UI. Isn't it what rhythm games are about?",
-        "content": "1920-telegraphist-automated.webp",
+        "header": "Road to Early Access",
+        "text": "Nowadays, I'm still working on the game after hours (with full-time job) and we intend to release it in Early Access on Steam in 2025.\n\nMy role right now is various - from leading our programming team to contacting video game festivals and events around the world.\nIn addition to this, I work on adding more juicyness to the game with VFX, shaders and UI. Isn't it what rhythm games are about?",
+        "content": "1920-telegraphist-screen3.jpg",
         "contentType": "image"
+    },
+    {
+      "header": "",
+      "text": "",
+      "content": "1920-telegraphist-screen1.jpg",
+      "contentType": "image"
+    },
+    {
+      "header": "",
+      "text": "",
+      "content": "1920-telegraphist-screen2.jpg",
+      "contentType": "image"
     }]
     }
   },
