@@ -79,6 +79,61 @@
   },
 
   {
+    "showcaseMp4Url": "warszawies.mp4",
+    "showcaseHeaderUrl": "warszawies.webp",
+    "title": "Warszawieś",
+    "studio": {
+      "name": "Dzikie Kolana",
+      "url": ""
+    },
+    "tagline": "Coded core architecture for city builder with RPG elements set in Warsaw Mythology for CRPK Jam 2024 during 48 hours in 5-person team. Received recognition from other participants.",
+    "shortDescription": "Coded core architecture for city builder with RPG elements set in Warsaw Mythology for CRPK Jam 2024 during 48 hours in 5-person team. Received recognition from other participants.",
+    "startDate": "10/2024",
+    "endDate": "10/2024",
+    "url": "warszawies",
+    "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "3D", "noncommercial"],
+    "details": [
+      {
+        "header": "Team Size",
+        "content": "5"
+      },
+      {
+        "header": "Roles",
+        "content": "Lead Programmer • Code Architect • UI Designer"
+      },
+      {
+        "header": "Language",
+        "content": "C#"
+      },
+      {
+        "header": "Engine",
+        "content": "Unity"
+      },
+      {
+        "header": "Platforms",
+        "content": "Windows"
+      },
+      {
+        "header": "Tools",
+        "content": "Visual Studio | Git"
+      }
+    ],
+    "sources": {
+      "showcasePlatform": "Itch.io",
+      "showcaseUrl": "https://thematiaz0.itch.io/warszawies",
+      "codeUrl": "https://github.com/TheMatiaz0/crpk2024"
+    },
+    "article": {
+      "sections": [{
+        "header": "Gameplay",
+        "text": "",
+        "content": "https://www.youtube.com/embed/2m299oFxMDY?si=MHrNcDuYi-tr3R3A",
+        "contentType": "youtube"
+      }]
+    }
+  },
+
+  {
     "showcaseMp4Url": "vtm-rony.mp4",
     "showcaseHeaderUrl": "vtm-rony.webp",
     "title": "Vampire the Masquerade: Reckoning of New York",
@@ -173,7 +228,7 @@
     "sections": [{
       "header": "Trailer",
       "text": "",
-      "content": "https://www.youtube.com/watch?v=c6iYfpLKSmo",
+      "content": "https://www.youtube.com/embed/c6iYfpLKSmo?si=1AXH50d2JhPW7xRU",
       "contentType": "youtube"
     }]
   }
