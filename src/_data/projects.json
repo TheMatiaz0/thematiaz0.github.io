@@ -45,9 +45,15 @@
       "codeUrl": "https://github.com/TheMatiaz0/1920-Telegraphist"
     },
     "article": {
-      "sections": [{
+      "sections": [
+        {
+          "header": "Short Teaser (30s)",
+          "content": "https://www.youtube.com/embed/-yqXT7TLgaw?si=e9MUWuwQuUSNW5br",
+          "contentType": "youtube"
+        },
+        {
         "header": "HackYeah 2022 (24h hackathon)",
-        "text": "During those 24 hours I was responsible for: \n\n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us).\n\nLink to the gamejam version: https://thematiaz0.itch.io/1920-telegraphist",
+        "text": "In October 2022, I was taking part in HackYeah 2022 hackathon. We've received second place by vote of jury.\n\nDuring 24 hours I was responsible for: \n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us).\n\nLink to the gamejam version: https://thematiaz0.itch.io/1920-telegraphist",
         "content": "1920-telegraphist-hackyeah.mp4",
         "contentType": "video"
       },
@@ -58,22 +64,22 @@
         "contentType": "image"
       },
       {
+        "header": "PGA 2024",
+        "text": "In October 2024, the four of us had opportunity to show up at Poznań Game Arena 2024 and say hi to our fans, but also present people to new audience. The feedback from everyone was very valuable and the place seemed very inspirational for me (especially afterparty :P)",
+        "content": "PGA_2024.jpg",
+        "contentType": "image"
+      },
+      {
+        "header": "Digital Dragons' Go Global",
+        "text": "In November 2024, we received another grant, this time for marketing expansion. During this time, I managed to create a port of Telegraphist 1920 for Steam Deck handheld, organized a focus test to make sure that we'll get Steam Deck Verified status (fingers crossed!) and executed all marketing ideas (aside from our TikTok socials).",
+        "content": "Steam_Deck_Telegraphist_1920.png",
+        "contentType": "image"
+      },
+      {
         "header": "Road to Early Access",
-        "text": "Nowadays, I'm still working on the game after hours (with full-time job) and we intend to release it in Early Access on Steam in 2025.\n\nMy role right now is various - from leading our programming team to contacting video game festivals and events around the world.\nIn addition to this, I work on adding more juicyness to the game with VFX, shaders and UI. Isn't it what rhythm games are about?",
+        "text": "Nowadays, I'm still working on the game after hours (with full-time job) and we intend to release it in Early Access on Steam in 2025.\n\nMy role right now is various - from leading our programming team to contacting video game festivals and events around the world.\nIn addition to this, I work on adding more juicyness to the game with VFX, shaders and UI. Isn't it what rhythm games are about?\n\nCheck out my article on Medium on that topic: https://medium.com/@mateusz.kusionowicz/how-to-create-a-new-evolution-of-guitar-hero-a-tale-of-telegraphist-1920-game-design-process-6f68736742d0",
         "content": "1920-telegraphist-screen3.jpg",
         "contentType": "image"
-    },
-    {
-      "header": "",
-      "text": "",
-      "content": "1920-telegraphist-screen1.jpg",
-      "contentType": "image"
-    },
-    {
-      "header": "",
-      "text": "",
-      "content": "1920-telegraphist-screen2.jpg",
-      "contentType": "image"
     }]
     }
   },
