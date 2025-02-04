@@ -15,7 +15,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-
     - name: Detect package manager
       id: detect-package-manager
       run: |
@@ -36,10 +35,8 @@ jobs:
       with:
         node-version: "16"
         cache: ${{ steps.detect-package-manager.outputs.manager }}
-
     - name: Setup Pages
       uses: actions/configure-pages@v4
-
     - name: Restore cache
       uses: actions/cache@v4
       with:
@@ -50,11 +47,10 @@ jobs:
         # If source files changed but packages didn't, rebuild from a prior cache.
         restore-keys: |
           ${{ runner.os }}-eleventy-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
-      - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-      - name: Build
-        run: ${{ steps.detect-package-manager.outputs.manager }} run build
-
+    - name: Install dependencies
+      run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+    - name: Build
+      run: ${{ steps.detect-package-manager.outputs.manager }} run build
     - name: Update pages artifact
       uses: actions/upload-pages-artifact@v3.0.1
       with:
