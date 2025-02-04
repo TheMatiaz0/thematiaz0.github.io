@@ -7,8 +7,8 @@
       "name": "Cubepotato Games",
       "url": "https://cubepotato.eu"
     },
-    "tagline": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category. Now working on full release.",
-    "shortDescription": "Made strategy-rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
+    "tagline": "Made narrative-driven rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category.",
+    "shortDescription": "Made narrative-driven rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
     "startDate": "03/2023",
     "endDate": "now",
     "url": "1920-telegraphist",
@@ -182,6 +182,14 @@
     "sources": {
       "showcasePlatform": "Steam",
       "showcaseUrl": "https://store.steampowered.com/app/2658720/Vampire_The_Masquerade__Reckoning_of_New_York"
+    },
+    "article": {
+      "sections": [{
+        "header": "Launch Trailer",
+        "text": "",
+        "content": "https://www.youtube.com/embed/sO_N7BXzka4",
+        "contentType": "youtube"
+      }]
     }
   },
 
@@ -232,8 +240,8 @@
   },
   "article": {
     "sections": [{
-      "header": "Trailer",
-      "text": "",
+      "header": "Official Gameplay Trailer",
+      "text": "Have you ever wondered, what's going on inside your cat brain?",
       "content": "https://www.youtube.com/embed/c6iYfpLKSmo?si=1AXH50d2JhPW7xRU",
       "contentType": "youtube"
     }]
@@ -284,6 +292,14 @@
   "sources": {
     "showcasePlatform": "Steam",
     "showcaseUrl": "https://store.steampowered.com/app/2153780/Survival_Nation"
+  },
+  "article": {
+    "sections": [{
+      "header": "hable147's Review",
+      "text": "",
+      "content": "https://www.youtube.com/embed/iL8Tj1sVm2I",
+      "contentType": "youtube"
+    }]
   }
 },
 
@@ -376,6 +392,14 @@
     "showcasePlatform": "Steam",
     "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
     "codeUrl": "https://github.com/piratehacker/krakjam-2022"
+  },
+  "article": {
+    "sections": [{
+      "header": "COMPLETELY NOT PROFESSIONAL Trailer (DON'T LOOK AT IT)",
+      "text": "",
+      "content": "https://www.youtube.com/embed/fwXTzWlyA40",
+      "contentType": "youtube"
+    }]
   }
 },
 
@@ -471,6 +495,12 @@
       "text": "I was also at the Poznań Game Arena 2021 (one of the biggest video game trade show in Poland) where with my friend we showcased Keep it Cool, Man to thousands of people! It was great having all of these feedback from various people and how they play the game!",
       "content": "pga2021.webp",
       "contentType": "image"
+    },
+    {
+      "header": "Cinematic Trailer",
+      "text": "",
+      "content": "https://www.youtube.com/embed/v6exM1MH4fY",
+      "contentType": "youtube"
     }]
   }
 },
@@ -526,6 +556,12 @@
       "header": "Origin",
       "text": "Our work began after reveal of the theme, which in 2020 was repair.\n\nWe immediately started thinking about something unconventional, which is... fixing the game you are currently playing.\n\n Initially, we thought about a platformer shooter, but in the end we decided on an endless runner with the ability to go backwards (the only thing that pushes you forward is a wave of bugged letters like this overflow bug/kill screen in Pac-Man, which our graphic designer was inspired by):",
       "content": "https://www.youtube.com/embed/NKKfW8X9uYk",
+      "contentType": "youtube"
+    },
+    {
+      "header": "Trailer (made during KrakJam 2020)",
+      "text": "",
+      "content": "https://www.youtube.com/embed/BC3UiNOp7Wc",
       "contentType": "youtube"
     }]
   }
