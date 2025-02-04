@@ -25,7 +25,7 @@ jobs:
     - name: Update pages artifact
       uses: actions/upload-pages-artifact@v3.0.1
       with:
-        path: _site/
+        path: ./_site
 
   deploy:
     needs: build
