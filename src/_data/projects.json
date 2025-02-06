@@ -311,8 +311,8 @@
     "name": "Cyberevolver_Studios",
     "url": "https://cyberevolver-studios.itch.io"
   },
-  "tagline": "Microwaved a local co-op satirical synthwave game under 48 hours during Steelworks Jam 2023 (Hi-Tech Edition). Won 1st place by votes of jury.",
-  "shortDescription": "A local co-op game made in 48 hours during Steelworks Jam 2023 (Hi-Tech Edition). Won 1st place.\n\n My duties:\n• designed a card game from ground up - started from tabletop and ended up with spreadsheet of balanced values.\n• managed a team of 5 people.\n• programmed all content with Unity's Scriptable Objects.\n• designed and implemented all UI alongside with DOTween animations.\n• created all audio content.",
+  "tagline": "Microwaved a satirical local co-op card game under 48 hours during Steelworks Jam 2023 (Hi-Tech Edition). Won 1st place by votes of jury.",
+  "shortDescription": "A local co-op card game made in 48 hours during Steelworks Jam 2023 (Hi-Tech Edition). Won 1st place.\n\n My duties:\n• designed a card game from ground up - started from tabletop and ended up with spreadsheet of balanced values.\n• managed a team of 5 people.\n• programmed all content with Unity's Scriptable Objects.\n• designed and implemented all UI alongside with DOTween animations.\n• created all audio content.",
   "startDate": "02/2023",
   "endDate": "02/2023",
   "url": "stonks-war",
