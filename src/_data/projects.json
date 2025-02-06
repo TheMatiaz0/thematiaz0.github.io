@@ -346,6 +346,14 @@
   "sources": {
     "showcasePlatform": "Itch.io",
     "showcaseUrl": "https://cyberevolver-studios.itch.io/stonks-war"
+  },
+  "article": {
+    "sections": [{
+      "header": "Gameplay in 15s",
+      "text": "",
+      "content": "https://www.youtube.com/embed/pq0u5asIq5U",
+      "contentType": "youtube"
+    }]
   }
 },
 {
