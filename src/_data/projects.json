@@ -189,6 +189,32 @@
         "text": "",
         "content": "https://www.youtube.com/embed/sO_N7BXzka4",
         "contentType": "youtube"
+      }, 
+      {
+        "header": "UI Designs",
+        "text": "",
+        "content": "vtm-mainmenu.webp",
+        "contentType": "image"
+      },
+      {
+        "text": "",
+        "content": "vtm-gameplay.webp",
+        "contentType": "image"
+      },
+      {
+        "text": "",
+        "content": "vtm-disciplines.webp",
+        "contentType": "image"
+      },
+      {
+        "text": "",
+        "content": "vtm-savelimit.webp",
+        "contentType": "image"
+      },
+      {
+        "text": "",
+        "content": "vtm-map.webp",
+        "contentType": "image"
       }]
     }
   },
