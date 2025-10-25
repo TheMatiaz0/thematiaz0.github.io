@@ -3,7 +3,7 @@
 			"iconUrl": "csharp.webp",
 			"name": "C#",
 			"experience": "4 Years",
-			"projectCount": "9 Projects",
+			"projectCount": "7 Projects",
       "description": "Object-oriented programming language",
 			"tag": "csharp"
 		},
@@ -37,7 +37,7 @@
       "iconUrl": "unity.webp",
       "name": "Unity", 
       "experience": "4 Years",
-      "projectCount": "9 Projects",
+      "projectCount": "7 Projects",
       "description": "A video game engine that uses C#",
       "tag": "unity"
     },
@@ -45,7 +45,7 @@
       "iconUrl": "vs.webp",
       "name": "Visual Studio", 
       "experience": "4 Years",
-      "projectCount": "9 Projects",
+      "projectCount": "7 Projects",
       "description": "An IDE (code editor) for C#",
       "tag": "vs"
     },
@@ -53,7 +53,7 @@
       "iconUrl": "git.webp",
       "name": "Git", 
       "experience": "4 Years",
-      "projectCount": "9 Projects",
+      "projectCount": "7 Projects",
       "description": "A source control language that allows you to do almost conflictless code sharing",
       "tag": "git"
     },
@@ -78,7 +78,7 @@
     {
       "iconUrl": "windows.png",
       "name": "Windows", 
-      "projectCount": "8 Projects",
+      "projectCount": "6 Projects",
       "description": "An operating system made by Microsoft used by majority of video game users",
       "tag": "windows"
     },
@@ -137,13 +137,6 @@
       "projectCount": "1 Project",
       "description": "A platform for PICO VR headsets",
       "tag": "pico"
-    },
-    {
-      "iconUrl": "android.png",
-      "name": "Android", 
-      "projectCount": "1 Project",
-      "description": "A mobile operating system based on Linux",
-      "tag": "android"
     }
   ]
 }

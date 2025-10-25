@@ -328,60 +328,6 @@
     }]
   }
 },
-
-{
-  "showcaseWebmUrl": "stonks-war.mp4",
-  "showcaseHeaderUrl": "stonks-war.webp",
-  "title": "Stonks War",
-  "studio": {
-    "name": "Cyberevolver_Studios",
-    "url": "https://cyberevolver-studios.itch.io"
-  },
-  "tagline": "Microwaved a satirical local co-op card game under 48 hours during Steelworks Jam 2023 (Hi-Tech Edition). Won 1st place by votes of jury.",
-  "shortDescription": "A local co-op card game made in 48 hours during Steelworks Jam 2023 (Hi-Tech Edition). Won 1st place.\n\n My duties:\n• designed a card game from ground up - started from tabletop and ended up with spreadsheet of balanced values.\n• managed a team of 5 people.\n• programmed all content with Unity's Scriptable Objects.\n• designed and implemented all UI alongside with DOTween animations.\n• created all audio content.",
-  "startDate": "02/2023",
-  "endDate": "02/2023",
-  "url": "stonks-war",
-  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "noncommercial", "2D", "top10"],
-  "details": [
-    {
-      "header": "Team Size",
-      "content": "5"
-    },
-    {
-      "header": "Roles",
-      "content": "Project Manager | Gameplay Programmer | UI Developer | Game Designer | Audio Designer"
-    },
-    {
-      "header": "Language",
-      "content": "C#"
-    },
-    {
-      "header": "Engine",
-      "content": "Unity"
-    },
-    {
-      "header": "Platforms",
-      "content": "Windows"
-    },
-    {
-      "header": "Tools",
-      "content": "Visual Studio | Git"
-    }
-  ],
-  "sources": {
-    "showcasePlatform": "Itch.io",
-    "showcaseUrl": "https://cyberevolver-studios.itch.io/stonks-war"
-  },
-  "article": {
-    "sections": [{
-      "header": "Gameplay in 15s",
-      "text": "",
-      "content": "https://www.youtube.com/embed/pq0u5asIq5U",
-      "contentType": "youtube"
-    }]
-  }
-},
 {
   "showcaseMp4Url": "decorporation.mp4",
   "showcaseHeaderUrl": "decorporation.webp",
@@ -534,68 +480,6 @@
       "header": "Cinematic Trailer",
       "text": "",
       "content": "https://www.youtube.com/embed/v6exM1MH4fY",
-      "contentType": "youtube"
-    }]
-  }
-},
-
-
-{
-  "showcaseWebmUrl": "tgib.webm",
-  "showcaseHeaderUrl": "tgib.png",
-  "title": "This Game Is Broken",
-  "studio": {
-    "name": "NullPtr",
-    "url": "https://krakjam.pl"
-  },
-  "tagline": "Built an endless runner platformer game under 72 hours with a four-person team on my first stationary KrakJam 2020. Updated game afterwards and ported to Android.",
-  "shortDescription": "Built a game in 72 hours with a four-person team on my first stationary KrakJam 2020.\n\n I was responsible for: \n• programming glitch effects (screen rotate, audio mix underpitch, camera rotation in 3D space), \n• implementing postprocessing effects,\n• implementing using Game Jolt API scoreboard system and login system.",
-  "startDate": "01/2020",
-  "endDate": "02/2020",
-  "url": "tgib",
-  "tags": ["windows", "android", "csharp", "unity", "vs", "git", "noncommercial", "gamejam", "2D", "scrum"],
-  "details": [
-    {
-      "header": "Team Size",
-      "content": "4"
-    },
-    {
-      "header": "Roles",
-      "content": "Gameplay Programmer | Game Designer | Scrum Master"
-    },
-    {
-      "header": "Language",
-      "content": "C#"
-    },
-    {
-      "header": "Engine",
-      "content": "Unity"
-    },
-    {
-      "header": "Platforms",
-      "content": "Windows | Android"
-    },
-    {
-      "header": "Tools",
-      "content": "Visual Studio | Git"
-    }
-  ],
-  "sources": {
-    "showcasePlatform": "Itch.io",
-    "showcaseUrl": "https://thematiaz0.itch.io/this-game-is-broken",
-    "codeUrl": "https://github.com/TheMatiaz0/This-Game-Is-Broken"
-  },
-  "article": {
-    "sections": [{
-      "header": "Origin",
-      "text": "Our work began after reveal of the theme, which in 2020 was repair.\n\nWe immediately started thinking about something unconventional, which is... fixing the game you are currently playing.\n\n Initially, we thought about a platformer shooter, but in the end we decided on an endless runner with the ability to go backwards (the only thing that pushes you forward is a wave of bugged letters like this overflow bug/kill screen in Pac-Man, which our graphic designer was inspired by):",
-      "content": "https://www.youtube.com/embed/NKKfW8X9uYk",
-      "contentType": "youtube"
-    },
-    {
-      "header": "Trailer (made during KrakJam 2020)",
-      "text": "",
-      "content": "https://www.youtube.com/embed/BC3UiNOp7Wc",
       "contentType": "youtube"
     }]
   }
