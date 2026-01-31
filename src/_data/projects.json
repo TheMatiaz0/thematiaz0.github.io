@@ -47,8 +47,8 @@
     "article": {
       "sections": [
         {
-          "header": "Short Teaser (30s)",
-          "content": "https://www.youtube.com/embed/-yqXT7TLgaw?si=e9MUWuwQuUSNW5br",
+          "header": "UI Showcase",
+          "content": "https://www.youtube.com/embed/402ocxPTJkk",
           "contentType": "youtube"
         },
         {
@@ -185,9 +185,9 @@
     },
     "article": {
       "sections": [{
-        "header": "Launch Trailer",
+        "header": "UI Showcase",
         "text": "",
-        "content": "https://www.youtube.com/embed/sO_N7BXzka4",
+        "content": "https://www.youtube.com/embed/3hV_BCFU6-A",
         "contentType": "youtube"
       }, 
       {
@@ -375,9 +375,9 @@
   },
   "article": {
     "sections": [{
-      "header": "COMPLETELY NOT PROFESSIONAL Trailer (DON'T LOOK AT IT)",
+      "header": "Gameplay Video (by GabeHype)",
       "text": "",
-      "content": "https://www.youtube.com/embed/fwXTzWlyA40",
+      "content": "https://www.youtube.com/embed/KRfkpAuAf70",
       "contentType": "youtube"
     }]
   }
@@ -430,7 +430,14 @@
     "codeUrl": "https://github.com/Biegus/Keep-It-Cool-Man"
   },
   "article": {
-    "sections": [{
+    "sections": [
+    {
+      "header": "UI Showcase",
+      "text": "",
+      "content": "https://www.youtube.com/embed/aFyhWQOWwSs",
+      "contentType": "youtube"
+    },
+    {
       "header": "Devlogs",
       "text": "I decided to make couple devlogs before game release. They describe our inspirations, contain speedarts of making user interface and explain the philosophy behind Keep it Cool, Man:",
       "content": "https://www.youtube.com/embed/videoseries?list=PLS9AyL5saOzWf5uXNE0IBtBC1K1Meu-vt",
@@ -475,12 +482,6 @@
       "text": "I was also at the Poznań Game Arena 2021 (one of the biggest video game trade show in Poland) where with my friend we showcased Keep it Cool, Man to thousands of people! It was great having all of these feedback from various people and how they play the game!",
       "content": "pga2021.webp",
       "contentType": "image"
-    },
-    {
-      "header": "Cinematic Trailer",
-      "text": "",
-      "content": "https://www.youtube.com/embed/v6exM1MH4fY",
-      "contentType": "youtube"
     }]
   }
 }
