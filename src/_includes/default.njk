@@ -83,6 +83,20 @@
     </div>
     {% if page.url == '/' %}
       {% include "footer.njk" %}
+    {% elif page.url.startsWith('/projects') %}
+    <footer class="mt-8 pb-9 pt-8 bg-[color:var(--primary-color)] w-full">
+      <section class="max-w-[var(--site-width)] left-0 right-0 mx-auto">
+        <h2 class="whitespace-nowrap lg:text-start text-center">Is there more? 👀</h2>
+        <div class="px-4">
+        <p class="pb-3 pt-3 md:text-xl text-lg">Yup! You can also check out my <a href="https://thematiaz0.itch.io" class="bold hover:text-black" target="_blank" rel="noopener">Itch.io</a> page, where I post all of my gamejam projects (some may be unfinished or experiments).</p> 
+        <div class="flex justify-center align-middle items-center">
+            {% set btn = "btn-black" %}
+            {% set socialColor = "black" %}
+            {% include "social-media.njk" %}
+        </div>
+        </div>
+      </section>
+  </footer>
     {% endif %}
   </body>
 </html>

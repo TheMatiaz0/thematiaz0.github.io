@@ -14,8 +14,8 @@ layout: default.njk
         <h2 class="text-2xl">Go Back</h2>
 </a>
 <div>
-<h1 class="introduction align-middle leading-snug items-center">{{project.title}}</h1>
-<small class="text-base secondary">at <a target="_blank" rel="noopener" class="secondary bold hover:text-white" href="{{project.studio.url}}">{{project.studio.name}}</a></small>
+    <h1 class="introduction align-middle leading-snug items-center">{{project.title}}</h1>
+    <small class="text-base secondary">at <a target="_blank" rel="noopener" class="secondary bold hover:text-white" href="{{project.studio.url}}">{{project.studio.name}}</a></small>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-10 py-6">
     <p class="md:pr-12 pr-0 text-white md:text-xl md-paragraph whitespace-pre-line col-span-6">{{project.shortDescription}}</p>
@@ -64,7 +64,7 @@ layout: default.njk
                 <img src="{{section.content}}" />
             {% endif %}
             {% if section.contentType == "video" %}
-                <video class="culled-video" title="Keep it Cool, Man" muted="muted" loop>
+                <video class="culled-video" title="video player" muted="muted" loop>
                     <source src="{{section.content}}" type="video/mp4">
                     Your browser does not support the video tag or the file format of this video.
                 </video>
