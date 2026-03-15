@@ -1,26 +1,26 @@
 [
   {
-    "showcaseMp4Url": "1920-telegraphist.mp4",
-    "showcaseHeaderUrl": "1920-telegraphist.webp",
-    "title": "Telegraphist 1920: Beats of War",
+    "showcaseMp4Url": "projects/copa-city/copa-city.mp4",
+    "showcaseHeaderUrl": "projects/copa-city/copa-city.webp",
+    "title": "COPA CITY",
     "studio": {
-      "name": "Cubepotato Games",
-      "url": "https://cubepotato.eu"
+      "name": "Triple Espresso",
+      "url": "https://www.tripleespresso.club"
     },
-    "tagline": "Made narrative-driven rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category.",
-    "shortDescription": "Made narrative-driven rhythm game for HackYeah 2022 during 24 hours in 6-person team. Won 2nd place in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).",
-    "startDate": "03/2023",
+    "tagline": "Working on a city builder / tycoon game with real-world cities and licensed football clubs. My duties involve iterating UI in Figma and implementing to Unity.",
+    "shortDescription": "Working on a city builder / tycoon game with real-world cities and licensed football clubs.\n\nResponsibilities:\n• Iterating on UI designs created in Figma for implementation.\n• Collaborating with programmers and designers to align UI with gameplay systems.\n• Building reusable UI components and prefabs in Unity.\n• Designing and implementing interactive UI animations using DOTween.",
+    "startDate": "06/2025",
     "endDate": "now",
-    "url": "1920-telegraphist",
-    "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam", "figma", "top10"],
+    "url": "copa-city",
+    "tags": ["windows", "csharp", "unity", "vs", "git", "miro", "3D", "commercial", "steam", "figma"],
     "details": [
       {
         "header": "Team Size",
-        "content": "6"
+        "content": "50+"
       },
       {
         "header": "Roles",
-        "content": "Project Leader | Gameplay Programmer | Audio Designer | Game Designer | UI Designer"
+        "content": "UI Programmer • Motion Designer • UI Designer"
       },
       {
         "header": "Language",
@@ -32,11 +32,65 @@
       },
       {
         "header": "Platforms",
-        "content": "Windows | Linux | Mac"
+        "content": "Windows"
       },
       {
         "header": "Tools",
-        "content": "Visual Studio | Git"
+        "content": "Visual Studio • Git • Figma • Miro"
+      }
+    ],
+    "sources": {
+      "showcasePlatform": "Steam",
+      "showcaseUrl": "https://store.steampowered.com/app/4380110"
+    },
+    "article": {
+      "sections": [{
+        "header": "Gameplay by TheOnlyL0nzY",
+        "text": "",
+        "content": "https://www.youtube.com/embed/LXW0e85CFOM",
+        "contentType": "youtube"
+      }]
+    }
+  },
+
+  {
+    "showcaseMp4Url": "projects/1920-telegraphist/1920-telegraphist.mp4",
+    "showcaseHeaderUrl": "projects/1920-telegraphist/1920-telegraphist.webp",
+    "title": "Telegraphist 1920: Beats of War",
+    "studio": {
+      "name": "Cubepotato Games",
+      "url": "https://cubepotato.eu"
+    },
+    "tagline": "Making a narrative-driven rhythm game set during Polish-Soviet War. I'm responsible for UI and gameplay development. Won 2nd place with 24h prototype out of 2300 participants.",
+    "shortDescription": "Making a narrative-driven rhythm game set during Polish-Soviet War in my free time.\n\nStarted with prototype on HackYeah 2022 in 24 hours within 6-person team competing with 2300 participants.\n\nWon 2nd place by votes of jury in Game Development #1 - Polish Great Battles category and received recognition from Centrum Rozwoju Przemysłów Kreatywnych (CRPK).\n\nCurrently, I'm:\n• Designing and implementing all user interface in the game, including Level Editor.\n• Leading a small team of programmers.\n• Managing marketing & PR inquiries.",
+    "startDate": "03/2023",
+    "endDate": "now",
+    "url": "1920-telegraphist",
+    "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam", "figma", "top10"],
+    "details": [
+      {
+        "header": "Team Size",
+        "content": "8"
+      },
+      {
+        "header": "Roles",
+        "content": "Project Manager • Gameplay Programmer • Audio Designer • UI Designer • UI Programmer"
+      },
+      {
+        "header": "Language",
+        "content": "C#"
+      },
+      {
+        "header": "Engine",
+        "content": "Unity"
+      },
+      {
+        "header": "Platforms",
+        "content": "Windows • Linux • Mac"
+      },
+      {
+        "header": "Tools",
+        "content": "Visual Studio • Git • Steamworks SDK"
       }
     ],
     "sources": {
@@ -54,50 +108,104 @@
         {
         "header": "HackYeah 2022 (24h hackathon)",
         "text": "In October 2022, I was taking part in HackYeah 2022 hackathon. We've received second place by vote of jury.\n\nDuring 24 hours I was responsible for: \n• designing and implementing UI with animations using DOTween, \n • programming visual-audio to BPM response,\n • creating audio using interwar period samples and mixing it dynamically in Unity, \n • deploying an iteration system (creating a feature, testing and improving based on the feedback from other people around us).\n\nLink to the gamejam version: https://thematiaz0.itch.io/1920-telegraphist",
-        "content": "1920-telegraphist-hackyeah.mp4",
+        "content": "projects/1920-telegraphist/1920-telegraphist-hackyeah.mp4",
         "contentType": "video"
       },
       {
         "header": "CRPK Prototype",
         "text": "In April 2023, we were given the opportunity to get a fund from CRPK to work on a prototype of Telegraphist 1920: Beats of War.\n\nDuring this, I have programmed Level Editor to create base for us and future modders, deliver milestones with builds showcasing our progress and handled optimization for final demo in Unity.",
-        "content": "1920-telegraphist-editor.webp",
+        "content": "projects/1920-telegraphist/1920-telegraphist-editor.webp",
         "contentType": "image"
       },
       {
         "header": "PGA 2024",
         "text": "In October 2024, the four of us had opportunity to show up at Poznań Game Arena 2024 and say hi to our fans, but also present people to new audience. The feedback from everyone was very valuable and the place seemed very inspirational for me (especially afterparty :P)",
-        "content": "PGA_2024.jpg",
+        "content": "projects/1920-telegraphist/PGA_2024.jpg",
         "contentType": "image"
       },
       {
         "header": "Digital Dragons' Go Global",
         "text": "In November 2024, we received another grant, this time for marketing expansion. During this time, I managed to create a port of Telegraphist 1920 for Steam Deck handheld, organized a focus test to make sure that we'll get Steam Deck Verified status (fingers crossed!) and executed all marketing ideas (aside from our TikTok socials).",
-        "content": "Steam_Deck_Telegraphist_1920.png",
+        "content": "projects/1920-telegraphist/Steam_Deck_Telegraphist_1920.png",
         "contentType": "image"
       },
       {
         "header": "Road to Full Release",
         "text": "Nowadays, I'm still working on the game in my free time and we intend to release it on Steam in 2025.\n\nMy role right now is various - from leading our programming team to contacting video game festivals and events around the world.\nIn addition to this, I work on adding more juicyness to the game with VFX, shaders and UI. Isn't it what rhythm games are about?\n\nCheck out my article on Medium on that topic: https://medium.com/@mateusz.kusionowicz/how-to-create-a-new-evolution-of-guitar-hero-a-tale-of-telegraphist-1920-game-design-process-6f68736742d0",
-        "content": "1920-telegraphist-screen3.jpg",
+        "content": "projects/1920-telegraphist/1920-telegraphist-screen3.jpg",
         "contentType": "image"
     }]
     }
   },
 
   {
-    "showcaseMp4Url": "warszawies.mp4",
-    "showcaseHeaderUrl": "warszawies.webp",
+  "showcaseMp4Url": "projects/omt/omt_preview.mp4",
+  "showcaseHeaderUrl": "projects/omt/omt_header.webp",
+  "title": "One More Ticket",
+  "studio": {
+    "name": "[Awendżersi]",
+    "url": ""
+  },
+  "tagline": "Built a reverse tower defense godlike game on 48 hour gamejam in 6-person team. I was responsible for UI design and implementation. Won 1st place by votes of jury.",
+  "shortDescription": "Built a reverse tower defense godlike game on 48 hour gamejam on Steelworks Game Jam IV in Nowohuckie Centrum Kultury. I was responsible for UI design and implementation. Won 1st place by votes of jury.\n\n What I did:\n• Coordinated overall art direction with talented 2D artists.\n• Used Trello to assign tasks as secondary communication buffer during nap time :)\n• Designed and implemented all user interface, including start and game over screen.\n• Implemented additional gameplay mechanics.",
+  "startDate": "11/2025",
+  "endDate": "11/2025",
+  "url": "omt",
+  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "2D"],
+  "details": [
+    {
+      "header": "Team Size",
+      "content": "6"
+    },
+    {
+      "header": "Roles",
+      "content": "Gameplay Programmer • Motion Designer • UI Programmer • UI Designer"
+    },
+    {
+      "header": "Language",
+      "content": "C#"
+    },
+    {
+      "header": "Engine",
+      "content": "Unity"
+    },
+    {
+      "header": "Platforms",
+      "content": "Windows"
+    },
+    {
+      "header": "Tools",
+      "content": "Visual Studio • Git • Trello"
+    }
+  ],
+  "sources": {
+    "showcasePlatform": "Itch.io",
+    "showcaseUrl": "https://thematiaz0.itch.io/one-more-ticket"
+  },
+  "article": {
+    "sections": [{
+      "header": "Gameplay (3 minutes)",
+      "text": "",
+      "content": "https://www.youtube.com/embed/cRJnCiySe3w",
+      "contentType": "youtube"
+    }]
+  }
+},
+
+  {
+    "showcaseMp4Url": "projects/warszawies/warszawies.mp4",
+    "showcaseHeaderUrl": "projects/warszawies/warszawies.webp",
     "title": "Warszawieś",
     "studio": {
       "name": "Dzikie Kolana",
       "url": ""
     },
     "tagline": "Coded core architecture for city builder with RPG elements set in Warsaw Mythology for CRPK Jam 2024 during 48 hours in 5-person team. Received recognition from other participants.",
-    "shortDescription": "Coded core architecture for city builder with RPG elements set in Warsaw Mythology for CRPK Jam 2024 during 48 hours in 5-person team. Received recognition from other participants.",
+    "shortDescription": "Coded core architecture for city builder with RPG elements set in Warsaw Mythology for CRPK Jam 2024 during 48 hours in 5-person team. Received recognition from other participants.\n\nWhat I did:\n• Implemented core features using Unity's Scriptable Objects.\n• Built code architecture for additional programmer.\n• Optimized game performance for spawning A LOT of Game Objects.\n• Worked with VFX artist to provide support for custom effects.",
     "startDate": "10/2024",
     "endDate": "10/2024",
     "url": "warszawies",
-    "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "3D", "noncommercial"],
+    "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "3D", "noncommercial", "figma"],
     "details": [
       {
         "header": "Team Size",
@@ -121,7 +229,7 @@
       },
       {
         "header": "Tools",
-        "content": "Visual Studio | Git"
+        "content": "Visual Studio • Git • Figma"
       }
     ],
     "sources": {
@@ -133,22 +241,22 @@
       "sections": [{
         "header": "Gameplay",
         "text": "",
-        "content": "https://www.youtube.com/embed/2m299oFxMDY?si=MHrNcDuYi-tr3R3A",
+        "content": "https://www.youtube.com/embed/2m299oFxMDY",
         "contentType": "youtube"
       }]
     }
   },
 
   {
-    "showcaseMp4Url": "vtm-rony.mp4",
-    "showcaseHeaderUrl": "vtm-rony.webp",
+    "showcaseMp4Url": "projects/vtm/vtm-rony.mp4",
+    "showcaseHeaderUrl": "projects/vtm/vtm-rony.webp",
     "title": "Vampire the Masquerade: Reckoning of New York",
     "studio": {
       "name": "Draw Distance",
       "url": "https://drawdistance.dev"
     },
-    "tagline": "Crafted from start to finish a Visual Novel RPG game set in the World of Darkness lore. Released on PC, PlayStation 4 and 5, Nintendo Switch, Xbox One and Series.",
-    "shortDescription": "Crafted from start to finish a Visual Novel RPG game set in the World of Darkness lore.\n\nReleased on PC, PlayStation 5, PlayStation 4, Nintendo Switch, Xbox One and Xbox Series.\n\nMy duties:\n• Implemented Flow with Unity UI Toolkit - a visual dialogue and quest node graph for the narrative team.\n• Designed in Figma and implemented in Unity and DOTween UI/UX elements that were appreciated by VtM players.\n• Analysed wireframes for UX iterations.",
+    "tagline": "Crafted a Visual Novel RPG game set in the World of Darkness lore. I was responsible for UI code and design. Released on PC, PlayStation 4 and 5, Nintendo Switch, Xbox One and Series.",
+    "shortDescription": "Crafted a Visual Novel RPG game set in the World of Darkness lore.\n\nReleased on PC, PlayStation 5, PlayStation 4, Nintendo Switch, Xbox One and Xbox Series.\n\nMy duties:\n• Implemented Flow with Unity UI Toolkit - a visual dialogue and quest node graph for the narrative team.\n• Designed in Figma and implemented in Unity and DOTween UI/UX elements that were appreciated by VtM players.\n• Analysed wireframes for UX iterations.",
     "startDate": "11/2023",
     "endDate": "06/2024",
     "url": "vtm-rony",
@@ -160,7 +268,7 @@
       },
       {
         "header": "Roles",
-        "content": "UI/UX Designer | Gameplay Programmer | UI Programmer"
+        "content": "UI/UX Designer • Gameplay Programmer • UI Programmer"
       },
       {
         "header": "Language",
@@ -172,11 +280,11 @@
       },
       {
         "header": "Platforms",
-        "content": "Windows | PS5 | PS4 | Xbox Series X/S | Xbox One | Nintendo Switch"
+        "content": "Windows • PS5 • PS4 • Xbox Series X/S • Xbox One • Nintendo Switch"
       },
       {
         "header": "Tools",
-        "content": "Visual Studio | Git | Figma | Notion"
+        "content": "Visual Studio • Git • Figma • Notion"
       }
     ],
     "sources": {
@@ -191,100 +299,45 @@
         "contentType": "youtube"
       }, 
       {
-        "header": "UI Designs",
+        "header": "Mockups",
         "text": "",
-        "content": "vtm-mainmenu.webp",
+        "content": "projects/vtm/vtm-mainmenu.webp",
         "contentType": "image"
       },
       {
         "text": "",
-        "content": "vtm-gameplay.webp",
+        "content": "projects/vtm/vtm-gameplay.webp",
         "contentType": "image"
       },
       {
         "text": "",
-        "content": "vtm-disciplines.webp",
+        "content": "projects/vtm/vtm-disciplines.webp",
         "contentType": "image"
       },
       {
         "text": "",
-        "content": "vtm-savelimit.webp",
+        "content": "projects/vtm/vtm-savelimit.webp",
         "contentType": "image"
       },
       {
         "text": "",
-        "content": "vtm-map.webp",
+        "content": "projects/vtm/vtm-map.webp",
         "contentType": "image"
       }]
     }
   },
-
-{
-  "showcaseMp4Url": "cathead.mp4",
-  "showcaseHeaderUrl": "cathead.webp",
-  "title": "Cathead",
-  "studio": {
-    "name": "Sz",
-    "url": ""
-  },
-  "tagline": "Meowed local co-op psychedelic arcade game during KrakJam 2024. Received recognition from other participants and won 5th place with democratic vote.",
-  "shortDescription": "Created local co-op psychedelic arcade game during KrakJam 2024. Won 5th place. It was my first time in a new team created mainly during the event.\n\n My duties:\n• co-designed gameplay loop.\n• designed and implemented all user interface.\n• implemented individual effects for each item.\n• created all audio content including main music track.",
-  "startDate": "01/2024",
-  "endDate": "01/2024",
-  "url": "cathead",
-  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "2D", "noncommercial", "top10"],
-  "details": [
-    {
-      "header": "Team Size",
-      "content": "5"
-    },
-    {
-      "header": "Roles",
-      "content": "Gameplay Programmer | Audio Designer | Game Designer | UI Designer"
-    },
-    {
-      "header": "Language",
-      "content": "C#"
-    },
-    {
-      "header": "Engine",
-      "content": "Unity"
-    },
-    {
-      "header": "Platforms",
-      "content": "Windows | WebGL"
-    },
-    {
-      "header": "Tools",
-      "content": "Visual Studio | Git"
-    }
-  ],
-  "sources": {
-    "showcasePlatform": "Itch.io",
-    "showcaseUrl": "https://thematiaz0.itch.io/cathead",
-    "codeUrl": "https://github.com/TheMatiaz0/KrakJam2024"
-  },
-  "article": {
-    "sections": [{
-      "header": "Official Gameplay Trailer",
-      "text": "Have you ever wondered, what's going on inside your cat brain?",
-      "content": "https://www.youtube.com/embed/c6iYfpLKSmo?si=1AXH50d2JhPW7xRU",
-      "contentType": "youtube"
-    }]
-  }
-},
   
 
 {
-  "showcaseWebmUrl": "survival-nation.webm",
-  "showcaseHeaderUrl": "survival-nation.webp",
+  "showcaseWebmUrl": "projects/survival-nation/survival-nation.webm",
+  "showcaseHeaderUrl": "projects/survival-nation/survival-nation.webp",
   "title": "Survival Nation",
   "studio": {
     "name": "Wenkly Studio",
     "url": "https://www.wenklystudio.com"
   },
-  "tagline": "Worked on VR seamless open world multiplayer shooter game with survival and RPG elements. Released on SteamVR, Pico and Oculus.",
-  "shortDescription": "Worked on VR seamless open world multiplayer shooter game with survival and RPG elements. Released on SteamVR, Pico and Oculus. \n\nResponsible for:\n • solving critical bugs through fast debugging, \n• implementing multiplayer gameplay features using Photon Fusion, \n• creating utility code for user interface (like custom Scroll View and responsive background adjusted to the text), \n• optimizing VR seamless open world for Pico and SteamVR. \n\nAdditionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing.",
+  "tagline": "Worked on VR seamless open world multiplayer shooter game. I was responsible for networking and gameplay code. Released on Oculus, SteamVR and Pico.",
+  "shortDescription": "Worked on VR seamless open world multiplayer shooter game with survival and RPG elements. Released on SteamVR, Pico and Oculus. \n\nResponsible for:\n • Solving critical bugs through fast debugging, \n• Implementing multiplayer gameplay features using Photon Fusion, \n• Creating utility code for user interface (like custom Scroll View and responsive background adjusted to the text), \n• Optimizing VR seamless open world (no loading screens) for Pico and SteamVR. \n\nAdditionally, thinking about others' workflow and providing help by creating Unity Editor tools and adding more developer tools for testing.",
   "startDate": "03/2022",
   "endDate": "05/2023",
   "url": "survival-nation",
@@ -296,7 +349,7 @@
     },
     {
       "header": "Roles",
-      "content": "Gameplay Programmer | Tool Programmer | Optimization Programmer | Networking Programmer | Audio Programmer/Designer"
+      "content": "Gameplay Programmer • Tool Programmer • Networking Programmer • Audio Programmer"
     },
     {
       "header": "Language",
@@ -308,11 +361,11 @@
     },
     {
       "header": "Platforms",
-      "content": "SteamVR | Oculus | PICO XR"
+      "content": "SteamVR • Oculus • PICO XR"
     },
     {
       "header": "Tools",
-      "content": "Visual Studio | Git"
+      "content": "Visual Studio • Git • Photon Fusion"
     }
   ],
   "sources": {
@@ -329,15 +382,15 @@
   }
 },
 {
-  "showcaseMp4Url": "decorporation.mp4",
-  "showcaseHeaderUrl": "decorporation.webp",
+  "showcaseMp4Url": "projects/decorporation/decorporation.mp4",
+  "showcaseHeaderUrl": "projects/decorporation/decorporation.webp",
   "title": "Decorporation",
   "studio": {
     "name": "Cubepotato Games",
     "url": "https://cubepotato.eu"
   },
-  "tagline": "Encorporated a KrakJam 2022 gamejam project into fully fledged FPS roguelite game and published commercially on Steam.",
-  "shortDescription": "Made 3D FPS commercial game and published on Steam. \n\nWorked on a project wearing different hats - scrum master, programmer and UI designer - in general - game producer.\n\n I was responsible for:\n • programming upgrade system inspired with Hades game,\n• implementing camera system with Cinemachine,\n• implementing external APIs like Steamworks, Discord API, etc,\n • bug-fixes and working with the team to handle a lot of various bugs. \n • measuring performance bottlenecks and fixing them using Unity Profiler. \n\nPrior to Steam release this was a gamejam project (named Bulletache back then) made in 5 days for KrakJam 2022.",
+  "tagline": "Encorporated a KrakJam 2022 gamejam project into fully fledged FPS roguelite game and published commercially on Steam. I was responsible for UI and gameplay programming.",
+  "shortDescription": "Made 3D FPS commercial game and published on Steam. \n\nWorked on a project wearing different hats - project manager, programmer and UI designer.\n\n I was responsible for:\n • Programming upgrade system inspired with Hades game,\n• Implementing camera system with Cinemachine,\n• Implementing external APIs like Steamworks, Discord API, etc,\n • Bug-fixes and working with the team to handle a lot of various bugs. \n • Measuring performance bottlenecks and fixing them using Unity Profiler. \n\nPrior to Steam release this was a gamejam project (named Bulletache back then) made in 5 days for KrakJam 2022.",
   "startDate": "01/2022",
   "endDate": "08/2022",
   "url": "decorporation",
@@ -349,7 +402,7 @@
     },
     {
       "header": "Roles",
-      "content": "Project Manager | Scrum Master | Optimization Programmer | Gameplay Programmer | Sound Designer | Cutscene Director | UI Designer"
+      "content": "Project Manager • Gameplay Programmer • UI Designer"
     },
     {
       "header": "Language",
@@ -361,17 +414,17 @@
     },
     {
       "header": "Platforms",
-      "content": "Windows | Linux | Mac"
+      "content": "Windows • Linux • Mac"
     },
     {
       "header": "Tools",
-      "content": "Visual Studio | Steamworks | Git | Figma"
+      "content": "Visual Studio • Steamworks SDK • Git • Figma"
     }
   ],
   "sources": {
     "showcasePlatform": "Steam",
     "showcaseUrl": "https://store.steampowered.com/app/1968950/Decorporation",
-    "codeUrl": "https://github.com/piratehacker/krakjam-2022"
+    "codeUrl": "https://github.com/jakub-lat/krakjam-2022"
   },
   "article": {
     "sections": [{
@@ -385,15 +438,15 @@
 
 
 {
-  "showcaseWebmUrl": "kicm.mp4",
-  "showcaseHeaderUrl": "kicm.webp",
+  "showcaseWebmUrl": "projects/kicm/kicm.mp4",
+  "showcaseHeaderUrl": "projects/kicm/kicm.webp",
   "title": "Keep it Cool, Man",
   "studio": {
     "name": "Cyberevolver_Studios",
     "url": "https://cyberevolver-studios.itch.io"
   },
-  "tagline": "Created an arcade fast-paced typing game with friend and released on Steam for free. This project is perfect definition of jam session.",
-  "shortDescription": "Made an arcade fast-paced typing game with friend (+ additional musician) and released it on Steam for free. \n\nI was responsible for:\n • designing and implementing all of the user interface (including animations created through C# using DOTween).\n • implementing third-party APIs, \n • created and designed game content (like bomb letters, shotgun letters, etc.).\n • coding Unity editor tools to speed up development process.\n • handling marketing and PR inquires with players, influencers and journalists.",
+  "tagline": "Created an arcade fast-paced typing game with friend and released on Steam for free. I was responsible for visual side of the game. This project is the perfect definition of jam session.",
+  "shortDescription": "Made an arcade fast-paced typing game with friend (+ additional musician) and released it on Steam for free. \n\nI was responsible for:\n • Designing and implementing all of the user interface (including animations created through C# using DOTween).\n • Implementing third-party APIs, \n • Created and designed game content (like bomb letters, shotgun letters, etc.).\n • Coding Unity editor tools to speed up development process.\n • Handling marketing and PR inquires with players, influencers and journalists.",
   "startDate": "08/2021",
   "endDate": "07/2022",
   "url": "kicm",
@@ -405,7 +458,7 @@
     },
     {
       "header": "Roles",
-      "content": "Gameplay Programmer | Tool Programmer | Animation Programmer (DOTween) | UI/UX Designer"
+      "content": "Art Director • UI Designer • UI Programmer • Tool Programmer • Motion Designer"
     },
     {
       "header": "Language",
@@ -417,11 +470,11 @@
     },
     {
       "header": "Platforms",
-      "content": "Windows | Linux | Mac"
+      "content": "Windows • Linux • Mac"
     },
     {
       "header": "Tools",
-      "content": "Visual Studio | Steamworks | Git | Figma"
+      "content": "Visual Studio • Steamworks SDK • Git • Figma"
     }
   ],
   "sources": {
@@ -446,27 +499,27 @@
     {
       "header": "User Interface",
       "text": "At the beginning, I started with feeling for the game which UI would evoke. I chose fear and fun, though it wasn't 100% fear, more like a surprise. Those two fit perfectly in the sarcasm/irony zone for the story and typing game with apocalyptic asteroid letters for the gameplay:",
-      "content": "kicm-3.mp4",
+      "content": "projects/kicm/kicm-3.mp4",
       "contentType": "video"
     },
     {
       "text": "I thought about the style and first things that came to my mind was funk and sci-fi and the name - Keep it Cool, Man (it's long I know, but still it's catchy and tells the player vibe of the game). It came to my mind while thinking about the health system and it being the temperature of the planet seemed like an interesting concept to me and also I like avoiding the same old boring health bar without story explanation:",
-      "content": "kicm-5.mp4",
+      "content": "projects/kicm/kicm-5.mp4",
       "contentType": "video"
     },
     {
       "text": "As soon as possible I created a color palette to create a consistent and memorable experience. I chose the yellow colour as the main one, because it catches the attention and signals an upcoming warning - fitting the feeling of fear:",
-      "content": "kicm-palette.webp",
+      "content": "projects/kicm/kicm-palette.webp",
       "contentType": "image"
     },
     {
       "text": "With level complete screen I wanted to engage players into playing one more level. For that it required the UI to be immersive and simple and every  animation to be seamless (here it shows the transition to the Main Menu, but clicking Next the player would in the same way transition to the next level):",
-      "content": "kicm-4.mp4",
+      "content": "projects/kicm/kicm-4.mp4",
       "contentType": "video"
     },
     {
       "text": "For dialogues I implemented various effects from shaking the screen or avatar (like here it's cellphone) to flexible delay. The background displays the planet that this dialogue is happening on (though I think it could be still improved):",
-      "content": "kicm-2.mp4",
+      "content": "projects/kicm/kicm-2.mp4",
       "contentType": "video"
     },
     {
@@ -474,13 +527,13 @@
     },
     {
       "text": "Level collection consists of vinyl discs for each chapter and circles placed onto the disc as levels. The levels also has green or red circles around them indicating if they are locked or unlocked to the player (in this case though, they are all unlocked):",
-      "content": "kicm-6.mp4",
+      "content": "projects/kicm/kicm-6.mp4",
       "contentType": "video"
     },
     {
       "header": "PGA 2021",
       "text": "I was also at the Poznań Game Arena 2021 (one of the biggest video game trade show in Poland) where with my friend we showcased Keep it Cool, Man to thousands of people! It was great having all of these feedback from various people and how they play the game!",
-      "content": "pga2021.webp",
+      "content": "projects/kicm/pga2021.webp",
       "contentType": "image"
     }]
   }

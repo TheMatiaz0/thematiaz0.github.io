@@ -1,32 +1,32 @@
 {
 	"languages": [{
-			"iconUrl": "csharp.webp",
+			"iconUrl": "skills/csharp.webp",
 			"name": "C#",
-			"experience": "4 Years",
-			"projectCount": "7 Projects",
+			"experience": "5 Years",
+			"projectCount": "8 Projects",
       "description": "Object-oriented programming language",
 			"tag": "csharp"
 		},
 		{
-			"iconUrl": "js.png",
+			"iconUrl": "skills/js.png",
 			"name": "JavaScript",
 			"experience": "1 Year",
       "description": "Masochistic programming language used by majority of websites (TypeScript is a lot better)"
 		},
 		{
-			"iconUrl": "python.webp",
+			"iconUrl": "skills/python.webp",
 			"name": "Python",
 			"experience": "1 Year",
       "description": "High-level, dynamically typed programming language"
 		},
 		{
-			"iconUrl": "pol.webp",
+			"iconUrl": "skills/pol.webp",
 			"name": "Polish",
 			"experience": "Native",
       "description": "Language used in Poland"
 		},
 		{
-			"iconUrl": "eng.webp",
+			"iconUrl": "skills/eng.webp",
 			"name": "English",
 			"experience": "C1 Level",
       "description": "Language used as primary communication between humans"
@@ -34,39 +34,39 @@
 	],
 	"tools": [
     {
-      "iconUrl": "unity.webp",
+      "iconUrl": "skills/unity.webp",
       "name": "Unity", 
-      "experience": "4 Years",
-      "projectCount": "7 Projects",
+      "experience": "5 Years",
+      "projectCount": "8 Projects",
       "description": "A video game engine that uses C#",
       "tag": "unity"
     },
     {
-      "iconUrl": "vs.webp",
+      "iconUrl": "skills/vs.webp",
       "name": "Visual Studio", 
-      "experience": "4 Years",
-      "projectCount": "7 Projects",
+      "experience": "5 Years",
+      "projectCount": "8 Projects",
       "description": "An IDE (code editor) for C#",
       "tag": "vs"
     },
     {
-      "iconUrl": "git.webp",
+      "iconUrl": "skills/git.webp",
       "name": "Git", 
-      "experience": "4 Years",
-      "projectCount": "7 Projects",
+      "experience": "5 Years",
+      "projectCount": "8 Projects",
       "description": "A source control language that allows you to do almost conflictless code sharing",
       "tag": "git"
     },
     {
-      "iconUrl": "figma.webp",
+      "iconUrl": "skills/figma.webp",
       "name": "Figma", 
-      "experience": "2.5 Years",
-      "projectCount": "4 Projects",
+      "experience": "3 Years",
+      "projectCount": "6 Projects",
       "description": "A UI/UX design and graphic design software",
       "tag": "figma"
     },
     {
-      "iconUrl": "photon.webp",
+      "iconUrl": "skills/photon.webp",
       "name": "Photon Fusion", 
       "experience": "1 Year",
       "projectCount": "1 Project",
@@ -76,63 +76,63 @@
   ],
   "platforms": [
     {
-      "iconUrl": "windows.png",
+      "iconUrl": "skills/windows.png",
       "name": "Windows", 
-      "projectCount": "6 Projects",
+      "projectCount": "8 Projects",
       "description": "An operating system made by Microsoft used by majority of video game users",
       "tag": "windows"
     },
     {
-      "iconUrl": "linux.webp",
+      "iconUrl": "skills/linux.webp",
       "name": "Linux", 
       "projectCount": "3 Projects",
       "description": "A family of open-source operating systems",
       "tag": "linux"
     },
     {
-      "iconUrl": "macOS.webp",
+      "iconUrl": "skills/macOS.webp",
       "name": "macOS", 
       "projectCount": "3 Projects",
       "description": "A Unix operating system",
       "tag": "mac"
     },
     {
-      "iconUrl": "playstation.png",
+      "iconUrl": "skills/playstation.png",
       "name": "Playstation",
       "projectCount": "1 Project",
       "description": "",
       "tag": "playstation"
     },
     {
-      "iconUrl": "xbox.png",
+      "iconUrl": "skills/xbox.png",
       "name": "Xbox",
       "projectCount": "1 Project",
       "description": "",
       "tag": "xbox"
     },
     {
-      "iconUrl": "switch.png",
+      "iconUrl": "skills/switch.png",
       "name": "Nintendo Switch",
       "projectCount": "1 Project",
       "description": "",
       "tag": "switch"
     },
     {
-      "iconUrl": "steam.webp",
+      "iconUrl": "skills/steam.webp",
       "name": "SteamVR", 
       "projectCount": "1 Project",
       "description": "A platform from Valve that behaves as unified space between PC and VR headsets",
       "tag": "steamvr"
     },
     {
-      "iconUrl": "oculus.webp",
+      "iconUrl": "skills/oculus.webp",
       "name": "Oculus", 
       "projectCount": "1 Project",
       "description": "VR headset platform from Meta",
       "tag": "oculus"
     },
     {
-      "iconUrl": "pico.webp",
+      "iconUrl": "skills/pico.webp",
       "name": "PICO XR", 
       "projectCount": "1 Project",
       "description": "A platform for PICO VR headsets",

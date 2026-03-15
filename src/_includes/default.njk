@@ -5,29 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <meta name="description" content="{{ metadata.description }}" />
-    <meta name="author" content="Mateusz Kusionowicz">
-    <meta name="referrer" content="always">
-    <meta name="robots" content="all">
-    <meta name="keywords" content="{{ metadata.keywords }}">
-    <meta name="generator" content="{{ eleventy.generator }}" />
-    <link rel="canonical" href="{{metadata.canonical}}">
+    {% set pageTitle = project.title or title %}
+    <title>{{ pageTitle if pageTitle else metadata.title }}{% if pageTitle %} | {{ metadata.title }}{% endif %}</title>
 
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_us">
-    <meta property="og:url" content="{{ metadata.canonical }}">
-    <meta property="og:title" content="{{title or metadata.title}}">
-    <meta property="og:description" content="{{ metadata.description }}">
-    <meta property="og:image" content="{{ metadata.image }}">
+    <meta name="description" content="{{ project.tagline or description or metadata.description }}" />
+    <link rel="canonical" href="{{ metadata.canonical }}{{ page.url }}">
+
+    <meta property="og:type" content="{{ project and 'article' or 'website'}}">
+    <meta property="og:title" content="{{ pageTitle if pageTitle else metadata.title }}{% if pageTitle %} | {{ metadata.title }}{% endif %}">
+    <meta property="og:site_name" content="{{metadata.title}}">
+    <meta property="og:description" content="{{ project.tagline or description or metadata.description }}">
+    <meta property="og:image" content="{{ metadata.canonical }}/{{ project.showcaseHeaderUrl or image or metadata.image }}">
+    <meta property="og:url" content="{{ metadata.canonical }}{{ page.url }}">
     <meta property="og:see_also" content="https://www.linkedin.com/in/mateusz-kusionowicz">
     <meta property="og:see_also" content="https://github.com/TheMatiaz0">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="{{metadata.domain}}">
-    <meta property="twitter:url" content="{{metadata.canonical}}">
-    <meta name="twitter:title" content="{{metadata.title}}">
-    <meta name="twitter:description" content="{{ metadata.description }}">
-    <meta name="twitter:image" content="{{ metadata.image }}">
+    <meta name="twitter:title" content="{{ pageTitle if pageTitle else metadata.title }}{% if pageTitle %} | {{ metadata.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ project.tagline or description or metadata.description }}">
+    <meta name="twitter:image" content="{{ metadata.canonical }}/{{ project.showcaseHeaderUrl or image or metadata.image }}">
 
     <link
       rel="apple-touch-icon"
@@ -47,8 +43,6 @@
       href="{{ 'favicon-16x16.png' | url }}"
     />
     <link rel="manifest" href="{{ 'site.webmanifest' | url }}" />
-
-    <title>{{ metadata.title }}</title>
     <link rel="stylesheet" href="{{ 'fonts.css' | url }}" />
     <link rel="stylesheet" href="{{ 'site.css' | url }}" />
 
