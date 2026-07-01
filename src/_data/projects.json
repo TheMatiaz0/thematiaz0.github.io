@@ -12,7 +12,7 @@
     "startDate": "06/2025",
     "endDate": "now",
     "url": "copa-city",
-    "tags": ["windows", "csharp", "unity", "vs", "git", "miro", "3D", "commercial", "steam", "figma"],
+    "tags": ["windows", "xbox", "playstation", "csharp", "unity", "vs", "git", "miro", "3D", "commercial", "steam", "figma"],
     "details": [
       {
         "header": "Team Size",
@@ -32,7 +32,7 @@
       },
       {
         "header": "Platforms",
-        "content": "Windows"
+        "content": "Windows • PlayStation 5 • Xbox Series X/S"
       },
       {
         "header": "Tools",
@@ -45,9 +45,9 @@
     },
     "article": {
       "sections": [{
-        "header": "Gameplay by TheOnlyL0nzY",
+        "header": "Gameplay Video",
         "text": "",
-        "content": "https://www.youtube.com/embed/LXW0e85CFOM",
+        "content": "https://www.youtube.com/embed/hhMMgHH0caQ",
         "contentType": "youtube"
       }]
     }
@@ -280,7 +280,7 @@
       },
       {
         "header": "Platforms",
-        "content": "Windows • PS5 • PS4 • Xbox Series X/S • Xbox One • Nintendo Switch"
+        "content": "Windows • PlayStation 5 • PlayStation 4 • Xbox Series X/S • Xbox One • Nintendo Switch"
       },
       {
         "header": "Tools",
