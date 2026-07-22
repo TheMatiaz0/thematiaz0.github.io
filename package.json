@@ -6,7 +6,8 @@
     "start": "run-p start:*",
     "start:eleventy": "eleventy --serve",
     "start:postcss": "postcss src/styles/*.css --dir _site --watch",
-    "build": "run-s clean build:eleventy build:postcss",
+    "videos": "node src/static/video-stream-generator.js",
+    "build": "npm run videos && run-s clean build:eleventy build:postcss",
     "build:eleventy": "cross-env ELEVENTY_PRODUCTION=true eleventy",
     "build:postcss": "cross-env NODE_ENV=production postcss src/styles/*.css --dir _site",
     "clean": "rimraf _site"
@@ -26,6 +27,7 @@
     "tailwindcss": "^3.4.14"
   },
   "dependencies": {
-    "@tailwindcss/line-clamp": "^0.4.4"
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "fast-glob": "^3.3.3"
   }
 }
