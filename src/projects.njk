@@ -3,20 +3,32 @@ layout: default
 permalink: "{{ page.filePathStem }}.html"
 ---
 <script src="dropdown.js"></script>
+<script src="route.js"></script>
+
 <section class="py-64 md:py-40 align-middle items-center content-center">
-    <a href="/" class="flex py-6 justify-start items-center align-middle secondary hover:text-white gap-3 max-w-[200px]">
+    <a onclick="goBack()" class="flex py-6 justify-start items-center align-middle secondary hover:text-white gap-3 max-w-[200px]">
         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path class="w-1 h-1" fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
         <h2 class="text-2xl">Back</h2>
     </a>
 <div class="flex justify-between">
     <h2 class="whitespace-nowrap introduction"><div class="dropdown">
   <button onmousedown="toggleDropdown()" class="text-sm btn-secondary align-middle"><span class="tag-text"></span> ▼</button>
+
   <div id="dropdown" class="dropdown-content">
     <input type="text" placeholder="Search..." id="dropdownSearchInput" onkeyup="filterFunction()">
-    <a class="text-sm" href="/projects">All</a>
+    <a class="text-sm dropdown-all" href="/projects">All</a>
     <div class="options">
+        {% for cat, items in experience %}
+            {% for item in items %}
+                {% if item.tag %}
+                    <a class="text-sm dropdown-item" href="/projects?filter={{ item.tag }}" data-tag="{{ item.tag }}" data-name="{{ item.name }}">
+                        {{ item.name }}
+                    </a>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
 </div>   Projects
 <span class="project-count text-base font-normal">
   (<span class="visible-count">{{ projects.length }}</span>
@@ -25,73 +37,56 @@ permalink: "{{ page.filePathStem }}.html"
 </span></h2>
     <div class="buttons flex flex-wrap justify-between gap-4"></div>
 </div>
-    <div class="projects grid grid-cols-1 md:grid-cols-2 justify-between py-6 gap-12"></div>
+<div class="projects grid grid-cols-1 md:grid-cols-2 justify-between py-6 gap-12">
+    {% for projectItem in projects %}
+        <div class="project-wrapper" data-tags="{{ projectItem.tags | join(',') }}">
+            {% include "project-card.njk" %}
+        </div>
+    {% endfor %}
+</div>
 </section>
 
-{# remember to refresh 11ty without serve to apply changes #}
-<script src="nunjucks.js"></script>
 <script>
+document.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const currentFilter = params.get('filter');
 
-const params = new Proxy(new URLSearchParams(window.location.search), {
-  get: (searchParams, prop) => searchParams.get(prop),
-});
+    const projectWrappers = document.querySelectorAll('.project-wrapper');
+    const visibleCountEl = document.querySelector('.visible-count');
+    const tagSpan = document.querySelector('.tag-text');
+    const dropdownItems = document.querySelectorAll('.dropdown-item');
 
-const projectsDiv = document.querySelector('.projects');
-const parsedProjects = JSON.parse(`{{ projects | json }}`.replace(/(\r\n|\n|\r)/gm, ""));
-const projectTemplate = `{% includeraw "./src/_includes/project-card.njk" %}`;
+    let visibleCount = 0;
+    let currentFilterName = "All";
 
-const buttonsDiv = document.querySelector('.options');
-const parsedOptions = JSON.parse(`{{ experience | json }}`);
-const buttonTemplate = (name, tag) => `<a class="text-sm" href="/projects?filter=${tag}">${name}</a>`;
-
-const tagSpan = document.querySelector('.tag-text');
-const defaultText = "All";
-
-const visibleCount = document.querySelector('.visible-count');
-const totalCount = document.querySelector('.total-count');
-
-update();
-
-function update() {
-  updateProjectList();
-  updateDropdown();
-}
-
-function updateProjectList() {
-    let filtered = parsedProjects.filter(x => x.tags.includes(params.filter));
-    let projectList = filtered.length <= 0 ? parsedProjects : filtered;
-    projectsDiv.innerHTML = projectList.map(x => nunjucks.renderString(projectTemplate, {projectItem: x})).join('');
-
-    visibleCount.textContent = projectList.length;
-    totalCount.textContent = parsedProjects.length;
-}
-
-function updateDropdown() {
-    let tagText = defaultText;
-
-    if (params.filter) {
-      for (const optionArray of Object.values(parsedOptions)) {
-      const match = optionArray.find(item => item.tag === params.filter);
-        if (match) {
-          tagText = match.name;
-          break;
+    projectWrappers.forEach(wrapper => {
+        if (!currentFilter) {
+            wrapper.style.display = 'block'; 
+            visibleCount++;
+            return;
         }
-      }
-    }
-    tagSpan.innerHTML = tagText;
 
-    const buttons = Object.values(parsedOptions).flatMap(items => {
-    if (!Array.isArray(items)) {
-      return [];
-    }
-      return items.map(item => {
-        if (item.tag) {
-          return buttonTemplate(item.name, item.tag)
+        const tags = wrapper.getAttribute('data-tags').split(',');
+        
+        if (tags.includes(currentFilter)) {
+            wrapper.style.display = 'block';
+            visibleCount++;
+        } else {
+            wrapper.style.display = 'none';
         }
-      });
     });
-    buttonsDiv.innerHTML = buttons.join('');
-}
+
+    if (currentFilter) {
+
+        const activeLink = Array.from(dropdownItems).find(link => link.getAttribute('data-tag') === currentFilter);
+        if (activeLink) {
+            currentFilterName = activeLink.getAttribute('data-name');
+        }
+    }
+
+    tagSpan.textContent = currentFilterName;
+    visibleCountEl.textContent = visibleCount;
+});
 </script>
 
 <script src="/video-observer.js"></script>

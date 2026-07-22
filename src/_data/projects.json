@@ -24,19 +24,29 @@
       },
       {
         "header": "Language",
-        "content": "C#"
+        "content": "C#",
+        "filter": "csharp"
       },
       {
         "header": "Engine",
-        "content": "Unity"
+        "content": "Unity",
+        "filter": "unity"
       },
       {
         "header": "Platforms",
-        "content": "Windows • PlayStation 5 • Xbox Series X/S"
+        "badges": [
+          { "name": "Windows", "filter": "windows" },
+          { "name": "PlayStation 5", "filter": "playstation" },
+          { "name": "Xbox Series X/S", "filter": "xbox" }
+        ]
       },
       {
         "header": "Tools",
-        "content": "Visual Studio • Git • Figma • Miro"
+        "badges": [
+          { "name": "Visual Studio", "filter": "vs" },
+          { "name": "Git", "filter": "git" },
+          { "name": "Figma", "filter": "figma" }
+        ]
       }
     ],
     "sources": {
@@ -66,7 +76,7 @@
     "startDate": "03/2023",
     "endDate": "now",
     "url": "1920-telegraphist",
-    "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam", "figma", "top10"],
+    "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "gamejam", "2D", "commercial", "steam", "figma", "top10", "steamworks", "trello"],
     "details": [
       {
         "header": "Team Size",
@@ -78,19 +88,28 @@
       },
       {
         "header": "Language",
-        "content": "C#"
+        "content": "C#",
+        "filter": "csharp"
       },
       {
         "header": "Engine",
-        "content": "Unity"
+        "content": "Unity",
+        "filter": "unity"
       },
       {
         "header": "Platforms",
-        "content": "Windows • Linux • Mac"
+        "content": "Windows • Linux • Mac",
+        "badges": [
+          { "name": "Windows", "filter": "windows" },
+          { "name": "Linux", "filter": "linux" },
+          { "name": "Mac", "filter": "mac"}]
       },
       {
         "header": "Tools",
-        "content": "Visual Studio • Git • Steamworks SDK"
+        "badges": [
+          { "name": "Visual Studio", "filter": "vs" },
+          { "name": "Git", "filter": "git" },
+          { "name": "Steamworks SDK", "filter": "steamworks"}]
       }
     ],
     "sources": {
@@ -151,7 +170,7 @@
   "startDate": "11/2025",
   "endDate": "11/2025",
   "url": "omt",
-  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "2D"],
+  "tags": ["windows", "csharp", "unity", "vs", "git", "gamejam", "2D", "trello"],
   "details": [
     {
       "header": "Team Size",
@@ -163,19 +182,25 @@
     },
     {
       "header": "Language",
-      "content": "C#"
+      "content": "C#",
+      "filter": "csharp"
     },
     {
       "header": "Engine",
-      "content": "Unity"
+      "content": "Unity",
+      "filter": "unity"
     },
     {
       "header": "Platforms",
-      "content": "Windows"
+      "content": "Windows",
+      "filter": "windows"
     },
     {
       "header": "Tools",
-      "content": "Visual Studio • Git • Trello"
+      "badges": [
+          { "name": "Visual Studio", "filter": "vs" },
+          { "name": "Git", "filter": "git" },
+          { "name": "Trello", "filter": "trello"}]
     }
   ],
   "sources": {
@@ -217,19 +242,25 @@
       },
       {
         "header": "Language",
-        "content": "C#"
+        "content": "C#",
+        "filter": "csharp"
       },
       {
         "header": "Engine",
-        "content": "Unity"
+        "content": "Unity",
+        "filter": "unity"
       },
       {
         "header": "Platforms",
-        "content": "Windows"
+        "content": "Windows",
+        "filter": "windows"
       },
       {
         "header": "Tools",
-        "content": "Visual Studio • Git • Figma"
+        "badges": [
+          { "name": "Visual Studio", "filter": "vs" },
+          { "name": "Git", "filter": "git" },
+          { "name": "Figma", "filter": "figma"}]
       }
     ],
     "sources": {
@@ -260,7 +291,7 @@
     "startDate": "11/2023",
     "endDate": "06/2024",
     "url": "vtm-rony",
-    "tags": ["windows", "xbox", "playstation", "switch", "csharp", "unity", "vs", "git", "2D", "commercial", "steam", "gog", "epic", "figma"],
+    "tags": ["windows", "xbox", "playstation", "switch", "csharp", "unity", "vs", "git", "2D", "commercial", "steam", "gog", "epic", "figma", "notion"],
     "details": [
       {
         "header": "Team Size",
@@ -272,19 +303,32 @@
       },
       {
         "header": "Language",
-        "content": "C#"
+        "content": "C#",
+        "filter": "csharp"
       },
       {
         "header": "Engine",
-        "content": "Unity"
+        "content": "Unity",
+        "filter": "unity"
       },
       {
         "header": "Platforms",
-        "content": "Windows • PlayStation 5 • PlayStation 4 • Xbox Series X/S • Xbox One • Nintendo Switch"
+        "badges": [
+          { "name": "Windows", "filter": "windows" },
+          { "name": "PlayStation 5", "filter": "playstation" },
+          { "name": "PlayStation 4", "filter": "playstation"},
+          { "name": "Xbox Series X/S", "filter": "xbox"},
+          { "name": "Xbox One", "filter": "xbox"},
+          { "name": "Nintendo Switch", "filter": "switch"}]
       },
       {
         "header": "Tools",
-        "content": "Visual Studio • Git • Figma • Notion"
+        "badges": [
+          { "name": "Visual Studio", "filter": "vs" },
+          { "name": "Git", "filter": "git" },
+          { "name": "Figma", "filter": "figma"},
+          { "name": "Notion", "filter": "notion"}
+        ]
       }
     ],
     "sources": {
@@ -329,7 +373,7 @@
   
 
 {
-  "showcaseWebmUrl": "projects/survival-nation/survival-nation.webm",
+  "showcaseMp4Url": "projects/survival-nation/survival-nation.mp4",
   "showcaseHeaderUrl": "projects/survival-nation/survival-nation.webp",
   "title": "Survival Nation",
   "studio": {
@@ -341,7 +385,7 @@
   "startDate": "03/2022",
   "endDate": "05/2023",
   "url": "survival-nation",
-  "tags": ["steamvr", "picoxr", "pico", "csharp", "unity", "vs", "git", "commercial", "steam", "fusion", "3D", "oculus"],
+  "tags": ["steamvr", "picoxr", "pico", "csharp", "unity", "vs", "git", "commercial", "steam", "photon", "3D", "oculus"],
   "details": [
     {
       "header": "Team Size",
@@ -353,19 +397,28 @@
     },
     {
       "header": "Language",
-      "content": "C#"
+      "content": "C#",
+      "filter": "csharp"
     },
     {
       "header": "Engine",
-      "content": "Unity"
+      "content": "Unity",
+      "filter": "unity"
     },
     {
       "header": "Platforms",
-      "content": "SteamVR • Oculus • PICO XR"
+      "badges": [
+          { "name": "SteamVR", "filter": "steamvr" },
+          { "name": "Oculus", "filter": "oculus" },
+          { "name": "PICO XR", "filter": "pico"}]
     },
     {
       "header": "Tools",
-      "content": "Visual Studio • Git • Photon Fusion"
+      "badges": [
+          { "name": "Visual Studio", "filter": "vs" },
+          { "name": "Git", "filter": "git" },
+          { "name": "Photon Fusion", "filter": "photon"}
+        ]
     }
   ],
   "sources": {
@@ -394,7 +447,7 @@
   "startDate": "01/2022",
   "endDate": "08/2022",
   "url": "decorporation",
-  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "gamejam", "commercial", "steam", "scrum", "3D"],
+  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "gamejam", "commercial", "steam", "scrum", "3D", "steamworks", "trello", "notion"],
   "details": [
     {
       "header": "Team Size",
@@ -406,19 +459,32 @@
     },
     {
       "header": "Language",
-      "content": "C#"
+      "content": "C#",
+      "filter": "csharp"
     },
     {
       "header": "Engine",
-      "content": "Unity"
+      "content": "Unity",
+      "filter": "unity"
     },
     {
       "header": "Platforms",
-      "content": "Windows • Linux • Mac"
+      "badges": [
+          { "name": "Windows", "filter": "windows" },
+          { "name": "Linux", "filter": "linux" },
+          { "name": "Mac", "filter": "mac"}
+        ]
     },
     {
       "header": "Tools",
-      "content": "Visual Studio • Steamworks SDK • Git • Figma"
+      "badges": [
+          { "name": "Visual Studio", "filter": "vs" },
+          { "name": "Git", "filter": "git" },
+          { "name": "Steamworks SDK", "filter": "steamworks" },
+          { "name": "Figma", "filter": "figma"},
+          { "name": "Trello", "filter": "trello"},
+          { "name": "Notion", "filter": "notion"}
+        ]
     }
   ],
   "sources": {
@@ -438,7 +504,7 @@
 
 
 {
-  "showcaseWebmUrl": "projects/kicm/kicm.mp4",
+  "showcaseMp4Url": "projects/kicm/kicm.mp4",
   "showcaseHeaderUrl": "projects/kicm/kicm.webp",
   "title": "Keep it Cool, Man",
   "studio": {
@@ -450,7 +516,7 @@
   "startDate": "08/2021",
   "endDate": "07/2022",
   "url": "kicm",
-  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "noncommercial", "steam", "2D"],
+  "tags": ["windows", "linux", "mac", "csharp", "unity", "vs", "git", "figma", "noncommercial", "steam", "2D", "steamworks", "docs"],
   "details": [
     {
       "header": "Team Size",
@@ -462,19 +528,31 @@
     },
     {
       "header": "Language",
-      "content": "C#"
+      "content": "C#",
+      "filter": "csharp"
     },
     {
       "header": "Engine",
-      "content": "Unity"
+      "content": "Unity",
+      "filter": "unity"
     },
     {
       "header": "Platforms",
-      "content": "Windows • Linux • Mac"
+      "badges": [
+          { "name": "Windows", "filter": "windows" },
+          { "name": "Linux", "filter": "linux" },
+          { "name": "Mac", "filter": "mac"}
+        ]
     },
     {
       "header": "Tools",
-      "content": "Visual Studio • Steamworks SDK • Git • Figma"
+      "badges": [
+          { "name": "Visual Studio", "filter": "vs" },
+          { "name": "Git", "filter": "git" },
+          { "name": "Steamworks SDK", "filter": "steamworks" },
+          { "name": "Figma", "filter": "figma"},
+          { "name": "Google Docs", "filter": "docs"}
+        ]
     }
   ],
   "sources": {

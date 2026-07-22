@@ -3,17 +3,21 @@
 @tailwind utilities;
 
 :root {
+    --font-body: "Inter", sans-serif;
+    --font-heading: "Space Grotesk", sans-serif;
+    --white: #E0E0E0;
+    --gray: #3f3f3f;
     --background-color: #181414;
     --background-card-color: #181818;
     --primary-color: #65F042;
     --secondary-color: #E29BA7;
-    --h1-font-size: 2.4rem;
-    --h2-font-size: 2.2rem;
-    --h3-font-size: 1.9rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.8rem;
+    --h3-font-size: 1.5rem;
     --h4-font-size: 1.7rem;
     --h5-font-size: 1.5rem;
     --h6-font-size: 1.3rem;
-    --p-font-size: 1.15rem;
+    --p-font-size: 1.1rem;
     --p-medium-font-size: 1.24rem;
     --p-big-font-size: 1.43rem;
     --small-font-size: 1.05rem;
@@ -37,7 +41,7 @@ body {
 }
 
 * {
-    font-family: 'Niramit', sans-serif;
+    font-family: var(--font-body);
     font-weight: 400;
 }
 
@@ -99,14 +103,33 @@ h6 {
 
 p {
   font-size: var(--p-font-size);
+  color: var(--white) !important; 
+}
+
+.small {
+  color: var(--white);
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
     font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+footer p {
+  color: var(--background-card-color) !important;
+  font-weight: 500 !important;
 }
 
 .bold {
     font-weight: 700;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  margin: 0.5rem 0 1rem 0;
+  background-color: var(--gray);
 }
 
 .introduction {

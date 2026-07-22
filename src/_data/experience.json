@@ -71,7 +71,7 @@
       "experience": "1 Year",
       "projectCount": "1 Project",
       "description": "A multiplayer/networking library for Unity",
-      "tag": "fusion"
+      "tag": "photon"
     }
   ],
   "platforms": [
@@ -97,21 +97,21 @@
       "tag": "mac"
     },
     {
-      "iconUrl": "skills/playstation.png",
+      "iconUrl": "skills/playstation.webp",
       "name": "Playstation",
       "projectCount": "2 Projects",
       "description": "",
       "tag": "playstation"
     },
     {
-      "iconUrl": "skills/xbox.png",
+      "iconUrl": "skills/xbox.webp",
       "name": "Xbox",
       "projectCount": "2 Projects",
       "description": "",
       "tag": "xbox"
     },
     {
-      "iconUrl": "skills/switch.png",
+      "iconUrl": "skills/switch.webp",
       "name": "Nintendo Switch",
       "projectCount": "1 Project",
       "description": "",

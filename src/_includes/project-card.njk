@@ -2,9 +2,15 @@
         <section>
             <a title="View {{projectItem.title}} project details" href="{{projectItem.url}}" class="secondary hover:text-white">
             <div class="video aspect-video overflow-hidden">
-                <video class="w-full h-full object-cover" playsinline loop muted preload="metadata" poster="{{ projectItem.showcaseMp4Url | replace('.mp4', '-poster.webp') }}">
-                    <source src="{{projectItem.showcaseMp4Url}}" type="video/mp4">
-                    <source src="{{projectItem.showcaseWebmUrl}}" type="video/webm">
+            <video
+                class="w-full h-full object-cover"
+                playsinline
+                muted
+                loop
+                preload="none"
+                data-preview="{{ projectItem.showcaseMp4Url | replace('.mp4', '-preview.mp4') }}"
+                data-full="{{ projectItem.showcaseMp4Url }}"
+                poster="{{ projectItem.showcaseMp4Url | replace('.mp4', '-poster.webp') }}">
                     Your browser does not support the video tag or the file format of this video.
                 </video>
             </div>
@@ -25,8 +31,8 @@
                     {{projectItem.tagline}}
                 </p>
             </div>
-            <div class="flex flex-wrap justify-end flex-row gap-4 m-4">
-                    <a title="View {{projectItem.title}} project details" href="{{projectItem.url}}" type="button" class="tracking-wide btn-secondary max-w-sm paragraph">Expand</a>
+            <div class="flex flex-wrap justify-end flex-row gap-4 m-4 pb-4">
+                    <a title="View {{projectItem.title}} project details" href="{{projectItem.url}}" type="button" class="tracking-wide btn-secondary max-w-sm paragraph">Read more →</a>
 
                     <a target="_blank" rel="noopener" href="{{projectItem.sources.showcaseUrl}}" type="button" class="tracking-wide btn-secondary max-w-sm flex flex-wrap align-middle gap-3 justify-center items-center paragraph"><div class="w-6 h-6">
                     {% if projectItem.sources.showcasePlatform == "Steam" %}                 

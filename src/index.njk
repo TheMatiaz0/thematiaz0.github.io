@@ -4,6 +4,7 @@ layout: default
 
 <section class="pt-48 md:pt-40">
     <h2 class="whitespace-nowrap introduction lg:text-start text-center">Featured Projects</h2>
+        <div class="divider"></div>
     {% set featured_projects_count = 2 %}
     {% include "project-list.njk" %}
 </section>
@@ -11,21 +12,20 @@ layout: default
 
 <section class="pt-8">
     <h2 class="introduction md:text-start text-center"> Experience</h2>
+    <div class="divider"></div>
 
-<section class="pt-3">
-    <h3 class="whitespace-nowrap introduction lg:text-start text-center">Languages</h2>
+<section>
     {% set skillList = experience.languages %}
     {% include "showcase-list.njk" %}
 </section>
-
-<section class="pt-5">
-    <h3 class="whitespace-nowrap introduction lg:text-start text-center">Development Tools</h2>
+    <div class="divider"></div>
+<section>
     {% set skillList = experience.tools %}
     {% include "showcase-list.njk" %}
 </section>
+    <div class="divider"></div>
 
-<section class="pt-5">
-    <h3 class="whitespace-nowrap introduction lg:text-start text-center">Ported Platforms</h2>
+<section>
     {% set skillList = experience.platforms %}
     {% include "showcase-list.njk" %}
 </section>
