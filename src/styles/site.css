@@ -7,7 +7,6 @@
     --background-card-color: #181818;
     --primary-color: #65F042;
     --secondary-color: #E29BA7;
-    --primary-font: 'Niramit-Regular';
     --h1-font-size: 2.4rem;
     --h2-font-size: 2.2rem;
     --h3-font-size: 1.9rem;
@@ -38,7 +37,8 @@ body {
 }
 
 * {
-    font-family: var(--primary-font);
+    font-family: 'Niramit', sans-serif;
+    font-weight: 400;
 }
 
 ::-webkit-scrollbar {
@@ -102,11 +102,11 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Niramit-Bold';
+    font-weight: 700;
 }
 
 .bold {
-  font-family: 'Niramit-Bold';
+    font-weight: 700;
 }
 
 .introduction {

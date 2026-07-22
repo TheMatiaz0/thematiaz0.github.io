@@ -1,8 +1,8 @@
 <div class="rounded-lg shadow-md bg-[color:var(--background-card-color)]">
         <section>
             <a title="View {{projectItem.title}} project details" href="{{projectItem.url}}" class="secondary hover:text-white">
-            <div class="video">
-                <video playsinline loop autoplay muted>
+            <div class="video aspect-video overflow-hidden">
+                <video class="w-full h-full object-cover" playsinline loop muted preload="metadata" poster="{{ projectItem.showcaseMp4Url | replace('.mp4', '-poster.webp') }}">
                     <source src="{{projectItem.showcaseMp4Url}}" type="video/mp4">
                     <source src="{{projectItem.showcaseWebmUrl}}" type="video/webm">
                     Your browser does not support the video tag or the file format of this video.
