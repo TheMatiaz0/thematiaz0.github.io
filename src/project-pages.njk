@@ -97,6 +97,7 @@ layout: default.njk
                         muted 
                         loop 
                         playsinline 
+                        poster="{{ projectItem.showcaseMp4Url | replace('.mp4', '-poster.webp') }}"
                         data-full="{{ section.content }}"
                         data-preview="{{ section.content | replace('.mp4', '-preview.mp4') }}">
                     Your browser does not support the video tag or the file format of this video.
