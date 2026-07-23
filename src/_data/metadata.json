@@ -1,9 +1,9 @@
 {
-  "title": "Mateusz Kusionowicz - Game Developer Portfolio",
-  "description": "I'm Mateusz Kusionowicz, a game developer and programmer with 4 years of experience in Unity and C#.",
+  "title": "Mateusz Kusionowicz | UI Programmer & Technical UI Designer",
+  "description": "Portfolio of Mateusz Kusionowicz, a Technical UI Developer with 5 years of Unity experience. Specializing in UGUI optimization, cross-platform porting (Console/VR), and 1:1 Figma-to-engine implementation. Based in Poland, open to remote and freelance.",
   "canonical": "https://kusionowicz.com",
   "domain": "kusionowicz.com",
-  "keywords": "kusionowicz, mateusz, programming, portfolio, game, development, game development, c#, gamedev, .net, unity, dotnet, developer",
+  "keywords": "UI Programmer, Technical UI Designer, Unity Developer, UGUI, UI Toolkit, Game Developer, Unreal Engine UMG, Figma to Unity, Cross-platform UI, C#, .NET",
   "image": "/PortfolioHeader.png",
   "email": "mateusz@kusionowicz.com"
 }

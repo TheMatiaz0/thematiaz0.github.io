@@ -63,6 +63,22 @@
         <link rel="stylesheet" href="{{link | url}}">
       {% endfor %}
     {% endif %}
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mateusz Kusionowicz",
+      "jobTitle": "UI Programmer & Technical UI Designer",
+      "url": "https://kusionowicz.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/mateusz-kusionowicz",
+        "https://github.com/TheMatiaz0"
+      ],
+      "knowsAbout": ["Unity", "UGUI", "C#", "Figma", "Game UI Development", "Cross-Platform Porting"]
+    }
+    </script>
+
   </head>
 
   <body>
@@ -73,7 +89,7 @@
           <div class="introduction md:pb-0 pb-4">
             <a class="hover:text-white whitespace-nowrap" href="{{'/' | url}}">
               <h1 class="leading-9 text-xl md:text-3xl">{{header.name}}</h1>
-              <small class="text-base">{{header.profession}}</small>
+              <h2 class="text-base">{{header.profession}}</h2>
             </a>
           </div>
       </div>
