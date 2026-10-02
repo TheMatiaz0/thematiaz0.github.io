@@ -1,69 +1,5 @@
 [
-  {
-    "showcaseMp4Url": "projects/copa-city/copa-city.mp4",
-    "showcaseHeaderUrl": "projects/copa-city/copa-city.webp",
-    "title": "COPA CITY",
-    "studio": {
-      "name": "Triple Espresso",
-      "url": "https://www.tripleespresso.club"
-    },
-    "tagline": "Working on a city builder / tycoon game with real-world cities and licensed football clubs. My duties involve iterating UI in Figma and implementing to Unity.",
-    "shortDescription": "Working on a city builder / tycoon game with real-world cities and licensed football clubs.\n\nResponsibilities:\n• Iterating on UI designs created in Figma for implementation.\n• Collaborating with programmers and designers to align UI with gameplay systems.\n• Building reusable UI components and prefabs in Unity.\n• Designing and implementing interactive UI animations using DOTween.",
-    "startDate": "06/2025",
-    "endDate": "now",
-    "url": "copa-city",
-    "tags": ["windows", "xbox", "playstation", "csharp", "unity", "vs", "git", "miro", "3D", "commercial", "steam", "figma"],
-    "details": [
-      {
-        "header": "Team Size",
-        "content": "50+"
-      },
-      {
-        "header": "Roles",
-        "content": "UI Programmer • Motion Designer • UI Designer"
-      },
-      {
-        "header": "Language",
-        "content": "C#",
-        "filter": "csharp"
-      },
-      {
-        "header": "Engine",
-        "content": "Unity",
-        "filter": "unity"
-      },
-      {
-        "header": "Platforms",
-        "badges": [
-          { "name": "Windows", "filter": "windows" },
-          { "name": "PlayStation 5", "filter": "playstation" },
-          { "name": "Xbox Series X/S", "filter": "xbox" }
-        ]
-      },
-      {
-        "header": "Tools",
-        "badges": [
-          { "name": "Visual Studio", "filter": "vs" },
-          { "name": "Git", "filter": "git" },
-          { "name": "Figma", "filter": "figma" }
-        ]
-      }
-    ],
-    "sources": {
-      "showcasePlatform": "Steam",
-      "showcaseUrl": "https://store.steampowered.com/app/2210520"
-    },
-    "article": {
-      "sections": [{
-        "header": "Gameplay Video",
-        "text": "",
-        "content": "https://www.youtube.com/embed/hhMMgHH0caQ",
-        "contentType": "youtube"
-      }]
-    }
-  },
-
-  {
+   {
     "showcaseMp4Url": "projects/1920-telegraphist/1920-telegraphist.mp4",
     "showcaseHeaderUrl": "projects/1920-telegraphist/1920-telegraphist.webp",
     "title": "Telegraphist 1920: Beats of War",
@@ -154,6 +90,70 @@
         "content": "projects/1920-telegraphist/1920-telegraphist-screen3.jpg",
         "contentType": "image"
     }]
+    }
+  },
+  
+  {
+    "showcaseMp4Url": "projects/copa-city/copa-city.mp4",
+    "showcaseHeaderUrl": "projects/copa-city/copa-city.webp",
+    "title": "COPA CITY",
+    "studio": {
+      "name": "Triple Espresso",
+      "url": "https://www.tripleespresso.club"
+    },
+    "tagline": "Working on a city builder / tycoon game with real-world cities and licensed football clubs. My duties involve iterating UI in Figma and implementing to Unity.",
+    "shortDescription": "Working on a city builder / tycoon game with real-world cities and licensed football clubs.\n\nResponsibilities:\n• Iterating on UI designs created in Figma for implementation.\n• Collaborating with programmers and designers to align UI with gameplay systems.\n• Building reusable UI components and prefabs in Unity.\n• Designing and implementing interactive UI animations using DOTween.",
+    "startDate": "06/2025",
+    "endDate": "09/2026",
+    "url": "copa-city",
+    "tags": ["windows", "xbox", "playstation", "csharp", "unity", "vs", "git", "miro", "3D", "commercial", "steam", "figma"],
+    "details": [
+      {
+        "header": "Team Size",
+        "content": "50+"
+      },
+      {
+        "header": "Roles",
+        "content": "UI Programmer • Motion Designer • UI Designer"
+      },
+      {
+        "header": "Language",
+        "content": "C#",
+        "filter": "csharp"
+      },
+      {
+        "header": "Engine",
+        "content": "Unity",
+        "filter": "unity"
+      },
+      {
+        "header": "Platforms",
+        "badges": [
+          { "name": "Windows", "filter": "windows" },
+          { "name": "PlayStation 5", "filter": "playstation" },
+          { "name": "Xbox Series X/S", "filter": "xbox" }
+        ]
+      },
+      {
+        "header": "Tools",
+        "badges": [
+          { "name": "Visual Studio", "filter": "vs" },
+          { "name": "Git", "filter": "git" },
+          { "name": "Figma", "filter": "figma" }
+        ]
+      }
+    ],
+    "sources": {
+      "showcasePlatform": "Steam",
+      "showcaseUrl": "https://store.steampowered.com/app/2210520"
+    },
+    "article": {
+      "sections": [{
+        "header": "Gameplay Video",
+        "text": "",
+        "content": "https://www.youtube.com/embed/hhMMgHH0caQ",
+        "contentType": "youtube"
+      }]
     }
   },
 
